@@ -1,0 +1,2072 @@
+current config is  Namespace(batch=1, bi_lstm=True, classes=5, display_freq=1000, embed=200, eval_interval=1, gpu=0, grad_clip=5, hidden=64, it=50, lr_factor=1, n_layers=2, pre_trained='pretrained/pubmed', test_path='data/test/', train_path='data/train/')
+
+initial only one times----------------------
+start index the data in  xml/all/
+start to load data from path-----> xml/all/
+start to load the pre trained word embedding from .//data//wiki_pubmed
+all the word size is ---> 13767
+words in pre-trained word embedding is ---# > 10432
+initial only one times----------------------
+
+build the model
+build the loss function
+start to load data from path-----> xml/train/
+start to load data from path-----> xml/test/
+it is in it 1, and in batch 0/27663.0, the loss is 1.5233582258224487, lr is 0.5, time is 2.4740238189697266
+it is in it 1, and in batch 1000/27663.0, the loss is 0.6418724441147232, lr is 0.5, time is 40.55903911590576
+it is in it 1, and in batch 2000/27663.0, the loss is 0.6137165989147789, lr is 0.5, time is 78.39442420005798
+it is in it 1, and in batch 3000/27663.0, the loss is 0.5903627099453788, lr is 0.5, time is 116.8744375705719
+it is in it 1, and in batch 4000/27663.0, the loss is 0.5673698151641952, lr is 0.5, time is 154.1754047870636
+it is in it 1, and in batch 5000/27663.0, the loss is 0.5622398867310017, lr is 0.5, time is 191.45146870613098
+it is in it 1, and in batch 6000/27663.0, the loss is 0.5556127337296257, lr is 0.5, time is 226.34880661964417
+it is in it 1, and in batch 7000/27663.0, the loss is 0.5626014134817994, lr is 0.5, time is 264.1103026866913
+it is in it 1, and in batch 8000/27663.0, the loss is 0.5588609467149755, lr is 0.5, time is 301.5212912559509
+it is in it 1, and in batch 9000/27663.0, the loss is 0.5600523943075005, lr is 0.5, time is 339.6589674949646
+it is in it 1, and in batch 10000/27663.0, the loss is 0.5594379680775913, lr is 0.5, time is 377.34918093681335
+it is in it 1, and in batch 11000/27663.0, the loss is 0.5627267308186708, lr is 0.5, time is 413.55896067619324
+it is in it 1, and in batch 12000/27663.0, the loss is 0.5563923532978969, lr is 0.5, time is 449.6097774505615
+it is in it 1, and in batch 13000/27663.0, the loss is 0.5562522970441652, lr is 0.5, time is 482.6324942111969
+it is in it 1, and in batch 14000/27663.0, the loss is 0.5558287503251619, lr is 0.5, time is 519.9741883277893
+it is in it 1, and in batch 15000/27663.0, the loss is 0.5536098401155084, lr is 0.5, time is 555.6279485225677
+it is in it 1, and in batch 16000/27663.0, the loss is 0.5531065402184476, lr is 0.5, time is 591.7535042762756
+it is in it 1, and in batch 17000/27663.0, the loss is 0.5465403352932356, lr is 0.5, time is 629.1509726047516
+it is in it 1, and in batch 18000/27663.0, the loss is 0.5415083327285236, lr is 0.5, time is 666.6878161430359
+it is in it 1, and in batch 19000/27663.0, the loss is 0.5396854147385374, lr is 0.5, time is 702.5646197795868
+it is in it 1, and in batch 20000/27663.0, the loss is 0.53675460388687, lr is 0.5, time is 739.2457106113434
+it is in it 1, and in batch 21000/27663.0, the loss is 0.5345126277441274, lr is 0.5, time is 775.1865222454071
+it is in it 1, and in batch 22000/27663.0, the loss is 0.5339556049853518, lr is 0.5, time is 812.1881880760193
+it is in it 1, and in batch 23000/27663.0, the loss is 0.5323161136316188, lr is 0.5, time is 848.1613121032715
+it is in it 1, and in batch 24000/27663.0, the loss is 0.5303354120161576, lr is 0.5, time is 885.4475758075714
+it is in it 1, and in batch 25000/27663.0, the loss is 0.5299963098083704, lr is 0.5, time is 923.1785717010498
+it is in it 1, and in batch 26000/27663.0, the loss is 0.5251033700781498, lr is 0.5, time is 960.3789284229279
+it is in it 1, and in batch 27000/27663.0, the loss is 0.5240313584202453, lr is 0.5, time is 997.2694146633148
+start to evaluation in it 1
+test time cost is  76.34798407554626
+Corresponding result --> {0: [0.0, 0.0, 96.0], 1: [56.0, 11.0, 165.0], 2: [117.0, 60.0, 243.0], 3: [16.0, 1.0, 283.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7241379032897356 	r= 0.19364753899951292 	f= 0.30557467689871376
+             precision    recall  f1-score   support
+
+          0     0.0000    0.0000    0.0000        96
+          1     0.8358    0.2534    0.3889       221
+          2     0.6610    0.3250    0.4358       360
+          3     0.9412    0.0535    0.1013       299
+          4     0.8627    0.9936    0.9236      4712
+
+avg / total     0.8385    0.8564    0.8131      5688
+
+it is in it 2, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.038643598556518555
+it is in it 2, and in batch 1000/27663.0, the loss is 0.4212936071249155, lr is 0.5, time is 38.202489137649536
+it is in it 2, and in batch 2000/27663.0, the loss is 0.42740312246964135, lr is 0.5, time is 73.85747909545898
+it is in it 2, and in batch 3000/27663.0, the loss is 0.42320024113145044, lr is 0.5, time is 110.33119320869446
+it is in it 2, and in batch 4000/27663.0, the loss is 0.41566030081139, lr is 0.5, time is 146.19634699821472
+it is in it 2, and in batch 5000/27663.0, the loss is 0.41792345113740925, lr is 0.5, time is 181.81462001800537
+it is in it 2, and in batch 6000/27663.0, the loss is 0.4226246638568992, lr is 0.5, time is 216.74699449539185
+it is in it 2, and in batch 7000/27663.0, the loss is 0.4216713366585448, lr is 0.5, time is 252.9813838005066
+it is in it 2, and in batch 8000/27663.0, the loss is 0.41273578368578984, lr is 0.5, time is 288.97657346725464
+it is in it 2, and in batch 9000/27663.0, the loss is 0.41494249513501286, lr is 0.5, time is 325.3064877986908
+it is in it 2, and in batch 10000/27663.0, the loss is 0.4121889282543532, lr is 0.5, time is 361.5737416744232
+it is in it 2, and in batch 11000/27663.0, the loss is 0.4115168694615006, lr is 0.5, time is 399.28728580474854
+it is in it 2, and in batch 12000/27663.0, the loss is 0.410147780071208, lr is 0.5, time is 435.2699761390686
+it is in it 2, and in batch 13000/27663.0, the loss is 0.4052645140506242, lr is 0.5, time is 472.2341661453247
+it is in it 2, and in batch 14000/27663.0, the loss is 0.4057017219176455, lr is 0.5, time is 508.63634967803955
+it is in it 2, and in batch 15000/27663.0, the loss is 0.40301076976961, lr is 0.5, time is 544.3349766731262
+it is in it 2, and in batch 16000/27663.0, the loss is 0.40285991147252725, lr is 0.5, time is 580.9645366668701
+it is in it 2, and in batch 17000/27663.0, the loss is 0.40407253683233924, lr is 0.5, time is 617.4305436611176
+it is in it 2, and in batch 18000/27663.0, the loss is 0.40084956905641966, lr is 0.5, time is 654.4003577232361
+it is in it 2, and in batch 19000/27663.0, the loss is 0.3975656947037602, lr is 0.5, time is 692.3474128246307
+it is in it 2, and in batch 20000/27663.0, the loss is 0.3940101917323682, lr is 0.5, time is 728.8127167224884
+it is in it 2, and in batch 21000/27663.0, the loss is 0.39421373445370905, lr is 0.5, time is 765.1902511119843
+it is in it 2, and in batch 22000/27663.0, the loss is 0.3919819314871792, lr is 0.5, time is 802.3230202198029
+it is in it 2, and in batch 23000/27663.0, the loss is 0.39024197994628723, lr is 0.5, time is 838.4195785522461
+it is in it 2, and in batch 24000/27663.0, the loss is 0.3867537602797771, lr is 0.5, time is 874.4581191539764
+it is in it 2, and in batch 25000/27663.0, the loss is 0.38584014291901775, lr is 0.5, time is 931.0224838256836
+it is in it 2, and in batch 26000/27663.0, the loss is 0.38651928279607195, lr is 0.5, time is 968.2819311618805
+it is in it 2, and in batch 27000/27663.0, the loss is 0.38749690399510406, lr is 0.5, time is 1003.5023610591888
+start to evaluation in it 2
+test time cost is  75.941237449646
+Corresponding result --> {0: [29.0, 5.0, 67.0], 1: [46.0, 8.0, 175.0], 2: [168.0, 69.0, 192.0], 3: [105.0, 38.0, 194.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7435897277010742 	r= 0.3565573733959286 	f= 0.4819900720159267
+             precision    recall  f1-score   support
+
+          0     0.8529    0.3021    0.4462        96
+          1     0.8519    0.2081    0.3345       221
+          2     0.7089    0.4667    0.5628       360
+          3     0.7343    0.3512    0.4751       299
+          4     0.8898    0.9858    0.9354      4712
+
+avg / total     0.8681    0.8778    0.8560      5688
+
+it is in it 3, and in batch 0/27663.0, the loss is 0.0028162002563476562, lr is 0.5, time is 0.010224342346191406
+it is in it 3, and in batch 1000/27663.0, the loss is 0.355211169331462, lr is 0.5, time is 36.74940848350525
+it is in it 3, and in batch 2000/27663.0, the loss is 0.31912119492240576, lr is 0.5, time is 73.82473683357239
+it is in it 3, and in batch 3000/27663.0, the loss is 0.31747065794861185, lr is 0.5, time is 110.12595534324646
+it is in it 3, and in batch 4000/27663.0, the loss is 0.3280199149107224, lr is 0.5, time is 146.60109567642212
+it is in it 3, and in batch 5000/27663.0, the loss is 0.32364557266616745, lr is 0.5, time is 182.65883588790894
+it is in it 3, and in batch 6000/27663.0, the loss is 0.31615727807140176, lr is 0.5, time is 219.04448127746582
+it is in it 3, and in batch 7000/27663.0, the loss is 0.31894824975150904, lr is 0.5, time is 251.33996176719666
+it is in it 3, and in batch 8000/27663.0, the loss is 0.31292477900826055, lr is 0.5, time is 283.749760389328
+it is in it 3, and in batch 9000/27663.0, the loss is 0.3158711167576975, lr is 0.5, time is 319.3295705318451
+it is in it 3, and in batch 10000/27663.0, the loss is 0.3135840668939088, lr is 0.5, time is 356.53348326683044
+it is in it 3, and in batch 11000/27663.0, the loss is 0.3189713320573041, lr is 0.5, time is 391.3432264328003
+it is in it 3, and in batch 12000/27663.0, the loss is 0.31471587860448175, lr is 0.5, time is 424.2713565826416
+it is in it 3, and in batch 13000/27663.0, the loss is 0.31199371263656456, lr is 0.5, time is 461.9776985645294
+it is in it 3, and in batch 14000/27663.0, the loss is 0.31419828457284354, lr is 0.5, time is 499.987859249115
+it is in it 3, and in batch 15000/27663.0, the loss is 0.31550298100447277, lr is 0.5, time is 537.212336063385
+it is in it 3, and in batch 16000/27663.0, the loss is 0.31194449153499865, lr is 0.5, time is 572.9283854961395
+it is in it 3, and in batch 17000/27663.0, the loss is 0.31534731306052827, lr is 0.5, time is 610.4124553203583
+it is in it 3, and in batch 18000/27663.0, the loss is 0.3143756623387595, lr is 0.5, time is 646.7503845691681
+it is in it 3, and in batch 19000/27663.0, the loss is 0.3123528736653149, lr is 0.5, time is 683.2837555408478
+it is in it 3, and in batch 20000/27663.0, the loss is 0.31156697751736556, lr is 0.5, time is 720.0616464614868
+it is in it 3, and in batch 21000/27663.0, the loss is 0.311451593005517, lr is 0.5, time is 756.1371178627014
+it is in it 3, and in batch 22000/27663.0, the loss is 0.30866221931651366, lr is 0.5, time is 793.5933101177216
+it is in it 3, and in batch 23000/27663.0, the loss is 0.3090905908097247, lr is 0.5, time is 831.8006701469421
+it is in it 3, and in batch 24000/27663.0, the loss is 0.30862508158470997, lr is 0.5, time is 867.4519236087799
+it is in it 3, and in batch 25000/27663.0, the loss is 0.3096716195210224, lr is 0.5, time is 904.4623246192932
+it is in it 3, and in batch 26000/27663.0, the loss is 0.3100652863422654, lr is 0.5, time is 941.3682947158813
+it is in it 3, and in batch 27000/27663.0, the loss is 0.3092238547108729, lr is 0.5, time is 978.4299600124359
+start to evaluation in it 3
+test time cost is  78.55485129356384
+Corresponding result --> {0: [6.0, 0.0, 90.0], 1: [52.0, 9.0, 169.0], 2: [61.0, 29.0, 299.0], 3: [96.0, 29.0, 203.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7624113204818681 	r= 0.2202868829888639 	f= 0.3418089169322306
+             precision    recall  f1-score   support
+
+          0     1.0000    0.0625    0.1176        96
+          1     0.8525    0.2353    0.3688       221
+          2     0.6778    0.1694    0.2711       360
+          3     0.7680    0.3211    0.4528       299
+          4     0.8676    0.9953    0.9271      4712
+
+avg / total     0.8520    0.8623    0.8253      5688
+
+it is in it 4, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.016715526580810547
+it is in it 4, and in batch 1000/27663.0, the loss is 0.23384691880537675, lr is 0.5, time is 35.54898190498352
+it is in it 4, and in batch 2000/27663.0, the loss is 0.21332463450815486, lr is 0.5, time is 72.55729031562805
+it is in it 4, and in batch 3000/27663.0, the loss is 0.23591417092078926, lr is 0.5, time is 109.53952479362488
+it is in it 4, and in batch 4000/27663.0, the loss is 0.240989545141867, lr is 0.5, time is 145.5276119709015
+it is in it 4, and in batch 5000/27663.0, the loss is 0.2420481012668926, lr is 0.5, time is 181.1649205684662
+it is in it 4, and in batch 6000/27663.0, the loss is 0.24211537593643856, lr is 0.5, time is 215.20887064933777
+it is in it 4, and in batch 7000/27663.0, the loss is 0.24887022150020874, lr is 0.5, time is 252.1659607887268
+it is in it 4, and in batch 8000/27663.0, the loss is 0.24362797529127372, lr is 0.5, time is 288.7869453430176
+it is in it 4, and in batch 9000/27663.0, the loss is 0.24585798965164216, lr is 0.5, time is 325.20207929611206
+it is in it 4, and in batch 10000/27663.0, the loss is 0.24296841584686135, lr is 0.5, time is 361.7251732349396
+it is in it 4, and in batch 11000/27663.0, the loss is 0.24831963911802918, lr is 0.5, time is 399.32034182548523
+it is in it 4, and in batch 12000/27663.0, the loss is 0.24744402886470074, lr is 0.5, time is 436.72492361068726
+it is in it 4, and in batch 13000/27663.0, the loss is 0.24413829307887713, lr is 0.5, time is 474.99626636505127
+it is in it 4, and in batch 14000/27663.0, the loss is 0.2427408562908087, lr is 0.5, time is 514.0893814563751
+it is in it 4, and in batch 15000/27663.0, the loss is 0.24101644935198493, lr is 0.5, time is 552.095210313797
+it is in it 4, and in batch 16000/27663.0, the loss is 0.2384643796071225, lr is 0.5, time is 590.0161950588226
+it is in it 4, and in batch 17000/27663.0, the loss is 0.23945797365501723, lr is 0.5, time is 627.5837602615356
+it is in it 4, and in batch 18000/27663.0, the loss is 0.24028657331816866, lr is 0.5, time is 665.1185719966888
+it is in it 4, and in batch 19000/27663.0, the loss is 0.24020432133491676, lr is 0.5, time is 703.0710835456848
+it is in it 4, and in batch 20000/27663.0, the loss is 0.24079285809459833, lr is 0.5, time is 738.2834401130676
+it is in it 4, and in batch 21000/27663.0, the loss is 0.240534941756517, lr is 0.5, time is 773.0707745552063
+it is in it 4, and in batch 22000/27663.0, the loss is 0.23862625651942357, lr is 0.5, time is 805.6373918056488
+it is in it 4, and in batch 23000/27663.0, the loss is 0.24338739104159193, lr is 0.5, time is 838.1021885871887
+it is in it 4, and in batch 24000/27663.0, the loss is 0.24353813496258234, lr is 0.5, time is 874.7822463512421
+it is in it 4, and in batch 25000/27663.0, the loss is 0.2432591709240566, lr is 0.5, time is 911.4293611049652
+it is in it 4, and in batch 26000/27663.0, the loss is 0.24358775854926812, lr is 0.5, time is 948.7485795021057
+it is in it 4, and in batch 27000/27663.0, the loss is 0.2458275014976851, lr is 0.5, time is 981.8985331058502
+start to evaluation in it 4
+test time cost is  77.6431028842926
+Corresponding result --> {0: [26.0, 7.0, 70.0], 1: [101.0, 11.0, 120.0], 2: [158.0, 60.0, 202.0], 3: [250.0, 281.0, 49.0]}
+for all label [0, 1, 2, 3] 	 p= 0.5984339977803803 	r= 0.5481557320885684 	f= 0.5721875169070308
+             precision    recall  f1-score   support
+
+          0     0.7879    0.2708    0.4031        96
+          1     0.9018    0.4570    0.6066       221
+          2     0.7248    0.4389    0.5467       360
+          3     0.4708    0.8361    0.6024       299
+          4     0.9368    0.9531    0.9449      4712
+
+avg / total     0.8950    0.8836    0.8794      5688
+
+it is in it 5, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.033834218978881836
+it is in it 5, and in batch 1000/27663.0, the loss is 0.1875351792448884, lr is 0.5, time is 38.49122214317322
+it is in it 5, and in batch 2000/27663.0, the loss is 0.1837935349990105, lr is 0.5, time is 75.71096754074097
+it is in it 5, and in batch 3000/27663.0, the loss is 0.21051528572202008, lr is 0.5, time is 111.513742685318
+it is in it 5, and in batch 4000/27663.0, the loss is 0.2022821659506693, lr is 0.5, time is 148.83568334579468
+it is in it 5, and in batch 5000/27663.0, the loss is 0.21062631936960996, lr is 0.5, time is 184.95395708084106
+it is in it 5, and in batch 6000/27663.0, the loss is 0.19652834559972834, lr is 0.5, time is 219.58588123321533
+it is in it 5, and in batch 7000/27663.0, the loss is 0.20680650624696262, lr is 0.5, time is 256.8664138317108
+it is in it 5, and in batch 8000/27663.0, the loss is 0.2066664808378445, lr is 0.5, time is 292.5229856967926
+it is in it 5, and in batch 9000/27663.0, the loss is 0.20573912863068655, lr is 0.5, time is 329.71197867393494
+it is in it 5, and in batch 10000/27663.0, the loss is 0.2060375530211261, lr is 0.5, time is 367.5832459926605
+it is in it 5, and in batch 11000/27663.0, the loss is 0.2031529699387458, lr is 0.5, time is 406.9878616333008
+it is in it 5, and in batch 12000/27663.0, the loss is 0.2072901708683802, lr is 0.5, time is 442.2605073451996
+it is in it 5, and in batch 13000/27663.0, the loss is 0.20474826855876246, lr is 0.5, time is 478.9182925224304
+it is in it 5, and in batch 14000/27663.0, the loss is 0.20746582476175407, lr is 0.5, time is 517.6873145103455
+it is in it 5, and in batch 15000/27663.0, the loss is 0.21053636764639275, lr is 0.5, time is 554.9479620456696
+it is in it 5, and in batch 16000/27663.0, the loss is 0.20946362998871332, lr is 0.5, time is 593.6755576133728
+it is in it 5, and in batch 17000/27663.0, the loss is 0.20953564503341413, lr is 0.5, time is 627.4849433898926
+it is in it 5, and in batch 18000/27663.0, the loss is 0.2105078164501115, lr is 0.5, time is 663.7269787788391
+it is in it 5, and in batch 19000/27663.0, the loss is 0.21066197841570608, lr is 0.5, time is 701.3448534011841
+it is in it 5, and in batch 20000/27663.0, the loss is 0.21018085686673307, lr is 0.5, time is 737.8806440830231
+it is in it 5, and in batch 21000/27663.0, the loss is 0.21368696426108963, lr is 0.5, time is 774.6466112136841
+it is in it 5, and in batch 22000/27663.0, the loss is 0.21188874892942267, lr is 0.5, time is 813.0038893222809
+it is in it 5, and in batch 23000/27663.0, the loss is 0.21071982024042593, lr is 0.5, time is 851.1301481723785
+it is in it 5, and in batch 24000/27663.0, the loss is 0.21190872631849417, lr is 0.5, time is 887.1121683120728
+it is in it 5, and in batch 25000/27663.0, the loss is 0.21306036079479673, lr is 0.5, time is 923.7017476558685
+it is in it 5, and in batch 26000/27663.0, the loss is 0.2110179373541363, lr is 0.5, time is 962.3864123821259
+it is in it 5, and in batch 27000/27663.0, the loss is 0.21181848088810476, lr is 0.5, time is 999.5264656543732
+start to evaluation in it 5
+test time cost is  75.88267612457275
+Corresponding result --> {0: [7.0, 5.0, 89.0], 1: [104.0, 11.0, 117.0], 2: [181.0, 66.0, 179.0], 3: [186.0, 172.0, 113.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6530054555600348 	r= 0.4897540933426835 	f= 0.5597140650846233
+             precision    recall  f1-score   support
+
+          0     0.5833    0.0729    0.1296        96
+          1     0.9043    0.4706    0.6190       221
+          2     0.7328    0.5028    0.5964       360
+          3     0.5196    0.6221    0.5662       299
+          4     0.9255    0.9735    0.9489      4712
+
+avg / total     0.8854    0.8905    0.8798      5688
+
+it is in it 6, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.014802217483520508
+it is in it 6, and in batch 1000/27663.0, the loss is 0.09812177549470794, lr is 0.5, time is 33.958558320999146
+it is in it 6, and in batch 2000/27663.0, the loss is 0.14955613423680617, lr is 0.5, time is 70.32823920249939
+it is in it 6, and in batch 3000/27663.0, the loss is 0.14115332222429763, lr is 0.5, time is 105.03869080543518
+it is in it 6, and in batch 4000/27663.0, the loss is 0.13670834133965287, lr is 0.5, time is 143.0891411304474
+it is in it 6, and in batch 5000/27663.0, the loss is 0.14544767342765577, lr is 0.5, time is 180.67113590240479
+it is in it 6, and in batch 6000/27663.0, the loss is 0.143675833061484, lr is 0.5, time is 218.8125717639923
+it is in it 6, and in batch 7000/27663.0, the loss is 0.13395005392187104, lr is 0.5, time is 256.95348715782166
+it is in it 6, and in batch 8000/27663.0, the loss is 0.14028242948189062, lr is 0.5, time is 294.77593445777893
+it is in it 6, and in batch 9000/27663.0, the loss is 0.14316582836027794, lr is 0.5, time is 333.63219594955444
+it is in it 6, and in batch 10000/27663.0, the loss is 0.14877539641284285, lr is 0.5, time is 372.0195517539978
+it is in it 6, and in batch 11000/27663.0, the loss is 0.14915212853671572, lr is 0.5, time is 410.26015615463257
+it is in it 6, and in batch 12000/27663.0, the loss is 0.1508088282332521, lr is 0.5, time is 448.3946521282196
+it is in it 6, and in batch 13000/27663.0, the loss is 0.1488277088925523, lr is 0.5, time is 486.1038808822632
+it is in it 6, and in batch 14000/27663.0, the loss is 0.15185019660188456, lr is 0.5, time is 522.5931122303009
+it is in it 6, and in batch 15000/27663.0, the loss is 0.15615493028563313, lr is 0.5, time is 556.5657107830048
+it is in it 6, and in batch 16000/27663.0, the loss is 0.1551757460496968, lr is 0.5, time is 592.9350533485413
+it is in it 6, and in batch 17000/27663.0, the loss is 0.15791253088278023, lr is 0.5, time is 631.8869364261627
+it is in it 6, and in batch 18000/27663.0, the loss is 0.16012889807386257, lr is 0.5, time is 666.6750221252441
+it is in it 6, and in batch 19000/27663.0, the loss is 0.1609349709787806, lr is 0.5, time is 704.9829936027527
+it is in it 6, and in batch 20000/27663.0, the loss is 0.16509621997194512, lr is 0.5, time is 741.5525240898132
+it is in it 6, and in batch 21000/27663.0, the loss is 0.16283743956288715, lr is 0.5, time is 774.7239198684692
+it is in it 6, and in batch 22000/27663.0, the loss is 0.16293638566695398, lr is 0.5, time is 812.3944051265717
+it is in it 6, and in batch 23000/27663.0, the loss is 0.16438568041099785, lr is 0.5, time is 849.2300543785095
+it is in it 6, and in batch 24000/27663.0, the loss is 0.1658927020189797, lr is 0.5, time is 887.3695104122162
+it is in it 6, and in batch 25000/27663.0, the loss is 0.17042176219292782, lr is 0.5, time is 924.232492685318
+it is in it 6, and in batch 26000/27663.0, the loss is 0.17002858070633806, lr is 0.5, time is 959.7404963970184
+it is in it 6, and in batch 27000/27663.0, the loss is 0.1702558789702328, lr is 0.5, time is 996.7824320793152
+start to evaluation in it 6
+test time cost is  76.09229803085327
+Corresponding result --> {0: [34.0, 20.0, 62.0], 1: [202.0, 148.0, 19.0], 2: [242.0, 169.0, 118.0], 3: [231.0, 147.0, 68.0]}
+for all label [0, 1, 2, 3] 	 p= 0.594300078840737 	r= 0.7264344187865326 	f= 0.6537525359871657
+             precision    recall  f1-score   support
+
+          0     0.6296    0.3542    0.4533        96
+          1     0.5771    0.9140    0.7075       221
+          2     0.5888    0.6722    0.6278       360
+          3     0.6111    0.7726    0.6824       299
+          4     0.9644    0.9200    0.9417      4712
+
+avg / total     0.9014    0.8868    0.8908      5688
+
+it is in it 7, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.00939488410949707
+it is in it 7, and in batch 1000/27663.0, the loss is 0.10127220382461777, lr is 0.5, time is 38.40882110595703
+it is in it 7, and in batch 2000/27663.0, the loss is 0.08930959801623846, lr is 0.5, time is 75.99565362930298
+it is in it 7, and in batch 3000/27663.0, the loss is 0.09337303392968946, lr is 0.5, time is 112.23835635185242
+it is in it 7, and in batch 4000/27663.0, the loss is 0.09006818310376019, lr is 0.5, time is 148.3296139240265
+it is in it 7, and in batch 5000/27663.0, the loss is 0.1018678557989574, lr is 0.5, time is 184.47261118888855
+it is in it 7, and in batch 6000/27663.0, the loss is 0.10159573001159149, lr is 0.5, time is 222.41496086120605
+it is in it 7, and in batch 7000/27663.0, the loss is 0.10350639965513436, lr is 0.5, time is 260.35829162597656
+it is in it 7, and in batch 8000/27663.0, the loss is 0.10474778461301346, lr is 0.5, time is 298.16352248191833
+it is in it 7, and in batch 9000/27663.0, the loss is 0.11033806823621974, lr is 0.5, time is 334.4924592971802
+it is in it 7, and in batch 10000/27663.0, the loss is 0.11348048163323315, lr is 0.5, time is 371.5170187950134
+it is in it 7, and in batch 11000/27663.0, the loss is 0.11073895244530771, lr is 0.5, time is 407.8182578086853
+it is in it 7, and in batch 12000/27663.0, the loss is 0.11585933897318657, lr is 0.5, time is 445.77923941612244
+it is in it 7, and in batch 13000/27663.0, the loss is 0.11584092125453616, lr is 0.5, time is 485.34521198272705
+it is in it 7, and in batch 14000/27663.0, the loss is 0.12355066515634626, lr is 0.5, time is 522.9515435695648
+it is in it 7, and in batch 15000/27663.0, the loss is 0.11998462835937077, lr is 0.5, time is 560.1095390319824
+it is in it 7, and in batch 16000/27663.0, the loss is 0.12019894375040281, lr is 0.5, time is 593.719108581543
+it is in it 7, and in batch 17000/27663.0, the loss is 0.11954389713166862, lr is 0.5, time is 631.3047115802765
+it is in it 7, and in batch 18000/27663.0, the loss is 0.11682463341253041, lr is 0.5, time is 669.2169206142426
+it is in it 7, and in batch 19000/27663.0, the loss is 0.12089383364363687, lr is 0.5, time is 704.7945220470428
+it is in it 7, and in batch 20000/27663.0, the loss is 0.1234001184271536, lr is 0.5, time is 742.7460391521454
+it is in it 7, and in batch 21000/27663.0, the loss is 0.1247929257498736, lr is 0.5, time is 779.3180258274078
+it is in it 7, and in batch 22000/27663.0, the loss is 0.1259304680535373, lr is 0.5, time is 817.4114308357239
+it is in it 7, and in batch 23000/27663.0, the loss is 0.12701792625970237, lr is 0.5, time is 854.0683524608612
+it is in it 7, and in batch 24000/27663.0, the loss is 0.12835385708912012, lr is 0.5, time is 891.610463142395
+it is in it 7, and in batch 25000/27663.0, the loss is 0.13023610494789192, lr is 0.5, time is 928.9880304336548
+it is in it 7, and in batch 26000/27663.0, the loss is 0.1311193297245948, lr is 0.5, time is 966.6177599430084
+it is in it 7, and in batch 27000/27663.0, the loss is 0.13327691420895635, lr is 0.5, time is 1004.0081188678741
+start to evaluation in it 7
+test time cost is  76.44011998176575
+Corresponding result --> {0: [42.0, 28.0, 54.0], 1: [157.0, 83.0, 64.0], 2: [260.0, 116.0, 100.0], 3: [163.0, 27.0, 136.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7100456539949126 	r= 0.6372950754375505 	f= 0.6717012708597416
+             precision    recall  f1-score   support
+
+          0     0.6000    0.4375    0.5060        96
+          1     0.6542    0.7104    0.6811       221
+          2     0.6915    0.7222    0.7065       360
+          3     0.8579    0.5452    0.6667       299
+          4     0.9480    0.9682    0.9580      4712
+
+avg / total     0.9098    0.9114    0.9084      5688
+
+it is in it 8, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.03397774696350098
+it is in it 8, and in batch 1000/27663.0, the loss is 0.07652278903957371, lr is 0.5, time is 35.847378730773926
+it is in it 8, and in batch 2000/27663.0, the loss is 0.07034907038363143, lr is 0.5, time is 72.92787528038025
+it is in it 8, and in batch 3000/27663.0, the loss is 0.07618274199331017, lr is 0.5, time is 110.73921298980713
+it is in it 8, and in batch 4000/27663.0, the loss is 0.07347369605200019, lr is 0.5, time is 143.30531883239746
+it is in it 8, and in batch 5000/27663.0, the loss is 0.0712938394529346, lr is 0.5, time is 178.8301281929016
+it is in it 8, and in batch 6000/27663.0, the loss is 0.07540823185251189, lr is 0.5, time is 217.11262154579163
+it is in it 8, and in batch 7000/27663.0, the loss is 0.07462299430290302, lr is 0.5, time is 254.2664303779602
+it is in it 8, and in batch 8000/27663.0, the loss is 0.07990628173240735, lr is 0.5, time is 291.57507705688477
+it is in it 8, and in batch 9000/27663.0, the loss is 0.08533002842586447, lr is 0.5, time is 327.49784564971924
+it is in it 8, and in batch 10000/27663.0, the loss is 0.0838324052192559, lr is 0.5, time is 364.5847375392914
+it is in it 8, and in batch 11000/27663.0, the loss is 0.0886757527034008, lr is 0.5, time is 402.2430896759033
+it is in it 8, and in batch 12000/27663.0, the loss is 0.0913479395503154, lr is 0.5, time is 439.5788724422455
+it is in it 8, and in batch 13000/27663.0, the loss is 0.09256552241507077, lr is 0.5, time is 475.8160927295685
+it is in it 8, and in batch 14000/27663.0, the loss is 0.09389089449892112, lr is 0.5, time is 513.9717228412628
+it is in it 8, and in batch 15000/27663.0, the loss is 0.09628567639354642, lr is 0.5, time is 551.3697082996368
+it is in it 8, and in batch 16000/27663.0, the loss is 0.09475677361019581, lr is 0.5, time is 589.7320046424866
+it is in it 8, and in batch 17000/27663.0, the loss is 0.094831136386329, lr is 0.5, time is 628.751565694809
+it is in it 8, and in batch 18000/27663.0, the loss is 0.09978033980954508, lr is 0.5, time is 665.9686319828033
+it is in it 8, and in batch 19000/27663.0, the loss is 0.1009378790083725, lr is 0.5, time is 702.3643236160278
+it is in it 8, and in batch 20000/27663.0, the loss is 0.09934572956334484, lr is 0.5, time is 737.5870831012726
+it is in it 8, and in batch 21000/27663.0, the loss is 0.09956699854691513, lr is 0.5, time is 775.8304986953735
+it is in it 8, and in batch 22000/27663.0, the loss is 0.09875288339513176, lr is 0.5, time is 814.0084021091461
+it is in it 8, and in batch 23000/27663.0, the loss is 0.100814044156814, lr is 0.5, time is 849.9238457679749
+it is in it 8, and in batch 24000/27663.0, the loss is 0.10381134938838099, lr is 0.5, time is 884.4413805007935
+it is in it 8, and in batch 25000/27663.0, the loss is 0.10251625419297193, lr is 0.5, time is 920.6513001918793
+it is in it 8, and in batch 26000/27663.0, the loss is 0.10290189007787373, lr is 0.5, time is 958.2398765087128
+it is in it 8, and in batch 27000/27663.0, the loss is 0.10311933240335626, lr is 0.5, time is 996.5847053527832
+start to evaluation in it 8
+test time cost is  83.25902128219604
+Corresponding result --> {0: [30.0, 10.0, 66.0], 1: [159.0, 52.0, 62.0], 2: [259.0, 138.0, 101.0], 3: [187.0, 73.0, 112.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6993391993464846 	r= 0.6506147474322259 	f= 0.6740926639381621
+             precision    recall  f1-score   support
+
+          0     0.7500    0.3125    0.4412        96
+          1     0.7536    0.7195    0.7361       221
+          2     0.6524    0.7194    0.6843       360
+          3     0.7192    0.6254    0.6691       299
+          4     0.9490    0.9626    0.9558      4712
+
+avg / total     0.9072    0.9091    0.9063      5688
+
+it is in it 9, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.009374141693115234
+it is in it 9, and in batch 1000/27663.0, the loss is 0.04825200662984477, lr is 0.5, time is 41.76797795295715
+it is in it 9, and in batch 2000/27663.0, the loss is 0.061102698887067694, lr is 0.5, time is 84.71277260780334
+it is in it 9, and in batch 3000/27663.0, the loss is 0.059063772565720284, lr is 0.5, time is 120.44836163520813
+it is in it 9, and in batch 4000/27663.0, the loss is 0.06860420257560731, lr is 0.5, time is 152.6374635696411
+it is in it 9, and in batch 5000/27663.0, the loss is 0.0625839046515648, lr is 0.5, time is 194.1680347919464
+it is in it 9, and in batch 6000/27663.0, the loss is 0.06217457345874483, lr is 0.5, time is 236.4556164741516
+it is in it 9, and in batch 7000/27663.0, the loss is 0.06247320203777041, lr is 0.5, time is 277.4287669658661
+it is in it 9, and in batch 8000/27663.0, the loss is 0.06158300441975088, lr is 0.5, time is 316.54213070869446
+it is in it 9, and in batch 9000/27663.0, the loss is 0.06234202826238979, lr is 0.5, time is 356.54519414901733
+it is in it 9, and in batch 10000/27663.0, the loss is 0.0656184814486691, lr is 0.5, time is 399.6417806148529
+it is in it 9, and in batch 11000/27663.0, the loss is 0.06917717018817492, lr is 0.5, time is 440.0080499649048
+it is in it 9, and in batch 12000/27663.0, the loss is 0.0784445264301502, lr is 0.5, time is 480.6978495121002
+it is in it 9, and in batch 13000/27663.0, the loss is 0.0798001535470078, lr is 0.5, time is 524.0743453502655
+it is in it 9, and in batch 14000/27663.0, the loss is 0.08321289436858549, lr is 0.5, time is 567.0634603500366
+it is in it 9, and in batch 15000/27663.0, the loss is 0.08304030799395275, lr is 0.5, time is 607.7323677539825
+it is in it 9, and in batch 16000/27663.0, the loss is 0.08310979873297714, lr is 0.5, time is 647.8301119804382
+it is in it 9, and in batch 17000/27663.0, the loss is 0.08388282789790513, lr is 0.5, time is 691.1060433387756
+it is in it 9, and in batch 18000/27663.0, the loss is 0.08506862126908749, lr is 0.5, time is 730.0294516086578
+it is in it 9, and in batch 19000/27663.0, the loss is 0.08260148028675916, lr is 0.5, time is 768.8021686077118
+it is in it 9, and in batch 20000/27663.0, the loss is 0.08377912040829844, lr is 0.5, time is 805.5238921642303
+it is in it 9, and in batch 21000/27663.0, the loss is 0.08448525995454598, lr is 0.5, time is 847.6697878837585
+it is in it 9, and in batch 22000/27663.0, the loss is 0.085021981152235, lr is 0.5, time is 887.9941258430481
+it is in it 9, and in batch 23000/27663.0, the loss is 0.0895750035742491, lr is 0.5, time is 928.7516429424286
+it is in it 9, and in batch 24000/27663.0, the loss is 0.08758440522729176, lr is 0.5, time is 969.472510099411
+it is in it 9, and in batch 25000/27663.0, the loss is 0.08862608172675046, lr is 0.5, time is 1013.397500038147
+it is in it 9, and in batch 26000/27663.0, the loss is 0.08836776380112371, lr is 0.5, time is 1054.6242880821228
+it is in it 9, and in batch 27000/27663.0, the loss is 0.08973933415900141, lr is 0.5, time is 1094.0535743236542
+start to evaluation in it 9
+test time cost is  95.52879619598389
+Corresponding result --> {0: [28.0, 7.0, 68.0], 1: [137.0, 29.0, 84.0], 2: [253.0, 145.0, 107.0], 3: [158.0, 33.0, 141.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7291139148213429 	r= 0.590163928379468 	f= 0.652316678918416
+             precision    recall  f1-score   support
+
+          0     0.8000    0.2917    0.4275        96
+          1     0.8253    0.6199    0.7080       221
+          2     0.6357    0.7028    0.6675       360
+          3     0.8272    0.5284    0.6449       299
+          4     0.9377    0.9747    0.9559      4712
+
+avg / total     0.9061    0.9088    0.9027      5688
+
+it is in it 10, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.018790006637573242
+it is in it 10, and in batch 1000/27663.0, the loss is 0.03372345199356308, lr is 0.5, time is 40.57562565803528
+it is in it 10, and in batch 2000/27663.0, the loss is 0.03288366650415027, lr is 0.5, time is 80.75029397010803
+it is in it 10, and in batch 3000/27663.0, the loss is 0.04562219672503371, lr is 0.5, time is 125.6477735042572
+it is in it 10, and in batch 4000/27663.0, the loss is 0.05229766748452657, lr is 0.5, time is 161.87073421478271
+it is in it 10, and in batch 5000/27663.0, the loss is 0.04723993059969549, lr is 0.5, time is 194.9192407131195
+it is in it 10, and in batch 6000/27663.0, the loss is 0.04888876412952171, lr is 0.5, time is 233.83492398262024
+it is in it 10, and in batch 7000/27663.0, the loss is 0.04927454102364562, lr is 0.5, time is 275.04592084884644
+it is in it 10, and in batch 8000/27663.0, the loss is 0.050882997192184476, lr is 0.5, time is 316.2665219306946
+it is in it 10, and in batch 9000/27663.0, the loss is 0.05295033746792891, lr is 0.5, time is 359.348659992218
+it is in it 10, and in batch 10000/27663.0, the loss is 0.053104524027882856, lr is 0.5, time is 399.69704246520996
+it is in it 10, and in batch 11000/27663.0, the loss is 0.051736951990459586, lr is 0.5, time is 439.0978355407715
+it is in it 10, and in batch 12000/27663.0, the loss is 0.052319191722172156, lr is 0.5, time is 480.6795217990875
+it is in it 10, and in batch 13000/27663.0, the loss is 0.053015184516164396, lr is 0.5, time is 524.3206899166107
+it is in it 10, and in batch 14000/27663.0, the loss is 0.05097913622864655, lr is 0.5, time is 566.9845094680786
+it is in it 10, and in batch 15000/27663.0, the loss is 0.05017593591803352, lr is 0.5, time is 607.9671409130096
+it is in it 10, and in batch 16000/27663.0, the loss is 0.0512432127950728, lr is 0.5, time is 648.5916433334351
+it is in it 10, and in batch 17000/27663.0, the loss is 0.05168201118264154, lr is 0.5, time is 691.8725907802582
+it is in it 10, and in batch 18000/27663.0, the loss is 0.053500515442081016, lr is 0.5, time is 732.5569863319397
+it is in it 10, and in batch 19000/27663.0, the loss is 0.05346577338535945, lr is 0.5, time is 773.0374195575714
+it is in it 10, and in batch 20000/27663.0, the loss is 0.05529898933443831, lr is 0.5, time is 814.6491072177887
+it is in it 10, and in batch 21000/27663.0, the loss is 0.057487879325750814, lr is 0.5, time is 858.0191910266876
+it is in it 10, and in batch 22000/27663.0, the loss is 0.05879804107428822, lr is 0.5, time is 900.5976138114929
+it is in it 10, and in batch 23000/27663.0, the loss is 0.05796211426436686, lr is 0.5, time is 940.996728181839
+it is in it 10, and in batch 24000/27663.0, the loss is 0.05932720664799062, lr is 0.5, time is 980.7179000377655
+it is in it 10, and in batch 25000/27663.0, the loss is 0.06229002503107883, lr is 0.5, time is 1022.3480763435364
+it is in it 10, and in batch 26000/27663.0, the loss is 0.06210009411047855, lr is 0.5, time is 1065.707043647766
+it is in it 10, and in batch 27000/27663.0, the loss is 0.062244833330283196, lr is 0.5, time is 1106.5677890777588
+start to evaluation in it 10
+test time cost is  92.27194428443909
+Corresponding result --> {0: [33.0, 11.0, 63.0], 1: [159.0, 35.0, 62.0], 2: [259.0, 120.0, 101.0], 3: [196.0, 78.0, 103.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7261503846672236 	r= 0.6629098292734649 	f= 0.6930855225251615
+             precision    recall  f1-score   support
+
+          0     0.7500    0.3438    0.4714        96
+          1     0.8196    0.7195    0.7663       221
+          2     0.6834    0.7194    0.7009       360
+          3     0.7153    0.6555    0.6841       299
+          4     0.9489    0.9660    0.9574      4712
+
+avg / total     0.9115    0.9140    0.9112      5688
+
+it is in it 11, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.00770258903503418
+it is in it 11, and in batch 1000/27663.0, the loss is 0.03249766324068997, lr is 0.5, time is 39.72184109687805
+it is in it 11, and in batch 2000/27663.0, the loss is 0.02965499710166889, lr is 0.5, time is 79.36934518814087
+it is in it 11, and in batch 3000/27663.0, the loss is 0.03416859551454854, lr is 0.5, time is 121.58168172836304
+it is in it 11, and in batch 4000/27663.0, the loss is 0.04748262330550785, lr is 0.5, time is 160.6503508090973
+it is in it 11, and in batch 5000/27663.0, the loss is 0.04931371857037284, lr is 0.5, time is 200.59917902946472
+it is in it 11, and in batch 6000/27663.0, the loss is 0.04627694020448496, lr is 0.5, time is 241.3890151977539
+it is in it 11, and in batch 7000/27663.0, the loss is 0.04340691356007805, lr is 0.5, time is 284.41784739494324
+it is in it 11, and in batch 8000/27663.0, the loss is 0.048534281506208816, lr is 0.5, time is 328.48141145706177
+it is in it 11, and in batch 9000/27663.0, the loss is 0.04852184922466568, lr is 0.5, time is 371.1685359477997
+it is in it 11, and in batch 10000/27663.0, the loss is 0.051704258361395306, lr is 0.5, time is 412.09804034233093
+it is in it 11, and in batch 11000/27663.0, the loss is 0.050463973885286444, lr is 0.5, time is 455.1720893383026
+it is in it 11, and in batch 12000/27663.0, the loss is 0.05050433988263633, lr is 0.5, time is 495.3034915924072
+it is in it 11, and in batch 13000/27663.0, the loss is 0.049097058223069756, lr is 0.5, time is 532.8715896606445
+it is in it 11, and in batch 14000/27663.0, the loss is 0.046805001899060436, lr is 0.5, time is 567.5258972644806
+it is in it 11, and in batch 15000/27663.0, the loss is 0.04663987226799626, lr is 0.5, time is 604.813568353653
+it is in it 11, and in batch 16000/27663.0, the loss is 0.046155616064591974, lr is 0.5, time is 640.7626986503601
+it is in it 11, and in batch 17000/27663.0, the loss is 0.04765862388110471, lr is 0.5, time is 679.4196071624756
+it is in it 11, and in batch 18000/27663.0, the loss is 0.04545357304012489, lr is 0.5, time is 716.8063657283783
+it is in it 11, and in batch 19000/27663.0, the loss is 0.04642928080159509, lr is 0.5, time is 753.3105952739716
+it is in it 11, and in batch 20000/27663.0, the loss is 0.048059375767326135, lr is 0.5, time is 788.3087258338928
+it is in it 11, and in batch 21000/27663.0, the loss is 0.051484011291384746, lr is 0.5, time is 825.9529001712799
+it is in it 11, and in batch 22000/27663.0, the loss is 0.050102270818245385, lr is 0.5, time is 864.4391009807587
+it is in it 11, and in batch 23000/27663.0, the loss is 0.04985560237270382, lr is 0.5, time is 902.2566478252411
+it is in it 11, and in batch 24000/27663.0, the loss is 0.05050367701277624, lr is 0.5, time is 941.7232933044434
+it is in it 11, and in batch 25000/27663.0, the loss is 0.0506401855437013, lr is 0.5, time is 979.1198868751526
+it is in it 11, and in batch 26000/27663.0, the loss is 0.051250801073221566, lr is 0.5, time is 1016.9019482135773
+it is in it 11, and in batch 27000/27663.0, the loss is 0.052046519288981054, lr is 0.5, time is 1054.1554951667786
+start to evaluation in it 11
+test time cost is  75.4205207824707
+Corresponding result --> {0: [26.0, 15.0, 70.0], 1: [149.0, 23.0, 72.0], 2: [248.0, 144.0, 112.0], 3: [172.0, 73.0, 127.0]}
+for all label [0, 1, 2, 3] 	 p= 0.699999991764706 	r= 0.6096311412947629 	f= 0.6516927165977531
+             precision    recall  f1-score   support
+
+          0     0.6341    0.2708    0.3796        96
+          1     0.8663    0.6742    0.7583       221
+          2     0.6327    0.6889    0.6596       360
+          3     0.7020    0.5753    0.6324       299
+          4     0.9438    0.9690    0.9562      4712
+
+avg / total     0.9031    0.9073    0.9030      5688
+
+it is in it 12, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.03532004356384277
+it is in it 12, and in batch 1000/27663.0, the loss is 0.033123229767059115, lr is 0.5, time is 34.514533281326294
+it is in it 12, and in batch 2000/27663.0, the loss is 0.026332559733316937, lr is 0.5, time is 71.12164521217346
+it is in it 12, and in batch 3000/27663.0, the loss is 0.023023316161865315, lr is 0.5, time is 111.72887635231018
+it is in it 12, and in batch 4000/27663.0, the loss is 0.0314019452747897, lr is 0.5, time is 147.5206093788147
+it is in it 12, and in batch 5000/27663.0, the loss is 0.03317685004258914, lr is 0.5, time is 184.79373168945312
+it is in it 12, and in batch 6000/27663.0, the loss is 0.03128743183610837, lr is 0.5, time is 223.3978955745697
+it is in it 12, and in batch 7000/27663.0, the loss is 0.03328072229567093, lr is 0.5, time is 260.56275749206543
+it is in it 12, and in batch 8000/27663.0, the loss is 0.03154972955117061, lr is 0.5, time is 297.0042223930359
+it is in it 12, and in batch 9000/27663.0, the loss is 0.029861107758317653, lr is 0.5, time is 333.38736486434937
+it is in it 12, and in batch 10000/27663.0, the loss is 0.0342275232163063, lr is 0.5, time is 377.8849992752075
+it is in it 12, and in batch 11000/27663.0, the loss is 0.036245039360879305, lr is 0.5, time is 415.16432762145996
+it is in it 12, and in batch 12000/27663.0, the loss is 0.038356512727841525, lr is 0.5, time is 452.81180787086487
+it is in it 12, and in batch 13000/27663.0, the loss is 0.03660656351207284, lr is 0.5, time is 488.6188278198242
+it is in it 12, and in batch 14000/27663.0, the loss is 0.03745215665050153, lr is 0.5, time is 524.8709435462952
+it is in it 12, and in batch 15000/27663.0, the loss is 0.03673774691774292, lr is 0.5, time is 561.5774672031403
+it is in it 12, and in batch 16000/27663.0, the loss is 0.03720842171561665, lr is 0.5, time is 598.5159974098206
+it is in it 12, and in batch 17000/27663.0, the loss is 0.03548059238559267, lr is 0.5, time is 635.5527155399323
+it is in it 12, and in batch 18000/27663.0, the loss is 0.036260405551538914, lr is 0.5, time is 673.5491819381714
+it is in it 12, and in batch 19000/27663.0, the loss is 0.036200828787138775, lr is 0.5, time is 711.9081838130951
+it is in it 12, and in batch 20000/27663.0, the loss is 0.0367183534629726, lr is 0.5, time is 745.8012955188751
+it is in it 12, and in batch 21000/27663.0, the loss is 0.036816117854454614, lr is 0.5, time is 782.8370733261108
+it is in it 12, and in batch 22000/27663.0, the loss is 0.037044518644455036, lr is 0.5, time is 818.097724199295
+it is in it 12, and in batch 23000/27663.0, the loss is 0.03653976105746018, lr is 0.5, time is 854.9437375068665
+it is in it 12, and in batch 24000/27663.0, the loss is 0.03587036042217215, lr is 0.5, time is 893.7390093803406
+it is in it 12, and in batch 25000/27663.0, the loss is 0.03495181886144964, lr is 0.5, time is 930.1319081783295
+it is in it 12, and in batch 26000/27663.0, the loss is 0.03583728701814973, lr is 0.5, time is 967.1807363033295
+it is in it 12, and in batch 27000/27663.0, the loss is 0.035406017872118195, lr is 0.5, time is 1004.1016447544098
+start to evaluation in it 12
+test time cost is  81.74484205245972
+Corresponding result --> {0: [30.0, 6.0, 66.0], 1: [148.0, 22.0, 73.0], 2: [265.0, 157.0, 95.0], 3: [188.0, 57.0, 111.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7227949516289238 	r= 0.6465163868184797 	f= 0.6825261060601209
+             precision    recall  f1-score   support
+
+          0     0.8333    0.3125    0.4545        96
+          1     0.8706    0.6697    0.7570       221
+          2     0.6280    0.7361    0.6777       360
+          3     0.7673    0.6288    0.6912       299
+          4     0.9483    0.9690    0.9585      4712
+
+avg / total     0.9135    0.9137    0.9104      5688
+
+it is in it 13, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.025131940841674805
+it is in it 13, and in batch 1000/27663.0, the loss is 0.007207868577955248, lr is 0.5, time is 35.91111993789673
+it is in it 13, and in batch 2000/27663.0, the loss is 0.021405793380165385, lr is 0.5, time is 72.80946803092957
+it is in it 13, and in batch 3000/27663.0, the loss is 0.018526348659333607, lr is 0.5, time is 111.70516014099121
+it is in it 13, and in batch 4000/27663.0, the loss is 0.02605016813728697, lr is 0.5, time is 149.81611943244934
+it is in it 13, and in batch 5000/27663.0, the loss is 0.024103840120647747, lr is 0.5, time is 186.36327981948853
+it is in it 13, and in batch 6000/27663.0, the loss is 0.022649716703201647, lr is 0.5, time is 218.87398052215576
+it is in it 13, and in batch 7000/27663.0, the loss is 0.02759983900223029, lr is 0.5, time is 258.6721956729889
+it is in it 13, and in batch 8000/27663.0, the loss is 0.03235620785438929, lr is 0.5, time is 297.8739092350006
+it is in it 13, and in batch 9000/27663.0, the loss is 0.0339475720077869, lr is 0.5, time is 334.7971541881561
+it is in it 13, and in batch 10000/27663.0, the loss is 0.03543742229170638, lr is 0.5, time is 373.24722266197205
+it is in it 13, and in batch 11000/27663.0, the loss is 0.035483689451638094, lr is 0.5, time is 411.204163312912
+it is in it 13, and in batch 12000/27663.0, the loss is 0.03678276479050533, lr is 0.5, time is 447.37474060058594
+it is in it 13, and in batch 13000/27663.0, the loss is 0.038918084763039186, lr is 0.5, time is 483.8073787689209
+it is in it 13, and in batch 14000/27663.0, the loss is 0.040329980097551975, lr is 0.5, time is 521.37442278862
+it is in it 13, and in batch 15000/27663.0, the loss is 0.038059025714813996, lr is 0.5, time is 558.5725667476654
+it is in it 13, and in batch 16000/27663.0, the loss is 0.03985991202908064, lr is 0.5, time is 597.7082397937775
+it is in it 13, and in batch 17000/27663.0, the loss is 0.042073396730195785, lr is 0.5, time is 633.6570348739624
+it is in it 13, and in batch 18000/27663.0, the loss is 0.040405825902128156, lr is 0.5, time is 671.0732929706573
+it is in it 13, and in batch 19000/27663.0, the loss is 0.03889632928961798, lr is 0.5, time is 707.4617273807526
+it is in it 13, and in batch 20000/27663.0, the loss is 0.038102185962784384, lr is 0.5, time is 742.8735179901123
+it is in it 13, and in batch 21000/27663.0, the loss is 0.04006073203667431, lr is 0.5, time is 779.2307703495026
+it is in it 13, and in batch 22000/27663.0, the loss is 0.04215916758921736, lr is 0.5, time is 816.1908514499664
+it is in it 13, and in batch 23000/27663.0, the loss is 0.04169060202205882, lr is 0.5, time is 853.3505592346191
+it is in it 13, and in batch 24000/27663.0, the loss is 0.041019617391176, lr is 0.5, time is 890.442702293396
+it is in it 13, and in batch 25000/27663.0, the loss is 0.04071885426279726, lr is 0.5, time is 927.843346118927
+it is in it 13, and in batch 26000/27663.0, the loss is 0.03978562442152634, lr is 0.5, time is 965.1030125617981
+it is in it 13, and in batch 27000/27663.0, the loss is 0.03948203609906357, lr is 0.5, time is 1001.9630992412567
+start to evaluation in it 13
+test time cost is  80.59260559082031
+Corresponding result --> {0: [36.0, 14.0, 60.0], 1: [150.0, 22.0, 71.0], 2: [239.0, 90.0, 121.0], 3: [179.0, 40.0, 120.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7844155742283692 	r= 0.6188524526756921 	f= 0.6918621865678594
+             precision    recall  f1-score   support
+
+          0     0.7200    0.3750    0.4932        96
+          1     0.8721    0.6787    0.7634       221
+          2     0.7264    0.6639    0.6938       360
+          3     0.8174    0.5987    0.6911       299
+          4     0.9406    0.9817    0.9607      4712
+
+avg / total     0.9142    0.9195    0.9141      5688
+
+it is in it 14, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.013182401657104492
+it is in it 14, and in batch 1000/27663.0, the loss is 0.007099250694373985, lr is 0.5, time is 36.591713666915894
+it is in it 14, and in batch 2000/27663.0, the loss is 0.0076718690215439155, lr is 0.5, time is 72.50952529907227
+it is in it 14, and in batch 3000/27663.0, the loss is 0.01522865473370042, lr is 0.5, time is 110.30431318283081
+it is in it 14, and in batch 4000/27663.0, the loss is 0.013377273300235732, lr is 0.5, time is 148.35061693191528
+it is in it 14, and in batch 5000/27663.0, the loss is 0.013284421591633821, lr is 0.5, time is 187.59623837471008
+it is in it 14, and in batch 6000/27663.0, the loss is 0.011073615785003443, lr is 0.5, time is 226.45638036727905
+it is in it 14, and in batch 7000/27663.0, the loss is 0.012424230064737543, lr is 0.5, time is 264.7904758453369
+it is in it 14, and in batch 8000/27663.0, the loss is 0.014508190758152911, lr is 0.5, time is 303.38326478004456
+it is in it 14, and in batch 9000/27663.0, the loss is 0.0145407696721713, lr is 0.5, time is 339.9253525733948
+it is in it 14, and in batch 10000/27663.0, the loss is 0.01701502460990473, lr is 0.5, time is 378.24781608581543
+it is in it 14, and in batch 11000/27663.0, the loss is 0.01997135895055572, lr is 0.5, time is 414.35328674316406
+it is in it 14, and in batch 12000/27663.0, the loss is 0.01936884723437964, lr is 0.5, time is 451.3474049568176
+it is in it 14, and in batch 13000/27663.0, the loss is 0.025947588845845616, lr is 0.5, time is 488.8644607067108
+it is in it 14, and in batch 14000/27663.0, the loss is 0.02499605585750397, lr is 0.5, time is 526.6578114032745
+it is in it 14, and in batch 15000/27663.0, the loss is 0.02600721864412327, lr is 0.5, time is 563.5719511508942
+it is in it 14, and in batch 16000/27663.0, the loss is 0.02566194459800608, lr is 0.5, time is 598.6453573703766
+it is in it 14, and in batch 17000/27663.0, the loss is 0.02467328835554624, lr is 0.5, time is 636.0024199485779
+it is in it 14, and in batch 18000/27663.0, the loss is 0.023695440267458286, lr is 0.5, time is 670.0914731025696
+it is in it 14, and in batch 19000/27663.0, the loss is 0.026260257827552404, lr is 0.5, time is 707.5153696537018
+it is in it 14, and in batch 20000/27663.0, the loss is 0.025787354755339626, lr is 0.5, time is 744.1004815101624
+it is in it 14, and in batch 21000/27663.0, the loss is 0.02525644114821146, lr is 0.5, time is 781.6192672252655
+it is in it 14, and in batch 22000/27663.0, the loss is 0.02614524020839185, lr is 0.5, time is 818.3697481155396
+it is in it 14, and in batch 23000/27663.0, the loss is 0.02568940654857631, lr is 0.5, time is 856.0919263362885
+it is in it 14, and in batch 24000/27663.0, the loss is 0.026414691932518965, lr is 0.5, time is 893.7673637866974
+it is in it 14, and in batch 25000/27663.0, the loss is 0.0267644758382028, lr is 0.5, time is 931.504941701889
+it is in it 14, and in batch 26000/27663.0, the loss is 0.02803199600519609, lr is 0.5, time is 967.0537712574005
+it is in it 14, and in batch 27000/27663.0, the loss is 0.027555563110699677, lr is 0.5, time is 1003.928521156311
+start to evaluation in it 14
+test time cost is  79.86959338188171
+Corresponding result --> {0: [35.0, 11.0, 61.0], 1: [144.0, 40.0, 77.0], 2: [255.0, 132.0, 105.0], 3: [187.0, 78.0, 112.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7040816246702764 	r= 0.6362704852841139 	f= 0.6684557160808255
+             precision    recall  f1-score   support
+
+          0     0.7609    0.3646    0.4930        96
+          1     0.7826    0.6516    0.7111       221
+          2     0.6589    0.7083    0.6827       360
+          3     0.7057    0.6254    0.6631       299
+          4     0.9453    0.9641    0.9546      4712
+
+avg / total     0.9051    0.9079    0.9048      5688
+
+it is in it 15, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.011973381042480469
+it is in it 15, and in batch 1000/27663.0, the loss is 0.02382322267576174, lr is 0.5, time is 39.07744264602661
+it is in it 15, and in batch 2000/27663.0, the loss is 0.020007690627952626, lr is 0.5, time is 78.50729990005493
+it is in it 15, and in batch 3000/27663.0, the loss is 0.014369774563874217, lr is 0.5, time is 112.82722854614258
+it is in it 15, and in batch 4000/27663.0, the loss is 0.015934315123459126, lr is 0.5, time is 147.69849061965942
+it is in it 15, and in batch 5000/27663.0, the loss is 0.015577462739263671, lr is 0.5, time is 184.3547384738922
+it is in it 15, and in batch 6000/27663.0, the loss is 0.014591500235088586, lr is 0.5, time is 219.85112476348877
+it is in it 15, and in batch 7000/27663.0, the loss is 0.01599181275625873, lr is 0.5, time is 257.19682574272156
+it is in it 15, and in batch 8000/27663.0, the loss is 0.019583373468468418, lr is 0.5, time is 292.5967478752136
+it is in it 15, and in batch 9000/27663.0, the loss is 0.019723979728299503, lr is 0.5, time is 327.25535821914673
+it is in it 15, and in batch 10000/27663.0, the loss is 0.02120972213691717, lr is 0.5, time is 364.24303245544434
+it is in it 15, and in batch 11000/27663.0, the loss is 0.025424916531192034, lr is 0.5, time is 400.59017276763916
+it is in it 15, and in batch 12000/27663.0, the loss is 0.024081465622035975, lr is 0.5, time is 438.2980706691742
+it is in it 15, and in batch 13000/27663.0, the loss is 0.024062375491990026, lr is 0.5, time is 475.73172211647034
+it is in it 15, and in batch 14000/27663.0, the loss is 0.025659534456252915, lr is 0.5, time is 513.5044753551483
+it is in it 15, and in batch 15000/27663.0, the loss is 0.025223323149916634, lr is 0.5, time is 548.6445741653442
+it is in it 15, and in batch 16000/27663.0, the loss is 0.02489577107977535, lr is 0.5, time is 585.3467800617218
+it is in it 15, and in batch 17000/27663.0, the loss is 0.02451023826332108, lr is 0.5, time is 623.3199818134308
+it is in it 15, and in batch 18000/27663.0, the loss is 0.026044825978838306, lr is 0.5, time is 659.8818299770355
+it is in it 15, and in batch 19000/27663.0, the loss is 0.026677049089059046, lr is 0.5, time is 697.5552377700806
+it is in it 15, and in batch 20000/27663.0, the loss is 0.02982676078674704, lr is 0.5, time is 733.910481929779
+it is in it 15, and in batch 21000/27663.0, the loss is 0.029083355399155797, lr is 0.5, time is 772.0943851470947
+it is in it 15, and in batch 22000/27663.0, the loss is 0.028255617221395166, lr is 0.5, time is 806.650116443634
+it is in it 15, and in batch 23000/27663.0, the loss is 0.028569253712787582, lr is 0.5, time is 841.8784556388855
+it is in it 15, and in batch 24000/27663.0, the loss is 0.028934349939627558, lr is 0.5, time is 878.3217265605927
+it is in it 15, and in batch 25000/27663.0, the loss is 0.027956377548731058, lr is 0.5, time is 915.3823623657227
+it is in it 15, and in batch 26000/27663.0, the loss is 0.028080513200312046, lr is 0.5, time is 952.1482172012329
+it is in it 15, and in batch 27000/27663.0, the loss is 0.02799078720701407, lr is 0.5, time is 989.6827483177185
+start to evaluation in it 15
+test time cost is  75.43719482421875
+Corresponding result --> {0: [30.0, 9.0, 66.0], 1: [166.0, 55.0, 55.0], 2: [261.0, 196.0, 99.0], 3: [200.0, 77.0, 99.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6609657881190565 	r= 0.6731557308078306 	f= 0.6670000698254103
+             precision    recall  f1-score   support
+
+          0     0.7692    0.3125    0.4444        96
+          1     0.7511    0.7511    0.7511       221
+          2     0.5711    0.7250    0.6389       360
+          3     0.7220    0.6689    0.6944       299
+          4     0.9544    0.9508    0.9526      4712
+
+avg / total     0.9069    0.9031    0.9028      5688
+
+it is in it 16, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.01865530014038086
+it is in it 16, and in batch 1000/27663.0, the loss is 0.036710056987080304, lr is 0.5, time is 38.71649765968323
+it is in it 16, and in batch 2000/27663.0, the loss is 0.029479819378335735, lr is 0.5, time is 76.17845273017883
+it is in it 16, and in batch 3000/27663.0, the loss is 0.022934390242518445, lr is 0.5, time is 114.25577044487
+it is in it 16, and in batch 4000/27663.0, the loss is 0.017239575623214556, lr is 0.5, time is 150.87848711013794
+it is in it 16, and in batch 5000/27663.0, the loss is 0.0157946846147128, lr is 0.5, time is 182.669903755188
+it is in it 16, and in batch 6000/27663.0, the loss is 0.018822246145316114, lr is 0.5, time is 216.55897521972656
+it is in it 16, and in batch 7000/27663.0, the loss is 0.02087601687700097, lr is 0.5, time is 254.27477359771729
+it is in it 16, and in batch 8000/27663.0, the loss is 0.020640270603610462, lr is 0.5, time is 290.7027237415314
+it is in it 16, and in batch 9000/27663.0, the loss is 0.02142895551379979, lr is 0.5, time is 328.52265334129333
+it is in it 16, and in batch 10000/27663.0, the loss is 0.020865100417753635, lr is 0.5, time is 366.95642280578613
+it is in it 16, and in batch 11000/27663.0, the loss is 0.01897071437525344, lr is 0.5, time is 402.4389350414276
+it is in it 16, and in batch 12000/27663.0, the loss is 0.019112310512057345, lr is 0.5, time is 437.85659861564636
+it is in it 16, and in batch 13000/27663.0, the loss is 0.019027138240483528, lr is 0.5, time is 474.68429589271545
+it is in it 16, and in batch 14000/27663.0, the loss is 0.0197449053332564, lr is 0.5, time is 512.510452747345
+it is in it 16, and in batch 15000/27663.0, the loss is 0.020670322138232777, lr is 0.5, time is 552.3174810409546
+it is in it 16, and in batch 16000/27663.0, the loss is 0.02048529348450298, lr is 0.5, time is 588.2989161014557
+it is in it 16, and in batch 17000/27663.0, the loss is 0.019726895548359002, lr is 0.5, time is 626.3289716243744
+it is in it 16, and in batch 18000/27663.0, the loss is 0.019350570014142823, lr is 0.5, time is 665.0201694965363
+it is in it 16, and in batch 19000/27663.0, the loss is 0.018339067162679915, lr is 0.5, time is 701.5462138652802
+it is in it 16, and in batch 20000/27663.0, the loss is 0.019085073750005125, lr is 0.5, time is 738.1197514533997
+it is in it 16, and in batch 21000/27663.0, the loss is 0.019259511172831055, lr is 0.5, time is 774.6726078987122
+it is in it 16, and in batch 22000/27663.0, the loss is 0.019549250218018767, lr is 0.5, time is 813.4845731258392
+it is in it 16, and in batch 23000/27663.0, the loss is 0.019900078535297634, lr is 0.5, time is 856.1002659797668
+it is in it 16, and in batch 24000/27663.0, the loss is 0.019098817405638697, lr is 0.5, time is 893.1602063179016
+it is in it 16, and in batch 25000/27663.0, the loss is 0.018982614108521596, lr is 0.5, time is 939.8077495098114
+it is in it 16, and in batch 26000/27663.0, the loss is 0.018984685425189662, lr is 0.5, time is 975.6213955879211
+it is in it 16, and in batch 27000/27663.0, the loss is 0.018850413001354947, lr is 0.5, time is 1014.1917314529419
+start to evaluation in it 16
+test time cost is  80.3942198753357
+Corresponding result --> {0: [33.0, 16.0, 63.0], 1: [136.0, 21.0, 85.0], 2: [237.0, 106.0, 123.0], 3: [186.0, 75.0, 113.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7308641885078495 	r= 0.6065573708344532 	f= 0.6629289663784824
+             precision    recall  f1-score   support
+
+          0     0.6735    0.3438    0.4552        96
+          1     0.8662    0.6154    0.7196       221
+          2     0.6910    0.6583    0.6743       360
+          3     0.7126    0.6221    0.6643       299
+          4     0.9410    0.9741    0.9572      4712
+
+avg / total     0.9057    0.9110    0.9062      5688
+
+it is in it 17, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.10047268867492676
+it is in it 17, and in batch 1000/27663.0, the loss is 0.0022729612611509585, lr is 0.5, time is 38.02786684036255
+it is in it 17, and in batch 2000/27663.0, the loss is 0.0217711197501835, lr is 0.5, time is 74.64327955245972
+it is in it 17, and in batch 3000/27663.0, the loss is 0.019332358218240406, lr is 0.5, time is 111.79614806175232
+it is in it 17, and in batch 4000/27663.0, the loss is 0.01878604922286274, lr is 0.5, time is 148.33494114875793
+it is in it 17, and in batch 5000/27663.0, the loss is 0.019090533471064576, lr is 0.5, time is 184.7776653766632
+it is in it 17, and in batch 6000/27663.0, the loss is 0.0178194994768328, lr is 0.5, time is 243.4078130722046
+it is in it 17, and in batch 7000/27663.0, the loss is 0.017573215368559932, lr is 0.5, time is 281.25187039375305
+it is in it 17, and in batch 8000/27663.0, the loss is 0.019142825757543856, lr is 0.5, time is 318.5341966152191
+it is in it 17, and in batch 9000/27663.0, the loss is 0.017676430905531438, lr is 0.5, time is 356.4674861431122
+it is in it 17, and in batch 10000/27663.0, the loss is 0.017481111881792778, lr is 0.5, time is 395.0220482349396
+it is in it 17, and in batch 11000/27663.0, the loss is 0.016423183184907108, lr is 0.5, time is 432.25615787506104
+it is in it 17, and in batch 12000/27663.0, the loss is 0.016466892497677195, lr is 0.5, time is 469.57848143577576
+it is in it 17, and in batch 13000/27663.0, the loss is 0.01540351355958834, lr is 0.5, time is 507.8117003440857
+it is in it 17, and in batch 14000/27663.0, the loss is 0.016294646114973024, lr is 0.5, time is 546.4792757034302
+it is in it 17, and in batch 15000/27663.0, the loss is 0.015612372413697811, lr is 0.5, time is 583.2740564346313
+it is in it 17, and in batch 16000/27663.0, the loss is 0.015423373903053178, lr is 0.5, time is 620.7153272628784
+it is in it 17, and in batch 17000/27663.0, the loss is 0.014554445073643991, lr is 0.5, time is 656.1724889278412
+it is in it 17, and in batch 18000/27663.0, the loss is 0.016690203934389712, lr is 0.5, time is 692.0357098579407
+it is in it 17, and in batch 19000/27663.0, the loss is 0.017939890744115082, lr is 0.5, time is 727.8649501800537
+it is in it 17, and in batch 20000/27663.0, the loss is 0.017207140684378133, lr is 0.5, time is 766.3506433963776
+it is in it 17, and in batch 21000/27663.0, the loss is 0.018864608084574797, lr is 0.5, time is 803.741509437561
+it is in it 17, and in batch 22000/27663.0, the loss is 0.01893082322177494, lr is 0.5, time is 842.2489655017853
+it is in it 17, and in batch 23000/27663.0, the loss is 0.018219191252389716, lr is 0.5, time is 877.2195472717285
+it is in it 17, and in batch 24000/27663.0, the loss is 0.017839169195307168, lr is 0.5, time is 913.3769679069519
+it is in it 17, and in batch 25000/27663.0, the loss is 0.019461243873853444, lr is 0.5, time is 951.9676291942596
+it is in it 17, and in batch 26000/27663.0, the loss is 0.01911086774982813, lr is 0.5, time is 989.1257076263428
+it is in it 17, and in batch 27000/27663.0, the loss is 0.01861183279810347, lr is 0.5, time is 1026.957388162613
+start to evaluation in it 17
+test time cost is  77.10205292701721
+Corresponding result --> {0: [31.0, 9.0, 65.0], 1: [179.0, 68.0, 42.0], 2: [264.0, 186.0, 96.0], 3: [198.0, 54.0, 101.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6794742095098665 	r= 0.6885245831093793 	f= 0.683964458942724
+             precision    recall  f1-score   support
+
+          0     0.7750    0.3229    0.4559        96
+          1     0.7247    0.8100    0.7650       221
+          2     0.5867    0.7333    0.6519       360
+          3     0.7857    0.6622    0.7187       299
+          4     0.9583    0.9556    0.9570      4712
+
+avg / total     0.9135    0.9098    0.9092      5688
+
+it is in it 18, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.06304121017456055
+it is in it 18, and in batch 1000/27663.0, the loss is 0.006212636545583323, lr is 0.5, time is 36.78186821937561
+it is in it 18, and in batch 2000/27663.0, the loss is 0.004872352108247634, lr is 0.5, time is 72.04921174049377
+it is in it 18, and in batch 3000/27663.0, the loss is 0.0090091130766063, lr is 0.5, time is 107.79014110565186
+it is in it 18, and in batch 4000/27663.0, the loss is 0.011339983741094756, lr is 0.5, time is 142.58042883872986
+it is in it 18, and in batch 5000/27663.0, the loss is 0.009149789381113035, lr is 0.5, time is 180.50887870788574
+it is in it 18, and in batch 6000/27663.0, the loss is 0.008540078970297757, lr is 0.5, time is 216.77485370635986
+it is in it 18, and in batch 7000/27663.0, the loss is 0.00838012297550894, lr is 0.5, time is 254.3507227897644
+it is in it 18, and in batch 8000/27663.0, the loss is 0.007334868768769016, lr is 0.5, time is 292.42587900161743
+it is in it 18, and in batch 9000/27663.0, the loss is 0.007388160594528668, lr is 0.5, time is 329.52228021621704
+it is in it 18, and in batch 10000/27663.0, the loss is 0.010825313838550227, lr is 0.5, time is 365.4302747249603
+it is in it 18, and in batch 11000/27663.0, the loss is 0.011258889302244274, lr is 0.5, time is 402.41991662979126
+it is in it 18, and in batch 12000/27663.0, the loss is 0.010343363777556704, lr is 0.5, time is 440.4309170246124
+it is in it 18, and in batch 13000/27663.0, the loss is 0.01043020315458569, lr is 0.5, time is 477.5167808532715
+it is in it 18, and in batch 14000/27663.0, the loss is 0.009685785546829662, lr is 0.5, time is 512.2803688049316
+it is in it 18, and in batch 15000/27663.0, the loss is 0.009058361156456756, lr is 0.5, time is 549.3997602462769
+it is in it 18, and in batch 16000/27663.0, the loss is 0.009405922721336875, lr is 0.5, time is 586.3558542728424
+it is in it 18, and in batch 17000/27663.0, the loss is 0.009409872113056137, lr is 0.5, time is 622.6419370174408
+it is in it 18, and in batch 18000/27663.0, the loss is 0.011507962493192924, lr is 0.5, time is 660.1794028282166
+it is in it 18, and in batch 19000/27663.0, the loss is 0.011061906852218252, lr is 0.5, time is 696.1659755706787
+it is in it 18, and in batch 20000/27663.0, the loss is 0.010666040317826638, lr is 0.5, time is 733.8547370433807
+it is in it 18, and in batch 21000/27663.0, the loss is 0.010323703802742792, lr is 0.5, time is 771.9302322864532
+it is in it 18, and in batch 22000/27663.0, the loss is 0.010426371884635348, lr is 0.5, time is 810.2525625228882
+it is in it 18, and in batch 23000/27663.0, the loss is 0.010450766836113061, lr is 0.5, time is 846.7520713806152
+it is in it 18, and in batch 24000/27663.0, the loss is 0.010015737364219728, lr is 0.5, time is 883.7809066772461
+it is in it 18, and in batch 25000/27663.0, the loss is 0.01033995680883214, lr is 0.5, time is 921.4207661151886
+it is in it 18, and in batch 26000/27663.0, the loss is 0.011145869574497848, lr is 0.5, time is 958.7371835708618
+it is in it 18, and in batch 27000/27663.0, the loss is 0.011028568328148762, lr is 0.5, time is 997.4232614040375
+start to evaluation in it 18
+test time cost is  81.9468765258789
+Corresponding result --> {0: [39.0, 24.0, 57.0], 1: [133.0, 24.0, 88.0], 2: [216.0, 82.0, 144.0], 3: [190.0, 62.0, 109.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7506493409006579 	r= 0.5922131086863411 	f= 0.6620798272313226
+             precision    recall  f1-score   support
+
+          0     0.6190    0.4062    0.4906        96
+          1     0.8471    0.6018    0.7037       221
+          2     0.7248    0.6000    0.6565       360
+          3     0.7540    0.6355    0.6897       299
+          4     0.9372    0.9781    0.9572      4712
+
+avg / total     0.9052    0.9119    0.9064      5688
+
+it is in it 19, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.03151512145996094
+it is in it 19, and in batch 1000/27663.0, the loss is 0.004062462043571663, lr is 0.5, time is 39.62453484535217
+it is in it 19, and in batch 2000/27663.0, the loss is 0.011907607063777682, lr is 0.5, time is 77.38812565803528
+it is in it 19, and in batch 3000/27663.0, the loss is 0.014860565683834556, lr is 0.5, time is 115.19739174842834
+it is in it 19, and in batch 4000/27663.0, the loss is 0.013493956222858348, lr is 0.5, time is 150.6101517677307
+it is in it 19, and in batch 5000/27663.0, the loss is 0.011556289358583362, lr is 0.5, time is 187.70026469230652
+it is in it 19, and in batch 6000/27663.0, the loss is 0.013007434958756874, lr is 0.5, time is 226.60413670539856
+it is in it 19, and in batch 7000/27663.0, the loss is 0.013481780914319718, lr is 0.5, time is 264.43242168426514
+it is in it 19, and in batch 8000/27663.0, the loss is 0.011896508408403296, lr is 0.5, time is 300.6338686943054
+it is in it 19, and in batch 9000/27663.0, the loss is 0.012068383257437542, lr is 0.5, time is 337.90230560302734
+it is in it 19, and in batch 10000/27663.0, the loss is 0.012759375460159062, lr is 0.5, time is 375.6333794593811
+it is in it 19, and in batch 11000/27663.0, the loss is 0.01162267864731136, lr is 0.5, time is 414.1573724746704
+it is in it 19, and in batch 12000/27663.0, the loss is 0.01305022810649975, lr is 0.5, time is 452.451735496521
+it is in it 19, and in batch 13000/27663.0, the loss is 0.01204928012364058, lr is 0.5, time is 491.59700894355774
+it is in it 19, and in batch 14000/27663.0, the loss is 0.012553112650418245, lr is 0.5, time is 529.4653251171112
+it is in it 19, and in batch 15000/27663.0, the loss is 0.015111096119389567, lr is 0.5, time is 567.5810556411743
+it is in it 19, and in batch 16000/27663.0, the loss is 0.015289732906402823, lr is 0.5, time is 604.4955494403839
+it is in it 19, and in batch 17000/27663.0, the loss is 0.01615803713350042, lr is 0.5, time is 641.2770216464996
+it is in it 19, and in batch 18000/27663.0, the loss is 0.016477139073870897, lr is 0.5, time is 679.4306695461273
+it is in it 19, and in batch 19000/27663.0, the loss is 0.016175713716547812, lr is 0.5, time is 717.9922053813934
+it is in it 19, and in batch 20000/27663.0, the loss is 0.015967334033811006, lr is 0.5, time is 753.8374826908112
+it is in it 19, and in batch 21000/27663.0, the loss is 0.015698866823515286, lr is 0.5, time is 790.8752825260162
+it is in it 19, and in batch 22000/27663.0, the loss is 0.015747602438581004, lr is 0.5, time is 829.9959774017334
+it is in it 19, and in batch 23000/27663.0, the loss is 0.015493222368441946, lr is 0.5, time is 867.6658039093018
+it is in it 19, and in batch 24000/27663.0, the loss is 0.01599136987659694, lr is 0.5, time is 904.8767380714417
+it is in it 19, and in batch 25000/27663.0, the loss is 0.0160856943102647, lr is 0.5, time is 941.9143228530884
+it is in it 19, and in batch 26000/27663.0, the loss is 0.01605360979557239, lr is 0.5, time is 979.8592660427094
+it is in it 19, and in batch 27000/27663.0, the loss is 0.015705415926254757, lr is 0.5, time is 1018.6000673770905
+start to evaluation in it 19
+test time cost is  74.75772476196289
+Corresponding result --> {0: [28.0, 10.0, 68.0], 1: [142.0, 35.0, 79.0], 2: [261.0, 150.0, 99.0], 3: [238.0, 122.0, 61.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6784989789198886 	r= 0.6854508126490696 	f= 0.6819521797592352
+             precision    recall  f1-score   support
+
+          0     0.7368    0.2917    0.4179        96
+          1     0.8023    0.6425    0.7136       221
+          2     0.6350    0.7250    0.6770       360
+          3     0.6611    0.7960    0.7223       299
+          4     0.9551    0.9531    0.9541      4712
+
+avg / total     0.9098    0.9072    0.9060      5688
+
+it is in it 20, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.008993148803710938
+it is in it 20, and in batch 1000/27663.0, the loss is 0.006857975855931178, lr is 0.5, time is 38.754791021347046
+it is in it 20, and in batch 2000/27663.0, the loss is 0.011993688443253958, lr is 0.5, time is 76.22621440887451
+it is in it 20, and in batch 3000/27663.0, the loss is 0.009086549143042813, lr is 0.5, time is 113.71856379508972
+it is in it 20, and in batch 4000/27663.0, the loss is 0.00906905041012696, lr is 0.5, time is 152.21942591667175
+it is in it 20, and in batch 5000/27663.0, the loss is 0.007919602908031675, lr is 0.5, time is 186.82448053359985
+it is in it 20, and in batch 6000/27663.0, the loss is 0.006605026583297315, lr is 0.5, time is 224.92659664154053
+it is in it 20, and in batch 7000/27663.0, the loss is 0.008934648969040277, lr is 0.5, time is 262.22951555252075
+it is in it 20, and in batch 8000/27663.0, the loss is 0.009235108171369326, lr is 0.5, time is 299.63380217552185
+it is in it 20, and in batch 9000/27663.0, the loss is 0.009063780671979915, lr is 0.5, time is 338.09753942489624
+it is in it 20, and in batch 10000/27663.0, the loss is 0.011267299592977714, lr is 0.5, time is 376.2723824977875
+it is in it 20, and in batch 11000/27663.0, the loss is 0.011455900159145245, lr is 0.5, time is 411.82968616485596
+it is in it 20, and in batch 12000/27663.0, the loss is 0.010502571205766625, lr is 0.5, time is 451.0605092048645
+it is in it 20, and in batch 13000/27663.0, the loss is 0.01203340002687406, lr is 0.5, time is 488.86758375167847
+it is in it 20, and in batch 14000/27663.0, the loss is 0.011186054268697954, lr is 0.5, time is 527.6569268703461
+it is in it 20, and in batch 15000/27663.0, the loss is 0.010994579400883366, lr is 0.5, time is 566.5338408946991
+it is in it 20, and in batch 16000/27663.0, the loss is 0.011386598484880156, lr is 0.5, time is 602.5736944675446
+it is in it 20, and in batch 17000/27663.0, the loss is 0.011641487739526639, lr is 0.5, time is 638.486777305603
+it is in it 20, and in batch 18000/27663.0, the loss is 0.011918988759488134, lr is 0.5, time is 675.698522567749
+it is in it 20, and in batch 19000/27663.0, the loss is 0.012374327738757736, lr is 0.5, time is 713.1479499340057
+it is in it 20, and in batch 20000/27663.0, the loss is 0.01384748296078238, lr is 0.5, time is 749.3519883155823
+it is in it 20, and in batch 21000/27663.0, the loss is 0.013844368032180527, lr is 0.5, time is 786.312518119812
+it is in it 20, and in batch 22000/27663.0, the loss is 0.013814697449415696, lr is 0.5, time is 823.8537256717682
+it is in it 20, and in batch 23000/27663.0, the loss is 0.013336027152102635, lr is 0.5, time is 860.1282255649567
+it is in it 20, and in batch 24000/27663.0, the loss is 0.013209270281640893, lr is 0.5, time is 893.0421249866486
+it is in it 20, and in batch 25000/27663.0, the loss is 0.012779163287203863, lr is 0.5, time is 927.4451580047607
+it is in it 20, and in batch 26000/27663.0, the loss is 0.012734870049436388, lr is 0.5, time is 965.0522210597992
+it is in it 20, and in batch 27000/27663.0, the loss is 0.013766008140219525, lr is 0.5, time is 1003.6661636829376
+start to evaluation in it 20
+test time cost is  75.84196758270264
+Corresponding result --> {0: [27.0, 8.0, 69.0], 1: [151.0, 39.0, 70.0], 2: [239.0, 115.0, 121.0], 3: [212.0, 81.0, 87.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7213302669572217 	r= 0.6444672065116065 	f= 0.6807309392406862
+             precision    recall  f1-score   support
+
+          0     0.7714    0.2812    0.4122        96
+          1     0.7947    0.6833    0.7348       221
+          2     0.6751    0.6639    0.6695       360
+          3     0.7235    0.7090    0.7162       299
+          4     0.9460    0.9669    0.9563      4712
+
+avg / total     0.9084    0.9116    0.9078      5688
+
+it is in it 21, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.01792764663696289
+it is in it 21, and in batch 1000/27663.0, the loss is 0.015274520401473526, lr is 0.5, time is 35.63846826553345
+it is in it 21, and in batch 2000/27663.0, the loss is 0.007645265273247165, lr is 0.5, time is 73.24422717094421
+it is in it 21, and in batch 3000/27663.0, the loss is 0.008104079645977383, lr is 0.5, time is 110.98714327812195
+it is in it 21, and in batch 4000/27663.0, the loss is 0.006079160103467786, lr is 0.5, time is 149.3349413871765
+it is in it 21, and in batch 5000/27663.0, the loss is 0.0066047009409153324, lr is 0.5, time is 186.5169758796692
+it is in it 21, and in batch 6000/27663.0, the loss is 0.00550864660984237, lr is 0.5, time is 223.79627180099487
+it is in it 21, and in batch 7000/27663.0, the loss is 0.005992948251219413, lr is 0.5, time is 261.8012764453888
+it is in it 21, and in batch 8000/27663.0, the loss is 0.006583463280011141, lr is 0.5, time is 297.0709505081177
+it is in it 21, and in batch 9000/27663.0, the loss is 0.005880577274725551, lr is 0.5, time is 333.3830313682556
+it is in it 21, and in batch 10000/27663.0, the loss is 0.005813517769316818, lr is 0.5, time is 371.1360640525818
+it is in it 21, and in batch 11000/27663.0, the loss is 0.005285114128474116, lr is 0.5, time is 407.84501123428345
+it is in it 21, and in batch 12000/27663.0, the loss is 0.005363418582915942, lr is 0.5, time is 446.7868142127991
+it is in it 21, and in batch 13000/27663.0, the loss is 0.00614281718836006, lr is 0.5, time is 484.6953492164612
+it is in it 21, and in batch 14000/27663.0, the loss is 0.006010086738537928, lr is 0.5, time is 520.6026480197906
+it is in it 21, and in batch 15000/27663.0, the loss is 0.005609886525956864, lr is 0.5, time is 555.6600954532623
+it is in it 21, and in batch 16000/27663.0, the loss is 0.0055115163776995385, lr is 0.5, time is 589.1240630149841
+it is in it 21, and in batch 17000/27663.0, the loss is 0.005970196880724043, lr is 0.5, time is 622.129311800003
+it is in it 21, and in batch 18000/27663.0, the loss is 0.006581713282977877, lr is 0.5, time is 656.1801478862762
+it is in it 21, and in batch 19000/27663.0, the loss is 0.006260247062641749, lr is 0.5, time is 688.7964131832123
+it is in it 21, and in batch 20000/27663.0, the loss is 0.006540801309238738, lr is 0.5, time is 727.4014971256256
+it is in it 21, and in batch 21000/27663.0, the loss is 0.00798368419921317, lr is 0.5, time is 766.283301115036
+it is in it 21, and in batch 22000/27663.0, the loss is 0.008296394720927547, lr is 0.5, time is 802.8194110393524
+it is in it 21, and in batch 23000/27663.0, the loss is 0.008600418829180915, lr is 0.5, time is 842.3908495903015
+it is in it 21, and in batch 24000/27663.0, the loss is 0.008827226161261428, lr is 0.5, time is 882.6974039077759
+it is in it 21, and in batch 25000/27663.0, the loss is 0.009321245344766287, lr is 0.5, time is 921.4141747951508
+it is in it 21, and in batch 26000/27663.0, the loss is 0.009777832148620786, lr is 0.5, time is 958.385843038559
+it is in it 21, and in batch 27000/27663.0, the loss is 0.011800204191882144, lr is 0.5, time is 996.2091460227966
+start to evaluation in it 21
+test time cost is  75.46359276771545
+Corresponding result --> {0: [36.0, 13.0, 60.0], 1: [180.0, 93.0, 41.0], 2: [248.0, 187.0, 112.0], 3: [205.0, 78.0, 94.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6432692245839498 	r= 0.6854508126490696 	f= 0.6636854746828899
+             precision    recall  f1-score   support
+
+          0     0.7347    0.3750    0.4966        96
+          1     0.6593    0.8145    0.7287       221
+          2     0.5701    0.6889    0.6239       360
+          3     0.7244    0.6856    0.7045       299
+          4     0.9572    0.9442    0.9506      4712
+
+avg / total     0.9051    0.8998    0.9007      5688
+
+it is in it 22, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.011948585510253906
+it is in it 22, and in batch 1000/27663.0, the loss is 0.009007205258120786, lr is 0.5, time is 36.03722143173218
+it is in it 22, and in batch 2000/27663.0, the loss is 0.00951174841351297, lr is 0.5, time is 74.05395460128784
+it is in it 22, and in batch 3000/27663.0, the loss is 0.010874405339414856, lr is 0.5, time is 112.78764486312866
+it is in it 22, and in batch 4000/27663.0, the loss is 0.010549622993116467, lr is 0.5, time is 151.6111934185028
+it is in it 22, and in batch 5000/27663.0, the loss is 0.00844086630061683, lr is 0.5, time is 189.58609867095947
+it is in it 22, and in batch 6000/27663.0, the loss is 0.013729335109187531, lr is 0.5, time is 228.72559571266174
+it is in it 22, and in batch 7000/27663.0, the loss is 0.01252788101804374, lr is 0.5, time is 267.10555624961853
+it is in it 22, and in batch 8000/27663.0, the loss is 0.012824447225621455, lr is 0.5, time is 304.781466960907
+it is in it 22, and in batch 9000/27663.0, the loss is 0.011424214770271836, lr is 0.5, time is 342.9443151950836
+it is in it 22, and in batch 10000/27663.0, the loss is 0.012224891021029733, lr is 0.5, time is 382.67794942855835
+it is in it 22, and in batch 11000/27663.0, the loss is 0.011357292089990222, lr is 0.5, time is 421.21355628967285
+it is in it 22, and in batch 12000/27663.0, the loss is 0.012873404920622663, lr is 0.5, time is 459.68642473220825
+it is in it 22, and in batch 13000/27663.0, the loss is 0.014156918407962758, lr is 0.5, time is 498.1055612564087
+it is in it 22, and in batch 14000/27663.0, the loss is 0.01416996531584937, lr is 0.5, time is 536.4896297454834
+it is in it 22, and in batch 15000/27663.0, the loss is 0.015119811612982311, lr is 0.5, time is 573.9515001773834
+it is in it 22, and in batch 16000/27663.0, the loss is 0.015229771758726139, lr is 0.5, time is 612.7100117206573
+it is in it 22, and in batch 17000/27663.0, the loss is 0.014730879253699116, lr is 0.5, time is 651.1964356899261
+it is in it 22, and in batch 18000/27663.0, the loss is 0.013913727357621843, lr is 0.5, time is 688.4340388774872
+it is in it 22, and in batch 19000/27663.0, the loss is 0.013348879196048944, lr is 0.5, time is 728.0732636451721
+it is in it 22, and in batch 20000/27663.0, the loss is 0.013126577271752867, lr is 0.5, time is 765.1064205169678
+it is in it 22, and in batch 21000/27663.0, the loss is 0.013347776042501742, lr is 0.5, time is 800.9599695205688
+it is in it 22, and in batch 22000/27663.0, the loss is 0.01292075181483117, lr is 0.5, time is 834.5421330928802
+it is in it 22, and in batch 23000/27663.0, the loss is 0.012359042814682735, lr is 0.5, time is 867.8994662761688
+it is in it 22, and in batch 24000/27663.0, the loss is 0.01312304558314302, lr is 0.5, time is 899.9918043613434
+it is in it 22, and in batch 25000/27663.0, the loss is 0.01267386102651597, lr is 0.5, time is 932.6534314155579
+it is in it 22, and in batch 26000/27663.0, the loss is 0.012822066640437583, lr is 0.5, time is 966.5905470848083
+it is in it 22, and in batch 27000/27663.0, the loss is 0.013044097274238324, lr is 0.5, time is 1003.4704222679138
+start to evaluation in it 22
+test time cost is  79.00330924987793
+Corresponding result --> {0: [27.0, 10.0, 69.0], 1: [157.0, 39.0, 64.0], 2: [262.0, 151.0, 98.0], 3: [211.0, 75.0, 88.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7049356147539098 	r= 0.6731557308078306 	f= 0.6886742407594231
+             precision    recall  f1-score   support
+
+          0     0.7297    0.2812    0.4060        96
+          1     0.8010    0.7104    0.7530       221
+          2     0.6344    0.7278    0.6779       360
+          3     0.7378    0.7057    0.7214       299
+          4     0.9506    0.9595    0.9550      4712
+
+avg / total     0.9098    0.9103    0.9081      5688
+
+it is in it 23, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.00841069221496582
+it is in it 23, and in batch 1000/27663.0, the loss is 8.246758124687812e-06, lr is 0.5, time is 39.152851581573486
+it is in it 23, and in batch 2000/27663.0, the loss is 0.0015950295878671991, lr is 0.5, time is 78.19122910499573
+it is in it 23, and in batch 3000/27663.0, the loss is 0.004182269596251119, lr is 0.5, time is 115.91113924980164
+it is in it 23, and in batch 4000/27663.0, the loss is 0.003901168186346968, lr is 0.5, time is 154.76780796051025
+it is in it 23, and in batch 5000/27663.0, the loss is 0.0038267676054632824, lr is 0.5, time is 191.50848293304443
+it is in it 23, and in batch 6000/27663.0, the loss is 0.003277980611833249, lr is 0.5, time is 228.17117071151733
+it is in it 23, and in batch 7000/27663.0, the loss is 0.008333947484518116, lr is 0.5, time is 265.98899960517883
+it is in it 23, and in batch 8000/27663.0, the loss is 0.010645001638741691, lr is 0.5, time is 302.41536140441895
+it is in it 23, and in batch 9000/27663.0, the loss is 0.011069668304812921, lr is 0.5, time is 339.80457615852356
+it is in it 23, and in batch 10000/27663.0, the loss is 0.011228332351701353, lr is 0.5, time is 375.0568563938141
+it is in it 23, and in batch 11000/27663.0, the loss is 0.01152920694787246, lr is 0.5, time is 411.76974177360535
+it is in it 23, and in batch 12000/27663.0, the loss is 0.010764935823015725, lr is 0.5, time is 448.13822627067566
+it is in it 23, and in batch 13000/27663.0, the loss is 0.011198943875842934, lr is 0.5, time is 486.3169848918915
+it is in it 23, and in batch 14000/27663.0, the loss is 0.010413389803298787, lr is 0.5, time is 523.6043884754181
+it is in it 23, and in batch 15000/27663.0, the loss is 0.010183759660977029, lr is 0.5, time is 561.37446641922
+it is in it 23, and in batch 16000/27663.0, the loss is 0.011386508725895061, lr is 0.5, time is 599.4921190738678
+it is in it 23, and in batch 17000/27663.0, the loss is 0.01160299308888597, lr is 0.5, time is 637.5369534492493
+it is in it 23, and in batch 18000/27663.0, the loss is 0.01191391538801501, lr is 0.5, time is 673.7856259346008
+it is in it 23, and in batch 19000/27663.0, the loss is 0.012087772221422453, lr is 0.5, time is 711.2482430934906
+it is in it 23, and in batch 20000/27663.0, the loss is 0.012156718099458796, lr is 0.5, time is 749.9926466941833
+it is in it 23, and in batch 21000/27663.0, the loss is 0.012981835663145504, lr is 0.5, time is 787.4760413169861
+it is in it 23, and in batch 22000/27663.0, the loss is 0.01251610287384176, lr is 0.5, time is 823.8664424419403
+it is in it 23, and in batch 23000/27663.0, the loss is 0.013139168556179878, lr is 0.5, time is 861.7764031887054
+it is in it 23, and in batch 24000/27663.0, the loss is 0.012730059924311829, lr is 0.5, time is 898.8368208408356
+it is in it 23, and in batch 25000/27663.0, the loss is 0.013035920823909232, lr is 0.5, time is 937.5417144298553
+it is in it 23, and in batch 26000/27663.0, the loss is 0.012862148470504665, lr is 0.5, time is 974.1457767486572
+it is in it 23, and in batch 27000/27663.0, the loss is 0.013008277322013248, lr is 0.5, time is 1010.9279553890228
+start to evaluation in it 23
+test time cost is  73.35248708724976
+Corresponding result --> {0: [26.0, 6.0, 70.0], 1: [155.0, 45.0, 66.0], 2: [239.0, 121.0, 121.0], 3: [185.0, 58.0, 114.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7245508895263367 	r= 0.6198770428291287 	f= 0.6681341726083507
+             precision    recall  f1-score   support
+
+          0     0.8125    0.2708    0.4062        96
+          1     0.7750    0.7014    0.7363       221
+          2     0.6639    0.6639    0.6639       360
+          3     0.7613    0.6187    0.6827       299
+          4     0.9425    0.9707    0.9564      4712
+
+avg / total     0.9066    0.9105    0.9057      5688
+
+it is in it 24, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.012893438339233398
+it is in it 24, and in batch 1000/27663.0, the loss is 0.0010357188892650318, lr is 0.5, time is 36.320765018463135
+it is in it 24, and in batch 2000/27663.0, the loss is 0.0006129652306415151, lr is 0.5, time is 72.48183560371399
+it is in it 24, and in batch 3000/27663.0, the loss is 0.00042213991617052126, lr is 0.5, time is 109.25139570236206
+it is in it 24, and in batch 4000/27663.0, the loss is 0.005753763852432888, lr is 0.5, time is 147.5198564529419
+it is in it 24, and in batch 5000/27663.0, the loss is 0.006082277349461748, lr is 0.5, time is 184.11264777183533
+it is in it 24, and in batch 6000/27663.0, the loss is 0.005068802670664915, lr is 0.5, time is 222.1961271762848
+it is in it 24, and in batch 7000/27663.0, the loss is 0.009370747982919293, lr is 0.5, time is 259.7699522972107
+it is in it 24, and in batch 8000/27663.0, the loss is 0.00892315189803545, lr is 0.5, time is 296.82343196868896
+it is in it 24, and in batch 9000/27663.0, the loss is 0.008185871176395982, lr is 0.5, time is 334.0430998802185
+it is in it 24, and in batch 10000/27663.0, the loss is 0.007864931204023153, lr is 0.5, time is 370.3073093891144
+it is in it 24, and in batch 11000/27663.0, the loss is 0.007671425206240129, lr is 0.5, time is 407.76426887512207
+it is in it 24, and in batch 12000/27663.0, the loss is 0.007032288401218844, lr is 0.5, time is 444.8799033164978
+it is in it 24, and in batch 13000/27663.0, the loss is 0.007678311619884408, lr is 0.5, time is 482.0051620006561
+it is in it 24, and in batch 14000/27663.0, the loss is 0.007285289411570002, lr is 0.5, time is 519.4096398353577
+it is in it 24, and in batch 15000/27663.0, the loss is 0.010803480639742832, lr is 0.5, time is 556.6436655521393
+it is in it 24, and in batch 16000/27663.0, the loss is 0.010552826676321927, lr is 0.5, time is 593.153077840805
+it is in it 24, and in batch 17000/27663.0, the loss is 0.01227529741274554, lr is 0.5, time is 630.7308866977692
+it is in it 24, and in batch 18000/27663.0, the loss is 0.01314606567759175, lr is 0.5, time is 665.8178935050964
+it is in it 24, and in batch 19000/27663.0, the loss is 0.012843317473840038, lr is 0.5, time is 698.6505014896393
+it is in it 24, and in batch 20000/27663.0, the loss is 0.013167892382816161, lr is 0.5, time is 731.7095568180084
+it is in it 24, and in batch 21000/27663.0, the loss is 0.013348779078466735, lr is 0.5, time is 765.5214323997498
+it is in it 24, and in batch 22000/27663.0, the loss is 0.013045415483405983, lr is 0.5, time is 801.5597610473633
+it is in it 24, and in batch 23000/27663.0, the loss is 0.012858618477583813, lr is 0.5, time is 838.7280261516571
+it is in it 24, and in batch 24000/27663.0, the loss is 0.013349379069069753, lr is 0.5, time is 877.2616300582886
+it is in it 24, and in batch 25000/27663.0, the loss is 0.013567570776783186, lr is 0.5, time is 915.9430801868439
+it is in it 24, and in batch 26000/27663.0, the loss is 0.013417774656865097, lr is 0.5, time is 954.8583600521088
+it is in it 24, and in batch 27000/27663.0, the loss is 0.014044609181435302, lr is 0.5, time is 992.0493097305298
+start to evaluation in it 24
+test time cost is  71.2481141090393
+Corresponding result --> {0: [43.0, 33.0, 53.0], 1: [145.0, 27.0, 76.0], 2: [239.0, 92.0, 121.0], 3: [204.0, 60.0, 95.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7485171915952884 	r= 0.6465163868184797 	f= 0.6937828146299941
+             precision    recall  f1-score   support
+
+          0     0.5658    0.4479    0.5000        96
+          1     0.8430    0.6561    0.7379       221
+          2     0.7221    0.6639    0.6918       360
+          3     0.7727    0.6823    0.7247       299
+          4     0.9461    0.9728    0.9593      4712
+
+avg / total     0.9124    0.9168    0.9137      5688
+
+it is in it 25, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.012569904327392578
+it is in it 25, and in batch 1000/27663.0, the loss is 0.014666744998165896, lr is 0.5, time is 35.56079173088074
+it is in it 25, and in batch 2000/27663.0, the loss is 0.007484990796227863, lr is 0.5, time is 72.793137550354
+it is in it 25, and in batch 3000/27663.0, the loss is 0.009998996509627, lr is 0.5, time is 108.57322716712952
+it is in it 25, and in batch 4000/27663.0, the loss is 0.010266368611399396, lr is 0.5, time is 147.56336665153503
+it is in it 25, and in batch 5000/27663.0, the loss is 0.008218203466240345, lr is 0.5, time is 183.41509246826172
+it is in it 25, and in batch 6000/27663.0, the loss is 0.011775980629815278, lr is 0.5, time is 218.81808876991272
+it is in it 25, and in batch 7000/27663.0, the loss is 0.010093949961842784, lr is 0.5, time is 257.73270773887634
+it is in it 25, and in batch 8000/27663.0, the loss is 0.00891537041146224, lr is 0.5, time is 295.749796628952
+it is in it 25, and in batch 9000/27663.0, the loss is 0.008122085081366828, lr is 0.5, time is 333.58159613609314
+it is in it 25, and in batch 10000/27663.0, the loss is 0.008655476195849653, lr is 0.5, time is 371.38975262641907
+it is in it 25, and in batch 11000/27663.0, the loss is 0.010176568212926134, lr is 0.5, time is 408.9432096481323
+it is in it 25, and in batch 12000/27663.0, the loss is 0.012803086518506271, lr is 0.5, time is 447.5159568786621
+it is in it 25, and in batch 13000/27663.0, the loss is 0.01241570598812674, lr is 0.5, time is 485.08697390556335
+it is in it 25, and in batch 14000/27663.0, the loss is 0.011594233142674867, lr is 0.5, time is 523.7470872402191
+it is in it 25, and in batch 15000/27663.0, the loss is 0.010975686464855793, lr is 0.5, time is 559.5638785362244
+it is in it 25, and in batch 16000/27663.0, the loss is 0.010840762295534325, lr is 0.5, time is 597.2017676830292
+it is in it 25, and in batch 17000/27663.0, the loss is 0.0103802565132672, lr is 0.5, time is 634.4930307865143
+it is in it 25, and in batch 18000/27663.0, the loss is 0.010529058534935722, lr is 0.5, time is 671.7554776668549
+it is in it 25, and in batch 19000/27663.0, the loss is 0.0106975355058474, lr is 0.5, time is 709.410133600235
+it is in it 25, and in batch 20000/27663.0, the loss is 0.010214106737747829, lr is 0.5, time is 747.3035960197449
+it is in it 25, and in batch 21000/27663.0, the loss is 0.011187442557754178, lr is 0.5, time is 786.3140289783478
+it is in it 25, and in batch 22000/27663.0, the loss is 0.011105881285209026, lr is 0.5, time is 822.8211991786957
+it is in it 25, and in batch 23000/27663.0, the loss is 0.010967788755994771, lr is 0.5, time is 859.3915772438049
+it is in it 25, and in batch 24000/27663.0, the loss is 0.010540868484905862, lr is 0.5, time is 896.3182427883148
+it is in it 25, and in batch 25000/27663.0, the loss is 0.010121527283073715, lr is 0.5, time is 934.3582625389099
+it is in it 25, and in batch 26000/27663.0, the loss is 0.011167508492785772, lr is 0.5, time is 971.3118739128113
+it is in it 25, and in batch 27000/27663.0, the loss is 0.011584599200612831, lr is 0.5, time is 1008.1080236434937
+start to evaluation in it 25
+test time cost is  73.54549956321716
+Corresponding result --> {0: [29.0, 8.0, 67.0], 1: [153.0, 48.0, 68.0], 2: [240.0, 139.0, 120.0], 3: [188.0, 49.0, 111.0]}
+for all label [0, 1, 2, 3] 	 p= 0.714285705921713 	r= 0.6249999935963115 	f= 0.666661681640081
+             precision    recall  f1-score   support
+
+          0     0.7838    0.3021    0.4361        96
+          1     0.7612    0.6923    0.7251       221
+          2     0.6332    0.6667    0.6495       360
+          3     0.7932    0.6288    0.7015       299
+          4     0.9452    0.9697    0.9573      4712
+
+avg / total     0.9076    0.9105    0.9065      5688
+
+it is in it 26, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.007359743118286133
+it is in it 26, and in batch 1000/27663.0, the loss is 0.004947757625675106, lr is 0.5, time is 37.89377784729004
+it is in it 26, and in batch 2000/27663.0, the loss is 0.008230936640444426, lr is 0.5, time is 76.05558848381042
+it is in it 26, and in batch 3000/27663.0, the loss is 0.006849401436500333, lr is 0.5, time is 114.66408562660217
+it is in it 26, and in batch 4000/27663.0, the loss is 0.02062323879403074, lr is 0.5, time is 150.90290999412537
+it is in it 26, and in batch 5000/27663.0, the loss is 0.017197203335822094, lr is 0.5, time is 190.71533155441284
+it is in it 26, and in batch 6000/27663.0, the loss is 0.014333855289356885, lr is 0.5, time is 228.81061387062073
+it is in it 26, and in batch 7000/27663.0, the loss is 0.013626189082711956, lr is 0.5, time is 263.12458324432373
+it is in it 26, and in batch 8000/27663.0, the loss is 0.012094639521988462, lr is 0.5, time is 298.40039682388306
+it is in it 26, and in batch 9000/27663.0, the loss is 0.013679568813371864, lr is 0.5, time is 331.73037600517273
+it is in it 26, and in batch 10000/27663.0, the loss is 0.014224644506374558, lr is 0.5, time is 364.68403935432434
+it is in it 26, and in batch 11000/27663.0, the loss is 0.012970619836229377, lr is 0.5, time is 401.3666021823883
+it is in it 26, and in batch 12000/27663.0, the loss is 0.012484643689970822, lr is 0.5, time is 438.50852632522583
+it is in it 26, and in batch 13000/27663.0, the loss is 0.01888914293861785, lr is 0.5, time is 475.0986473560333
+it is in it 26, and in batch 14000/27663.0, the loss is 0.019221826856727728, lr is 0.5, time is 511.8432421684265
+it is in it 26, and in batch 15000/27663.0, the loss is 0.01858729132413308, lr is 0.5, time is 548.3819370269775
+it is in it 26, and in batch 16000/27663.0, the loss is 0.017860908000500945, lr is 0.5, time is 585.868072271347
+it is in it 26, and in batch 17000/27663.0, the loss is 0.017516177735969002, lr is 0.5, time is 623.0643584728241
+it is in it 26, and in batch 18000/27663.0, the loss is 0.018570695623517878, lr is 0.5, time is 659.4415936470032
+it is in it 26, and in batch 19000/27663.0, the loss is 0.017597737836057302, lr is 0.5, time is 697.2676191329956
+it is in it 26, and in batch 20000/27663.0, the loss is 0.018820541917392655, lr is 0.5, time is 733.8275365829468
+it is in it 26, and in batch 21000/27663.0, the loss is 0.0179246952690276, lr is 0.5, time is 771.218316078186
+it is in it 26, and in batch 22000/27663.0, the loss is 0.01737869172187064, lr is 0.5, time is 807.9584381580353
+it is in it 26, and in batch 23000/27663.0, the loss is 0.01721693290782428, lr is 0.5, time is 845.2264420986176
+it is in it 26, and in batch 24000/27663.0, the loss is 0.016628736714751347, lr is 0.5, time is 881.825599193573
+it is in it 26, and in batch 25000/27663.0, the loss is 0.016563986412101134, lr is 0.5, time is 919.3066358566284
+it is in it 26, and in batch 26000/27663.0, the loss is 0.015927101180148232, lr is 0.5, time is 954.6690413951874
+it is in it 26, and in batch 27000/27663.0, the loss is 0.015721883152525564, lr is 0.5, time is 993.1591939926147
+start to evaluation in it 26
+test time cost is  72.41466355323792
+Corresponding result --> {0: [31.0, 11.0, 65.0], 1: [150.0, 39.0, 71.0], 2: [252.0, 138.0, 108.0], 3: [217.0, 99.0, 82.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6937033010277129 	r= 0.6659835997337746 	f= 0.6795558941215529
+             precision    recall  f1-score   support
+
+          0     0.7381    0.3229    0.4493        96
+          1     0.7937    0.6787    0.7317       221
+          2     0.6462    0.7000    0.6720       360
+          3     0.6867    0.7258    0.7057       299
+          4     0.9524    0.9603    0.9564      4712
+
+avg / total     0.9093    0.9098    0.9079      5688
+
+it is in it 27, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.011209249496459961
+it is in it 27, and in batch 1000/27663.0, the loss is 0.015414722911365978, lr is 0.5, time is 37.20102286338806
+it is in it 27, and in batch 2000/27663.0, the loss is 0.008861530309674265, lr is 0.5, time is 75.10391139984131
+it is in it 27, and in batch 3000/27663.0, the loss is 0.006366322970874943, lr is 0.5, time is 112.0115876197815
+it is in it 27, and in batch 4000/27663.0, the loss is 0.007219926204361996, lr is 0.5, time is 148.4468116760254
+it is in it 27, and in batch 5000/27663.0, the loss is 0.006790245039371032, lr is 0.5, time is 187.00096344947815
+it is in it 27, and in batch 6000/27663.0, the loss is 0.006334017165758832, lr is 0.5, time is 223.5249993801117
+it is in it 27, and in batch 7000/27663.0, the loss is 0.01204804157703336, lr is 0.5, time is 262.11270904541016
+it is in it 27, and in batch 8000/27663.0, the loss is 0.011548308696825495, lr is 0.5, time is 298.5543010234833
+it is in it 27, and in batch 9000/27663.0, the loss is 0.010326057046721371, lr is 0.5, time is 335.5568277835846
+it is in it 27, and in batch 10000/27663.0, the loss is 0.01114329942738148, lr is 0.5, time is 373.4191675186157
+it is in it 27, and in batch 11000/27663.0, the loss is 0.01163467980766175, lr is 0.5, time is 410.02221059799194
+it is in it 27, and in batch 12000/27663.0, the loss is 0.01066524971923116, lr is 0.5, time is 448.40794134140015
+it is in it 27, and in batch 13000/27663.0, the loss is 0.010309984001615636, lr is 0.5, time is 486.771999835968
+it is in it 27, and in batch 14000/27663.0, the loss is 0.009574184059441137, lr is 0.5, time is 526.2741739749908
+it is in it 27, and in batch 15000/27663.0, the loss is 0.008945763758775132, lr is 0.5, time is 564.0370123386383
+it is in it 27, and in batch 16000/27663.0, the loss is 0.008420676009728456, lr is 0.5, time is 601.3445451259613
+it is in it 27, and in batch 17000/27663.0, the loss is 0.009774174916590671, lr is 0.5, time is 638.2912178039551
+it is in it 27, and in batch 18000/27663.0, the loss is 0.009629697827761468, lr is 0.5, time is 674.412410736084
+it is in it 27, and in batch 19000/27663.0, the loss is 0.009721707999094569, lr is 0.5, time is 710.4846758842468
+it is in it 27, and in batch 20000/27663.0, the loss is 0.009969659807872644, lr is 0.5, time is 748.6833021640778
+it is in it 27, and in batch 21000/27663.0, the loss is 0.009716681040875612, lr is 0.5, time is 784.8623411655426
+it is in it 27, and in batch 22000/27663.0, the loss is 0.009281714500814593, lr is 0.5, time is 821.9026997089386
+it is in it 27, and in batch 23000/27663.0, the loss is 0.010928196822253058, lr is 0.5, time is 858.584025144577
+it is in it 27, and in batch 24000/27663.0, the loss is 0.01048013555134869, lr is 0.5, time is 895.5967109203339
+it is in it 27, and in batch 25000/27663.0, the loss is 0.010323584554176427, lr is 0.5, time is 932.55482172966
+it is in it 27, and in batch 26000/27663.0, the loss is 0.010421290488789795, lr is 0.5, time is 967.7549304962158
+it is in it 27, and in batch 27000/27663.0, the loss is 0.01003543377222827, lr is 0.5, time is 1004.117023229599
+start to evaluation in it 27
+test time cost is  71.4708104133606
+Corresponding result --> {0: [31.0, 7.0, 65.0], 1: [159.0, 42.0, 62.0], 2: [255.0, 146.0, 105.0], 3: [201.0, 64.0, 98.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7138121468087055 	r= 0.6618852391200283 	f= 0.6868636867255081
+             precision    recall  f1-score   support
+
+          0     0.8158    0.3229    0.4627        96
+          1     0.7910    0.7195    0.7536       221
+          2     0.6359    0.7083    0.6702       360
+          3     0.7585    0.6722    0.7128       299
+          4     0.9502    0.9646    0.9573      4712
+
+avg / total     0.9118    0.9126    0.9100      5688
+
+it is in it 28, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.008907794952392578
+it is in it 28, and in batch 1000/27663.0, the loss is 0.0031158016635464145, lr is 0.5, time is 36.60080409049988
+it is in it 28, and in batch 2000/27663.0, the loss is 0.009299393119602309, lr is 0.5, time is 74.28590679168701
+it is in it 28, and in batch 3000/27663.0, the loss is 0.012519213566181065, lr is 0.5, time is 112.0141110420227
+it is in it 28, and in batch 4000/27663.0, the loss is 0.011611386437143156, lr is 0.5, time is 147.04669189453125
+it is in it 28, and in batch 5000/27663.0, the loss is 0.009337993698867649, lr is 0.5, time is 183.6963939666748
+it is in it 28, and in batch 6000/27663.0, the loss is 0.011972560224642735, lr is 0.5, time is 220.79133987426758
+it is in it 28, and in batch 7000/27663.0, the loss is 0.010974772605465541, lr is 0.5, time is 257.9204251766205
+it is in it 28, and in batch 8000/27663.0, the loss is 0.01050182605233733, lr is 0.5, time is 291.5608513355255
+it is in it 28, and in batch 9000/27663.0, the loss is 0.009340334145205112, lr is 0.5, time is 326.77246618270874
+it is in it 28, and in batch 10000/27663.0, the loss is 0.008407163853621962, lr is 0.5, time is 361.6406512260437
+it is in it 28, and in batch 11000/27663.0, the loss is 0.007928292411705026, lr is 0.5, time is 399.2379994392395
+it is in it 28, and in batch 12000/27663.0, the loss is 0.0076654784014479095, lr is 0.5, time is 435.91558933258057
+it is in it 28, and in batch 13000/27663.0, the loss is 0.008108231170609697, lr is 0.5, time is 472.1688241958618
+it is in it 28, and in batch 14000/27663.0, the loss is 0.008007391632714363, lr is 0.5, time is 508.38975763320923
+it is in it 28, and in batch 15000/27663.0, the loss is 0.007760544870942523, lr is 0.5, time is 544.9659421443939
+it is in it 28, and in batch 16000/27663.0, the loss is 0.008502117209669634, lr is 0.5, time is 583.3619678020477
+it is in it 28, and in batch 17000/27663.0, the loss is 0.008003325064345939, lr is 0.5, time is 620.7211184501648
+it is in it 28, and in batch 18000/27663.0, the loss is 0.008038685842458622, lr is 0.5, time is 658.4194467067719
+it is in it 28, and in batch 19000/27663.0, the loss is 0.007616064472077025, lr is 0.5, time is 696.0952560901642
+it is in it 28, and in batch 20000/27663.0, the loss is 0.007239288189704284, lr is 0.5, time is 733.5917799472809
+it is in it 28, and in batch 21000/27663.0, the loss is 0.007017832859079813, lr is 0.5, time is 770.5147364139557
+it is in it 28, and in batch 22000/27663.0, the loss is 0.0070283892458013275, lr is 0.5, time is 807.3402309417725
+it is in it 28, and in batch 23000/27663.0, the loss is 0.006732861895461916, lr is 0.5, time is 844.8770246505737
+it is in it 28, and in batch 24000/27663.0, the loss is 0.0068098052104986345, lr is 0.5, time is 881.0067870616913
+it is in it 28, and in batch 25000/27663.0, the loss is 0.006807568273440937, lr is 0.5, time is 919.5115053653717
+it is in it 28, and in batch 26000/27663.0, the loss is 0.007346288272359868, lr is 0.5, time is 956.1789600849152
+it is in it 28, and in batch 27000/27663.0, the loss is 0.007980479482747745, lr is 0.5, time is 992.7018773555756
+start to evaluation in it 28
+test time cost is  71.46667957305908
+Corresponding result --> {0: [38.0, 20.0, 58.0], 1: [158.0, 35.0, 63.0], 2: [275.0, 215.0, 85.0], 3: [210.0, 96.0, 89.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6504297932146151 	r= 0.6977458944903084 	f= 0.673252537849235
+             precision    recall  f1-score   support
+
+          0     0.6552    0.3958    0.4935        96
+          1     0.8187    0.7149    0.7633       221
+          2     0.5612    0.7639    0.6471       360
+          3     0.6863    0.7023    0.6942       299
+          4     0.9582    0.9438    0.9509      4712
+
+avg / total     0.9082    0.9015    0.9032      5688
+
+it is in it 29, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010442495346069336
+it is in it 29, and in batch 1000/27663.0, the loss is 0.0032597693291815605, lr is 0.5, time is 37.227569341659546
+it is in it 29, and in batch 2000/27663.0, the loss is 0.0024045051067605847, lr is 0.5, time is 75.99943995475769
+it is in it 29, and in batch 3000/27663.0, the loss is 0.0016048568679824823, lr is 0.5, time is 114.08332347869873
+it is in it 29, and in batch 4000/27663.0, the loss is 0.0040962006622062746, lr is 0.5, time is 149.11310577392578
+it is in it 29, and in batch 5000/27663.0, the loss is 0.003340627879673089, lr is 0.5, time is 186.35869193077087
+it is in it 29, and in batch 6000/27663.0, the loss is 0.006818611171717962, lr is 0.5, time is 220.3110077381134
+it is in it 29, and in batch 7000/27663.0, the loss is 0.006571652974048489, lr is 0.5, time is 253.51111912727356
+it is in it 29, and in batch 8000/27663.0, the loss is 0.00580281893054689, lr is 0.5, time is 288.9897081851959
+it is in it 29, and in batch 9000/27663.0, the loss is 0.008979501333280135, lr is 0.5, time is 324.9443428516388
+it is in it 29, and in batch 10000/27663.0, the loss is 0.00808177982708321, lr is 0.5, time is 362.41854071617126
+it is in it 29, and in batch 11000/27663.0, the loss is 0.010767763240284708, lr is 0.5, time is 400.1049861907959
+it is in it 29, and in batch 12000/27663.0, the loss is 0.010870823471975887, lr is 0.5, time is 436.2340474128723
+it is in it 29, and in batch 13000/27663.0, the loss is 0.01007265678213868, lr is 0.5, time is 472.49445247650146
+it is in it 29, and in batch 14000/27663.0, the loss is 0.01232518564674754, lr is 0.5, time is 505.88978934288025
+it is in it 29, and in batch 15000/27663.0, the loss is 0.0118749561440777, lr is 0.5, time is 543.3130023479462
+it is in it 29, and in batch 16000/27663.0, the loss is 0.011133323661327868, lr is 0.5, time is 579.9202408790588
+it is in it 29, and in batch 17000/27663.0, the loss is 0.010754156754960819, lr is 0.5, time is 617.1385712623596
+it is in it 29, and in batch 18000/27663.0, the loss is 0.010256585608084436, lr is 0.5, time is 654.2606856822968
+it is in it 29, and in batch 19000/27663.0, the loss is 0.009883507095721576, lr is 0.5, time is 692.1899337768555
+it is in it 29, and in batch 20000/27663.0, the loss is 0.011964562618579276, lr is 0.5, time is 729.5446834564209
+it is in it 29, and in batch 21000/27663.0, the loss is 0.011577594303516006, lr is 0.5, time is 767.1907577514648
+it is in it 29, and in batch 22000/27663.0, the loss is 0.011684577847918534, lr is 0.5, time is 806.8212943077087
+it is in it 29, and in batch 23000/27663.0, the loss is 0.012250579682066515, lr is 0.5, time is 844.383131980896
+it is in it 29, and in batch 24000/27663.0, the loss is 0.012540522428717366, lr is 0.5, time is 882.1922121047974
+it is in it 29, and in batch 25000/27663.0, the loss is 0.012776740746166053, lr is 0.5, time is 918.7123093605042
+it is in it 29, and in batch 26000/27663.0, the loss is 0.013047696205245674, lr is 0.5, time is 956.3021287918091
+it is in it 29, and in batch 27000/27663.0, the loss is 0.012963968216721683, lr is 0.5, time is 995.2309823036194
+start to evaluation in it 29
+test time cost is  73.67786312103271
+Corresponding result --> {0: [39.0, 16.0, 57.0], 1: [153.0, 49.0, 68.0], 2: [225.0, 90.0, 135.0], 3: [189.0, 56.0, 110.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7417380570166701 	r= 0.6209016329825653 	f= 0.6759571065505823
+             precision    recall  f1-score   support
+
+          0     0.7091    0.4062    0.5166        96
+          1     0.7574    0.6923    0.7234       221
+          2     0.7143    0.6250    0.6667       360
+          3     0.7714    0.6321    0.6949       299
+          4     0.9415    0.9733    0.9571      4712
+
+avg / total     0.9071    0.9128    0.9084      5688
+
+it is in it 30, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.02775120735168457
+it is in it 30, and in batch 1000/27663.0, the loss is 0.008196351530549529, lr is 0.5, time is 38.02511167526245
+it is in it 30, and in batch 2000/27663.0, the loss is 0.0041286234019220856, lr is 0.5, time is 77.11863493919373
+it is in it 30, and in batch 3000/27663.0, the loss is 0.009377766513538456, lr is 0.5, time is 115.6238420009613
+it is in it 30, and in batch 4000/27663.0, the loss is 0.008062721639536405, lr is 0.5, time is 153.51387286186218
+it is in it 30, and in batch 5000/27663.0, the loss is 0.011373752928857587, lr is 0.5, time is 189.50574111938477
+it is in it 30, and in batch 6000/27663.0, the loss is 0.01036426230800726, lr is 0.5, time is 226.97638821601868
+it is in it 30, and in batch 7000/27663.0, the loss is 0.008884145504848359, lr is 0.5, time is 263.5279026031494
+it is in it 30, and in batch 8000/27663.0, the loss is 0.008616607288407796, lr is 0.5, time is 300.57755517959595
+it is in it 30, and in batch 9000/27663.0, the loss is 0.010555463980971515, lr is 0.5, time is 338.62623023986816
+it is in it 30, and in batch 10000/27663.0, the loss is 0.009503522761737498, lr is 0.5, time is 375.44124698638916
+it is in it 30, and in batch 11000/27663.0, the loss is 0.009004709926716535, lr is 0.5, time is 411.6930904388428
+it is in it 30, and in batch 12000/27663.0, the loss is 0.008741294073170498, lr is 0.5, time is 449.4723291397095
+it is in it 30, and in batch 13000/27663.0, the loss is 0.008235517386958815, lr is 0.5, time is 485.643919467926
+it is in it 30, and in batch 14000/27663.0, the loss is 0.008035571377121221, lr is 0.5, time is 522.7862355709076
+it is in it 30, and in batch 15000/27663.0, the loss is 0.00778919883938076, lr is 0.5, time is 561.54971575737
+it is in it 30, and in batch 16000/27663.0, the loss is 0.010042494635650214, lr is 0.5, time is 598.6672716140747
+it is in it 30, and in batch 17000/27663.0, the loss is 0.009452264481842864, lr is 0.5, time is 636.5743465423584
+it is in it 30, and in batch 18000/27663.0, the loss is 0.008928364538151743, lr is 0.5, time is 674.6373317241669
+it is in it 30, and in batch 19000/27663.0, the loss is 0.009308355004277633, lr is 0.5, time is 711.3224937915802
+it is in it 30, and in batch 20000/27663.0, the loss is 0.008853005073135014, lr is 0.5, time is 750.075642824173
+it is in it 30, and in batch 21000/27663.0, the loss is 0.008843459854136876, lr is 0.5, time is 786.4958343505859
+it is in it 30, and in batch 22000/27663.0, the loss is 0.008441551572262961, lr is 0.5, time is 819.4632017612457
+it is in it 30, and in batch 23000/27663.0, the loss is 0.008269153311534433, lr is 0.5, time is 853.4701063632965
+it is in it 30, and in batch 24000/27663.0, the loss is 0.008597473656950898, lr is 0.5, time is 886.692724943161
+it is in it 30, and in batch 25000/27663.0, the loss is 0.008389510763563599, lr is 0.5, time is 920.8732709884644
+it is in it 30, and in batch 26000/27663.0, the loss is 0.00930806276573685, lr is 0.5, time is 959.7157917022705
+it is in it 30, and in batch 27000/27663.0, the loss is 0.008963634241890419, lr is 0.5, time is 996.7064490318298
+start to evaluation in it 30
+test time cost is  71.6435136795044
+Corresponding result --> {0: [38.0, 18.0, 58.0], 1: [157.0, 55.0, 64.0], 2: [260.0, 154.0, 100.0], 3: [204.0, 96.0, 95.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6710794229014315 	r= 0.6752049111147038 	f= 0.6731308461194745
+             precision    recall  f1-score   support
+
+          0     0.6786    0.3958    0.5000        96
+          1     0.7406    0.7104    0.7252       221
+          2     0.6280    0.7222    0.6718       360
+          3     0.6800    0.6823    0.6811       299
+          4     0.9526    0.9514    0.9520      4712
+
+avg / total     0.9049    0.9040    0.9036      5688
+
+it is in it 31, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010951042175292969
+it is in it 31, and in batch 1000/27663.0, the loss is 3.669883583213661e-06, lr is 0.5, time is 36.12033295631409
+it is in it 31, and in batch 2000/27663.0, the loss is 0.006337134853593711, lr is 0.5, time is 74.48176193237305
+it is in it 31, and in batch 3000/27663.0, the loss is 0.006123822119108084, lr is 0.5, time is 111.24821281433105
+it is in it 31, and in batch 4000/27663.0, the loss is 0.005436824578340278, lr is 0.5, time is 147.8179750442505
+it is in it 31, and in batch 5000/27663.0, the loss is 0.005898770654804586, lr is 0.5, time is 184.64951848983765
+it is in it 31, and in batch 6000/27663.0, the loss is 0.005992406925505905, lr is 0.5, time is 222.89400124549866
+it is in it 31, and in batch 7000/27663.0, the loss is 0.006756355210451241, lr is 0.5, time is 259.2381570339203
+it is in it 31, and in batch 8000/27663.0, the loss is 0.005939102220529319, lr is 0.5, time is 296.11858558654785
+it is in it 31, and in batch 9000/27663.0, the loss is 0.00562820417617986, lr is 0.5, time is 335.5934875011444
+it is in it 31, and in batch 10000/27663.0, the loss is 0.005794879496425358, lr is 0.5, time is 372.4251289367676
+it is in it 31, and in batch 11000/27663.0, the loss is 0.005527463742531751, lr is 0.5, time is 409.3102343082428
+it is in it 31, and in batch 12000/27663.0, the loss is 0.00696071983625388, lr is 0.5, time is 444.4613404273987
+it is in it 31, and in batch 13000/27663.0, the loss is 0.008504450463320731, lr is 0.5, time is 480.99653124809265
+it is in it 31, and in batch 14000/27663.0, the loss is 0.011107524389301434, lr is 0.5, time is 518.8018980026245
+it is in it 31, and in batch 15000/27663.0, the loss is 0.015241173964867186, lr is 0.5, time is 556.9971544742584
+it is in it 31, and in batch 16000/27663.0, the loss is 0.014659947152808564, lr is 0.5, time is 594.5284967422485
+it is in it 31, and in batch 17000/27663.0, the loss is 0.014299873884730701, lr is 0.5, time is 632.5225570201874
+it is in it 31, and in batch 18000/27663.0, the loss is 0.013505934185534344, lr is 0.5, time is 672.4317016601562
+it is in it 31, and in batch 19000/27663.0, the loss is 0.012796264655664967, lr is 0.5, time is 711.0144717693329
+it is in it 31, and in batch 20000/27663.0, the loss is 0.012156538340838085, lr is 0.5, time is 747.8191320896149
+it is in it 31, and in batch 21000/27663.0, the loss is 0.011636565080240087, lr is 0.5, time is 784.4893665313721
+it is in it 31, and in batch 22000/27663.0, the loss is 0.01186189685733279, lr is 0.5, time is 819.812736749649
+it is in it 31, and in batch 23000/27663.0, the loss is 0.012006181659120502, lr is 0.5, time is 855.7994034290314
+it is in it 31, and in batch 24000/27663.0, the loss is 0.01280337940389467, lr is 0.5, time is 893.1078581809998
+it is in it 31, and in batch 25000/27663.0, the loss is 0.012909902228788779, lr is 0.5, time is 932.2794351577759
+it is in it 31, and in batch 26000/27663.0, the loss is 0.012659858820103786, lr is 0.5, time is 968.9830937385559
+it is in it 31, and in batch 27000/27663.0, the loss is 0.012910722383794633, lr is 0.5, time is 1006.3870873451233
+start to evaluation in it 31
+test time cost is  72.89946341514587
+Corresponding result --> {0: [31.0, 9.0, 65.0], 1: [118.0, 28.0, 103.0], 2: [256.0, 154.0, 104.0], 3: [189.0, 75.0, 110.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6906976663872365 	r= 0.6086065511413263 	f= 0.6470538364782537
+             precision    recall  f1-score   support
+
+          0     0.7750    0.3229    0.4559        96
+          1     0.8082    0.5339    0.6431       221
+          2     0.6244    0.7111    0.6649       360
+          3     0.7159    0.6321    0.6714       299
+          4     0.9455    0.9688    0.9570      4712
+
+avg / total     0.9049    0.9070    0.9029      5688
+
+it is in it 32, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.014641284942626953
+it is in it 32, and in batch 1000/27663.0, the loss is 0.006448038808115712, lr is 0.5, time is 37.77862787246704
+it is in it 32, and in batch 2000/27663.0, the loss is 0.008341343625672515, lr is 0.5, time is 75.91567730903625
+it is in it 32, and in batch 3000/27663.0, the loss is 0.011596397493966855, lr is 0.5, time is 113.04067873954773
+it is in it 32, and in batch 4000/27663.0, the loss is 0.010545421200852131, lr is 0.5, time is 150.24052166938782
+it is in it 32, and in batch 5000/27663.0, the loss is 0.008436804460396984, lr is 0.5, time is 187.62273573875427
+it is in it 32, and in batch 6000/27663.0, the loss is 0.010898784605031648, lr is 0.5, time is 225.31456661224365
+it is in it 32, and in batch 7000/27663.0, the loss is 0.010361650061256595, lr is 0.5, time is 262.35374546051025
+it is in it 32, and in batch 8000/27663.0, the loss is 0.009066891750683264, lr is 0.5, time is 297.95983815193176
+it is in it 32, and in batch 9000/27663.0, the loss is 0.009503390733142282, lr is 0.5, time is 333.7438118457794
+it is in it 32, and in batch 10000/27663.0, the loss is 0.008561065585335998, lr is 0.5, time is 370.9402916431427
+it is in it 32, and in batch 11000/27663.0, the loss is 0.007783840357330796, lr is 0.5, time is 408.2773265838623
+it is in it 32, and in batch 12000/27663.0, the loss is 0.007660805945614559, lr is 0.5, time is 447.4984037876129
+it is in it 32, and in batch 13000/27663.0, the loss is 0.007731600895577894, lr is 0.5, time is 484.5851056575775
+it is in it 32, and in batch 14000/27663.0, the loss is 0.0076256711077208215, lr is 0.5, time is 522.5410919189453
+it is in it 32, and in batch 15000/27663.0, the loss is 0.0071460809574771834, lr is 0.5, time is 560.6338844299316
+it is in it 32, and in batch 16000/27663.0, the loss is 0.006700153015872909, lr is 0.5, time is 597.3735730648041
+it is in it 32, and in batch 17000/27663.0, the loss is 0.007065344386911064, lr is 0.5, time is 632.9635381698608
+it is in it 32, and in batch 18000/27663.0, the loss is 0.007923075360898462, lr is 0.5, time is 669.3930082321167
+it is in it 32, and in batch 19000/27663.0, the loss is 0.008118036953839908, lr is 0.5, time is 706.1923751831055
+it is in it 32, and in batch 20000/27663.0, the loss is 0.008134177336543329, lr is 0.5, time is 743.6414062976837
+it is in it 32, and in batch 21000/27663.0, the loss is 0.00775004984009783, lr is 0.5, time is 781.585568189621
+it is in it 32, and in batch 22000/27663.0, the loss is 0.0097570168333191, lr is 0.5, time is 818.4611747264862
+it is in it 32, and in batch 23000/27663.0, the loss is 0.010086386790768353, lr is 0.5, time is 856.1195936203003
+it is in it 32, and in batch 24000/27663.0, the loss is 0.009802557360077445, lr is 0.5, time is 893.9399936199188
+it is in it 32, and in batch 25000/27663.0, the loss is 0.009442838991762596, lr is 0.5, time is 929.8646347522736
+it is in it 32, and in batch 26000/27663.0, the loss is 0.009148895802403783, lr is 0.5, time is 966.3028883934021
+it is in it 32, and in batch 27000/27663.0, the loss is 0.00949787340368687, lr is 0.5, time is 1005.2356088161469
+start to evaluation in it 32
+test time cost is  74.52446222305298
+Corresponding result --> {0: [32.0, 8.0, 64.0], 1: [157.0, 56.0, 64.0], 2: [237.0, 127.0, 123.0], 3: [176.0, 50.0, 123.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7141162430116698 	r= 0.6168032723688189 	f= 0.6618971635254515
+             precision    recall  f1-score   support
+
+          0     0.8000    0.3333    0.4706        96
+          1     0.7371    0.7104    0.7235       221
+          2     0.6511    0.6583    0.6547       360
+          3     0.7788    0.5886    0.6705       299
+          4     0.9418    0.9684    0.9549      4712
+
+avg / total     0.9045    0.9081    0.9038      5688
+
+it is in it 33, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.013641119003295898
+it is in it 33, and in batch 1000/27663.0, the loss is 0.0001682392009845623, lr is 0.5, time is 36.12813711166382
+it is in it 33, and in batch 2000/27663.0, the loss is 9.682773054390773e-05, lr is 0.5, time is 74.52528381347656
+it is in it 33, and in batch 3000/27663.0, the loss is 6.456257541431501e-05, lr is 0.5, time is 112.39616012573242
+it is in it 33, and in batch 4000/27663.0, the loss is 0.0017519061549309937, lr is 0.5, time is 150.3749577999115
+it is in it 33, and in batch 5000/27663.0, the loss is 0.0014019260356912993, lr is 0.5, time is 188.5015516281128
+it is in it 33, and in batch 6000/27663.0, the loss is 0.0039753156629249945, lr is 0.5, time is 226.16406345367432
+it is in it 33, and in batch 7000/27663.0, the loss is 0.003407531594433217, lr is 0.5, time is 265.1012690067291
+it is in it 33, and in batch 8000/27663.0, the loss is 0.004787039807432518, lr is 0.5, time is 302.2697710990906
+it is in it 33, and in batch 9000/27663.0, the loss is 0.0045105906913392, lr is 0.5, time is 340.6255156993866
+it is in it 33, and in batch 10000/27663.0, the loss is 0.009302082258204844, lr is 0.5, time is 379.0699255466461
+it is in it 33, and in batch 11000/27663.0, the loss is 0.008501874155461187, lr is 0.5, time is 413.42692613601685
+it is in it 33, and in batch 12000/27663.0, the loss is 0.007861246179415875, lr is 0.5, time is 449.5280570983887
+it is in it 33, and in batch 13000/27663.0, the loss is 0.01002190217780348, lr is 0.5, time is 484.86655831336975
+it is in it 33, and in batch 14000/27663.0, the loss is 0.011536381805073354, lr is 0.5, time is 522.3269817829132
+it is in it 33, and in batch 15000/27663.0, the loss is 0.010886996469929348, lr is 0.5, time is 560.7354202270508
+it is in it 33, and in batch 16000/27663.0, the loss is 0.012345244352403755, lr is 0.5, time is 597.14204454422
+it is in it 33, and in batch 17000/27663.0, the loss is 0.012714675886267375, lr is 0.5, time is 633.4255409240723
+it is in it 33, and in batch 18000/27663.0, the loss is 0.012008344244343739, lr is 0.5, time is 670.6585726737976
+it is in it 33, and in batch 19000/27663.0, the loss is 0.012310002378511226, lr is 0.5, time is 707.45991563797
+it is in it 33, and in batch 20000/27663.0, the loss is 0.011810572419987399, lr is 0.5, time is 744.8773567676544
+it is in it 33, and in batch 21000/27663.0, the loss is 0.011923524914602513, lr is 0.5, time is 781.9014432430267
+it is in it 33, and in batch 22000/27663.0, the loss is 0.011850705911211467, lr is 0.5, time is 818.9344444274902
+it is in it 33, and in batch 23000/27663.0, the loss is 0.013340113344495594, lr is 0.5, time is 855.8734650611877
+it is in it 33, and in batch 24000/27663.0, the loss is 0.012784301785150025, lr is 0.5, time is 892.7007586956024
+it is in it 33, and in batch 25000/27663.0, the loss is 0.012375027383548213, lr is 0.5, time is 929.9743599891663
+it is in it 33, and in batch 26000/27663.0, the loss is 0.011998576845766412, lr is 0.5, time is 966.70383477211
+it is in it 33, and in batch 27000/27663.0, the loss is 0.011817883175437766, lr is 0.5, time is 1003.8341815471649
+start to evaluation in it 33
+test time cost is  72.08206677436829
+Corresponding result --> {0: [37.0, 18.0, 59.0], 1: [144.0, 45.0, 77.0], 2: [231.0, 104.0, 129.0], 3: [189.0, 81.0, 110.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7078916288823129 	r= 0.6157786822153823 	f= 0.6586251540192001
+             precision    recall  f1-score   support
+
+          0     0.6727    0.3854    0.4901        96
+          1     0.7619    0.6516    0.7024       221
+          2     0.6896    0.6417    0.6647       360
+          3     0.7000    0.6321    0.6643       299
+          4     0.9428    0.9682    0.9553      4712
+
+avg / total     0.9024    0.9077    0.9039      5688
+
+it is in it 34, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010045528411865234
+it is in it 34, and in batch 1000/27663.0, the loss is 0.00931089479368288, lr is 0.5, time is 37.368369340896606
+it is in it 34, and in batch 2000/27663.0, the loss is 0.005736191352565904, lr is 0.5, time is 74.02344799041748
+it is in it 34, and in batch 3000/27663.0, the loss is 0.0038289416833386268, lr is 0.5, time is 111.75340366363525
+it is in it 34, and in batch 4000/27663.0, the loss is 0.007504545906370087, lr is 0.5, time is 150.44849395751953
+it is in it 34, and in batch 5000/27663.0, the loss is 0.0072898368934611515, lr is 0.5, time is 186.74327397346497
+it is in it 34, and in batch 6000/27663.0, the loss is 0.006441324517202862, lr is 0.5, time is 221.22090435028076
+it is in it 34, and in batch 7000/27663.0, the loss is 0.008891901856166194, lr is 0.5, time is 258.68446493148804
+it is in it 34, and in batch 8000/27663.0, the loss is 0.007855042384991183, lr is 0.5, time is 296.61179780960083
+it is in it 34, and in batch 9000/27663.0, the loss is 0.006988661433044983, lr is 0.5, time is 332.46087622642517
+it is in it 34, and in batch 10000/27663.0, the loss is 0.009169596956319992, lr is 0.5, time is 371.3803517818451
+it is in it 34, and in batch 11000/27663.0, the loss is 0.00907015273835635, lr is 0.5, time is 408.2133116722107
+it is in it 34, and in batch 12000/27663.0, the loss is 0.008647160593265991, lr is 0.5, time is 444.0872611999512
+it is in it 34, and in batch 13000/27663.0, the loss is 0.009001981055825484, lr is 0.5, time is 482.3046061992645
+it is in it 34, and in batch 14000/27663.0, the loss is 0.008903101541069472, lr is 0.5, time is 520.4949712753296
+it is in it 34, and in batch 15000/27663.0, the loss is 0.00854849905961673, lr is 0.5, time is 558.2794589996338
+it is in it 34, and in batch 16000/27663.0, the loss is 0.008142984238991655, lr is 0.5, time is 595.4502453804016
+it is in it 34, and in batch 17000/27663.0, the loss is 0.008509554531173028, lr is 0.5, time is 633.2743735313416
+it is in it 34, and in batch 18000/27663.0, the loss is 0.008037079520294662, lr is 0.5, time is 672.205890417099
+it is in it 34, and in batch 19000/27663.0, the loss is 0.008519421765116802, lr is 0.5, time is 709.6466584205627
+it is in it 34, and in batch 20000/27663.0, the loss is 0.008242557766520853, lr is 0.5, time is 746.2150754928589
+it is in it 34, and in batch 21000/27663.0, the loss is 0.008309342112917428, lr is 0.5, time is 779.7542629241943
+it is in it 34, and in batch 22000/27663.0, the loss is 0.00793170213731851, lr is 0.5, time is 812.4047682285309
+it is in it 34, and in batch 23000/27663.0, the loss is 0.007834892460358806, lr is 0.5, time is 846.4735596179962
+it is in it 34, and in batch 24000/27663.0, the loss is 0.008748602486666002, lr is 0.5, time is 883.0028166770935
+it is in it 34, and in batch 25000/27663.0, the loss is 0.008729373267696246, lr is 0.5, time is 920.9584143161774
+it is in it 34, and in batch 26000/27663.0, the loss is 0.008393641348220005, lr is 0.5, time is 955.9175672531128
+it is in it 34, and in batch 27000/27663.0, the loss is 0.008505413670976235, lr is 0.5, time is 991.8376731872559
+start to evaluation in it 34
+test time cost is  71.65941405296326
+Corresponding result --> {0: [30.0, 9.0, 66.0], 1: [157.0, 51.0, 64.0], 2: [253.0, 153.0, 107.0], 3: [193.0, 73.0, 106.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6887921579021529 	r= 0.6485655671253528 	f= 0.6680688761381878
+             precision    recall  f1-score   support
+
+          0     0.7692    0.3125    0.4444        96
+          1     0.7548    0.7104    0.7319       221
+          2     0.6232    0.7028    0.6606       360
+          3     0.7256    0.6455    0.6832       299
+          4     0.9482    0.9597    0.9539      4712
+
+avg / total     0.9054    0.9063    0.9039      5688
+
+it is in it 35, and in batch 0/27663.0, the loss is 0.0303497314453125, lr is 0.5, time is 0.008612871170043945
+it is in it 35, and in batch 1000/27663.0, the loss is 3.40655133440778e-05, lr is 0.5, time is 36.25342798233032
+it is in it 35, and in batch 2000/27663.0, the loss is 0.005126089527867902, lr is 0.5, time is 72.98937702178955
+it is in it 35, and in batch 3000/27663.0, the loss is 0.006428509781814265, lr is 0.5, time is 109.01458215713501
+it is in it 35, and in batch 4000/27663.0, the loss is 0.00656558310678678, lr is 0.5, time is 147.46162366867065
+it is in it 35, and in batch 5000/27663.0, the loss is 0.009356733084535437, lr is 0.5, time is 186.6729657649994
+it is in it 35, and in batch 6000/27663.0, the loss is 0.008290479787487405, lr is 0.5, time is 222.60843062400818
+it is in it 35, and in batch 7000/27663.0, the loss is 0.007384039098714832, lr is 0.5, time is 261.4653446674347
+it is in it 35, and in batch 8000/27663.0, the loss is 0.006772744210120097, lr is 0.5, time is 301.00346994400024
+it is in it 35, and in batch 9000/27663.0, the loss is 0.007078914983499555, lr is 0.5, time is 337.27971363067627
+it is in it 35, and in batch 10000/27663.0, the loss is 0.010180755110218959, lr is 0.5, time is 373.04696249961853
+it is in it 35, and in batch 11000/27663.0, the loss is 0.009913402474497613, lr is 0.5, time is 411.3620195388794
+it is in it 35, and in batch 12000/27663.0, the loss is 0.011479633707333065, lr is 0.5, time is 450.18846797943115
+it is in it 35, and in batch 13000/27663.0, the loss is 0.010597661351911857, lr is 0.5, time is 486.62679386138916
+it is in it 35, and in batch 14000/27663.0, the loss is 0.010125470888562717, lr is 0.5, time is 522.7402362823486
+it is in it 35, and in batch 15000/27663.0, the loss is 0.009676394625652887, lr is 0.5, time is 559.6960225105286
+it is in it 35, and in batch 16000/27663.0, the loss is 0.009072923681138642, lr is 0.5, time is 598.5309789180756
+it is in it 35, and in batch 17000/27663.0, the loss is 0.008542490372916656, lr is 0.5, time is 637.1851794719696
+it is in it 35, and in batch 18000/27663.0, the loss is 0.00809121967640117, lr is 0.5, time is 674.3322644233704
+it is in it 35, and in batch 19000/27663.0, the loss is 0.008142878862313425, lr is 0.5, time is 712.7089834213257
+it is in it 35, and in batch 20000/27663.0, the loss is 0.009164560521211, lr is 0.5, time is 750.2626307010651
+it is in it 35, and in batch 21000/27663.0, the loss is 0.008731926232824712, lr is 0.5, time is 788.4276349544525
+it is in it 35, and in batch 22000/27663.0, the loss is 0.008685263670182738, lr is 0.5, time is 827.1062152385712
+it is in it 35, and in batch 23000/27663.0, the loss is 0.009011993086455693, lr is 0.5, time is 865.0386874675751
+it is in it 35, and in batch 24000/27663.0, the loss is 0.00920443274389629, lr is 0.5, time is 898.8665599822998
+it is in it 35, and in batch 25000/27663.0, the loss is 0.009274040583176478, lr is 0.5, time is 936.9699370861053
+it is in it 35, and in batch 26000/27663.0, the loss is 0.008918253478029728, lr is 0.5, time is 974.4007675647736
+it is in it 35, and in batch 27000/27663.0, the loss is 0.008974505090690543, lr is 0.5, time is 1013.1623446941376
+start to evaluation in it 35
+test time cost is  72.2458438873291
+Corresponding result --> {0: [13.0, 6.0, 83.0], 1: [143.0, 29.0, 78.0], 2: [253.0, 135.0, 107.0], 3: [180.0, 74.0, 119.0]}
+for all label [0, 1, 2, 3] 	 p= 0.707082824644864 	r= 0.6034836003741435 	f= 0.6511835260171309
+             precision    recall  f1-score   support
+
+          0     0.6842    0.1354    0.2261        96
+          1     0.8314    0.6471    0.7277       221
+          2     0.6521    0.7028    0.6765       360
+          3     0.7087    0.6020    0.6510       299
+          4     0.9425    0.9711    0.9566      4712
+
+avg / total     0.9032    0.9081    0.9016      5688
+
+it is in it 36, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.005758762359619141
+it is in it 36, and in batch 1000/27663.0, the loss is 0.026793911502316043, lr is 0.5, time is 37.27387475967407
+it is in it 36, and in batch 2000/27663.0, the loss is 0.013431703490295868, lr is 0.5, time is 74.60242581367493
+it is in it 36, and in batch 3000/27663.0, the loss is 0.008955965992292933, lr is 0.5, time is 112.65968775749207
+it is in it 36, and in batch 4000/27663.0, the loss is 0.009583548288648052, lr is 0.5, time is 148.2708649635315
+it is in it 36, and in batch 5000/27663.0, the loss is 0.011156171780780563, lr is 0.5, time is 185.12387561798096
+it is in it 36, and in batch 6000/27663.0, the loss is 0.009311497400172888, lr is 0.5, time is 219.9894027709961
+it is in it 36, and in batch 7000/27663.0, the loss is 0.007982885270540313, lr is 0.5, time is 257.1814262866974
+it is in it 36, and in batch 8000/27663.0, the loss is 0.00788088563590806, lr is 0.5, time is 294.3880424499512
+it is in it 36, and in batch 9000/27663.0, the loss is 0.00771558948284175, lr is 0.5, time is 332.1599917411804
+it is in it 36, and in batch 10000/27663.0, the loss is 0.0069441084456007525, lr is 0.5, time is 368.91684889793396
+it is in it 36, and in batch 11000/27663.0, the loss is 0.0068797012771566225, lr is 0.5, time is 406.296749830246
+it is in it 36, and in batch 12000/27663.0, the loss is 0.006307568711823657, lr is 0.5, time is 443.55525636672974
+it is in it 36, and in batch 13000/27663.0, the loss is 0.005987726461978135, lr is 0.5, time is 481.79866313934326
+it is in it 36, and in batch 14000/27663.0, the loss is 0.006345138184709742, lr is 0.5, time is 518.1994898319244
+it is in it 36, and in batch 15000/27663.0, the loss is 0.005969610621743056, lr is 0.5, time is 555.8182311058044
+it is in it 36, and in batch 16000/27663.0, the loss is 0.0072735465248631925, lr is 0.5, time is 594.6707675457001
+it is in it 36, and in batch 17000/27663.0, the loss is 0.007395309978678299, lr is 0.5, time is 634.1326041221619
+it is in it 36, and in batch 18000/27663.0, the loss is 0.0077512467823375045, lr is 0.5, time is 672.0164186954498
+it is in it 36, and in batch 19000/27663.0, the loss is 0.009575000556354353, lr is 0.5, time is 710.5626792907715
+it is in it 36, and in batch 20000/27663.0, the loss is 0.009779983946969644, lr is 0.5, time is 744.8548729419708
+it is in it 36, and in batch 21000/27663.0, the loss is 0.009547832142619325, lr is 0.5, time is 781.3134570121765
+it is in it 36, and in batch 22000/27663.0, the loss is 0.009575832844279007, lr is 0.5, time is 817.1827664375305
+it is in it 36, and in batch 23000/27663.0, the loss is 0.009296011237506063, lr is 0.5, time is 854.9866244792938
+it is in it 36, and in batch 24000/27663.0, the loss is 0.009303072493134237, lr is 0.5, time is 892.421108007431
+it is in it 36, and in batch 25000/27663.0, the loss is 0.009240771116225663, lr is 0.5, time is 930.1486463546753
+it is in it 36, and in batch 26000/27663.0, the loss is 0.009210409391321112, lr is 0.5, time is 967.5251033306122
+it is in it 36, and in batch 27000/27663.0, the loss is 0.009075127497041126, lr is 0.5, time is 1006.3880491256714
+start to evaluation in it 36
+test time cost is  72.47747230529785
+Corresponding result --> {0: [9.0, 10.0, 87.0], 1: [122.0, 11.0, 99.0], 2: [223.0, 97.0, 137.0], 3: [199.0, 128.0, 100.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6921151352676453 	r= 0.5665983548504268 	f= 0.6230936342865
+             precision    recall  f1-score   support
+
+          0     0.4737    0.0938    0.1565        96
+          1     0.9173    0.5520    0.6893       221
+          2     0.6969    0.6194    0.6559       360
+          3     0.6086    0.6656    0.6358       299
+          4     0.9378    0.9730    0.9551      4712
+
+avg / total     0.8966    0.9033    0.8956      5688
+
+it is in it 37, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.01734638214111328
+it is in it 37, and in batch 1000/27663.0, the loss is 0.0005246790258081762, lr is 0.5, time is 34.88711357116699
+it is in it 37, and in batch 2000/27663.0, the loss is 0.01107361339319354, lr is 0.5, time is 72.71559548377991
+it is in it 37, and in batch 3000/27663.0, the loss is 0.017951768940585887, lr is 0.5, time is 111.25690960884094
+it is in it 37, and in batch 4000/27663.0, the loss is 0.021159977473130497, lr is 0.5, time is 148.58479595184326
+it is in it 37, and in batch 5000/27663.0, the loss is 0.022289061398535724, lr is 0.5, time is 184.2850456237793
+it is in it 37, and in batch 6000/27663.0, the loss is 0.018744075681701975, lr is 0.5, time is 221.52135062217712
+it is in it 37, and in batch 7000/27663.0, the loss is 0.019668695433210294, lr is 0.5, time is 258.7058925628662
+it is in it 37, and in batch 8000/27663.0, the loss is 0.017211419167391672, lr is 0.5, time is 295.8722484111786
+it is in it 37, and in batch 9000/27663.0, the loss is 0.015299468712732005, lr is 0.5, time is 333.9558193683624
+it is in it 37, and in batch 10000/27663.0, the loss is 0.014392697921980262, lr is 0.5, time is 371.2098579406738
+it is in it 37, and in batch 11000/27663.0, the loss is 0.013504090390198014, lr is 0.5, time is 408.9949941635132
+it is in it 37, and in batch 12000/27663.0, the loss is 0.01367543349811588, lr is 0.5, time is 447.6158375740051
+it is in it 37, and in batch 13000/27663.0, the loss is 0.014704341989656144, lr is 0.5, time is 483.90066742897034
+it is in it 37, and in batch 14000/27663.0, the loss is 0.014616809651797333, lr is 0.5, time is 521.0146353244781
+it is in it 37, and in batch 15000/27663.0, the loss is 0.013643609214707952, lr is 0.5, time is 559.173590183258
+it is in it 37, and in batch 16000/27663.0, the loss is 0.01292844531193546, lr is 0.5, time is 597.4375874996185
+it is in it 37, and in batch 17000/27663.0, the loss is 0.01306860579174341, lr is 0.5, time is 634.8324148654938
+it is in it 37, and in batch 18000/27663.0, the loss is 0.013075710250221287, lr is 0.5, time is 670.8180084228516
+it is in it 37, and in batch 19000/27663.0, the loss is 0.012388651775414112, lr is 0.5, time is 708.9370782375336
+it is in it 37, and in batch 20000/27663.0, the loss is 0.011769304704167868, lr is 0.5, time is 747.067610502243
+it is in it 37, and in batch 21000/27663.0, the loss is 0.011999649386435236, lr is 0.5, time is 785.1547420024872
+it is in it 37, and in batch 22000/27663.0, the loss is 0.012218456355871208, lr is 0.5, time is 820.9234216213226
+it is in it 37, and in batch 23000/27663.0, the loss is 0.011926772734283504, lr is 0.5, time is 859.593314409256
+it is in it 37, and in batch 24000/27663.0, the loss is 0.011806862259213118, lr is 0.5, time is 898.414541721344
+it is in it 37, and in batch 25000/27663.0, the loss is 0.011829380721865852, lr is 0.5, time is 934.4083895683289
+it is in it 37, and in batch 26000/27663.0, the loss is 0.011761061068081103, lr is 0.5, time is 972.844720363617
+it is in it 37, and in batch 27000/27663.0, the loss is 0.011331834994767809, lr is 0.5, time is 1011.7531659603119
+start to evaluation in it 37
+test time cost is  71.64945554733276
+Corresponding result --> {0: [18.0, 7.0, 78.0], 1: [141.0, 19.0, 80.0], 2: [256.0, 158.0, 104.0], 3: [179.0, 51.0, 120.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7165259262180226 	r= 0.6086065511413263 	f= 0.6581667710598026
+             precision    recall  f1-score   support
+
+          0     0.7200    0.1875    0.2975        96
+          1     0.8812    0.6380    0.7402       221
+          2     0.6184    0.7111    0.6615       360
+          3     0.7783    0.5987    0.6767       299
+          4     0.9430    0.9724    0.9575      4712
+
+avg / total     0.9076    0.9100    0.9044      5688
+
+it is in it 38, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.014717817306518555
+it is in it 38, and in batch 1000/27663.0, the loss is 0.0024377820970533375, lr is 0.5, time is 36.92872738838196
+it is in it 38, and in batch 2000/27663.0, the loss is 0.001231765937709856, lr is 0.5, time is 71.03454494476318
+it is in it 38, and in batch 3000/27663.0, the loss is 0.000823125486491482, lr is 0.5, time is 105.74271535873413
+it is in it 38, and in batch 4000/27663.0, the loss is 0.01366514278870468, lr is 0.5, time is 142.21316719055176
+it is in it 38, and in batch 5000/27663.0, the loss is 0.01170159415992778, lr is 0.5, time is 179.46391010284424
+it is in it 38, and in batch 6000/27663.0, the loss is 0.009751669984323901, lr is 0.5, time is 219.29796481132507
+it is in it 38, and in batch 7000/27663.0, the loss is 0.008782276033146214, lr is 0.5, time is 256.56022548675537
+it is in it 38, and in batch 8000/27663.0, the loss is 0.009516567129624544, lr is 0.5, time is 292.94004678726196
+it is in it 38, and in batch 9000/27663.0, the loss is 0.008568809610143686, lr is 0.5, time is 329.9553861618042
+it is in it 38, and in batch 10000/27663.0, the loss is 0.010259044324144246, lr is 0.5, time is 365.4954717159271
+it is in it 38, and in batch 11000/27663.0, the loss is 0.00979895392782785, lr is 0.5, time is 400.217835187912
+it is in it 38, and in batch 12000/27663.0, the loss is 0.009636926408628952, lr is 0.5, time is 433.53389954566956
+it is in it 38, and in batch 13000/27663.0, the loss is 0.00890067298360425, lr is 0.5, time is 466.9777944087982
+it is in it 38, and in batch 14000/27663.0, the loss is 0.010294582322532556, lr is 0.5, time is 500.06608867645264
+it is in it 38, and in batch 15000/27663.0, the loss is 0.009875354190864815, lr is 0.5, time is 538.5173234939575
+it is in it 38, and in batch 16000/27663.0, the loss is 0.009628067507713141, lr is 0.5, time is 576.1652035713196
+it is in it 38, and in batch 17000/27663.0, the loss is 0.009088770122179164, lr is 0.5, time is 613.14466381073
+it is in it 38, and in batch 18000/27663.0, the loss is 0.009203730328309127, lr is 0.5, time is 650.3776562213898
+it is in it 38, and in batch 19000/27663.0, the loss is 0.008756758934459864, lr is 0.5, time is 688.2516672611237
+it is in it 38, and in batch 20000/27663.0, the loss is 0.009151032469128496, lr is 0.5, time is 727.1381850242615
+it is in it 38, and in batch 21000/27663.0, the loss is 0.009074754098739904, lr is 0.5, time is 766.7708621025085
+it is in it 38, and in batch 22000/27663.0, the loss is 0.009028196735797344, lr is 0.5, time is 804.5737707614899
+it is in it 38, and in batch 23000/27663.0, the loss is 0.00919173306047665, lr is 0.5, time is 841.2958524227142
+it is in it 38, and in batch 24000/27663.0, the loss is 0.00935929624504171, lr is 0.5, time is 879.4944884777069
+it is in it 38, and in batch 25000/27663.0, the loss is 0.009609099812643237, lr is 0.5, time is 916.6159181594849
+it is in it 38, and in batch 26000/27663.0, the loss is 0.00957216177943633, lr is 0.5, time is 951.9040973186493
+it is in it 38, and in batch 27000/27663.0, the loss is 0.00921815978364191, lr is 0.5, time is 988.640828371048
+start to evaluation in it 38
+test time cost is  71.7193009853363
+Corresponding result --> {0: [35.0, 7.0, 61.0], 1: [147.0, 54.0, 74.0], 2: [254.0, 138.0, 106.0], 3: [172.0, 64.0, 127.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6980482124219494 	r= 0.6229508132894384 	f= 0.6583599251478504
+             precision    recall  f1-score   support
+
+          0     0.8333    0.3646    0.5072        96
+          1     0.7313    0.6652    0.6967       221
+          2     0.6480    0.7056    0.6755       360
+          3     0.7288    0.5753    0.6430       299
+          4     0.9437    0.9648    0.9541      4712
+
+avg / total     0.9036    0.9061    0.9026      5688
+
+it is in it 39, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.022464752197265625
+it is in it 39, and in batch 1000/27663.0, the loss is 0.007774676952685986, lr is 0.5, time is 37.201953649520874
+it is in it 39, and in batch 2000/27663.0, the loss is 0.003896174700125523, lr is 0.5, time is 73.1729474067688
+it is in it 39, and in batch 3000/27663.0, the loss is 0.005775257175423947, lr is 0.5, time is 111.84441018104553
+it is in it 39, and in batch 4000/27663.0, the loss is 0.004482220661875547, lr is 0.5, time is 148.23185205459595
+it is in it 39, and in batch 5000/27663.0, the loss is 0.0035933677827422795, lr is 0.5, time is 186.8517792224884
+it is in it 39, and in batch 6000/27663.0, the loss is 0.002994572951423786, lr is 0.5, time is 224.87229299545288
+it is in it 39, and in batch 7000/27663.0, the loss is 0.00342138296126502, lr is 0.5, time is 261.6545081138611
+it is in it 39, and in batch 8000/27663.0, the loss is 0.002994178816789747, lr is 0.5, time is 298.6136975288391
+it is in it 39, and in batch 9000/27663.0, the loss is 0.0026619117295208303, lr is 0.5, time is 335.1797022819519
+it is in it 39, and in batch 10000/27663.0, the loss is 0.0023962670642725765, lr is 0.5, time is 372.4980070590973
+it is in it 39, and in batch 11000/27663.0, the loss is 0.003852516204137692, lr is 0.5, time is 409.64906311035156
+it is in it 39, and in batch 12000/27663.0, the loss is 0.0035315005742115892, lr is 0.5, time is 449.19508624076843
+it is in it 39, and in batch 13000/27663.0, the loss is 0.0056304476846319815, lr is 0.5, time is 486.9839506149292
+it is in it 39, and in batch 14000/27663.0, the loss is 0.005646196197385525, lr is 0.5, time is 523.9286637306213
+it is in it 39, and in batch 15000/27663.0, the loss is 0.005658118122935684, lr is 0.5, time is 561.3023896217346
+it is in it 39, and in batch 16000/27663.0, the loss is 0.005686979339715951, lr is 0.5, time is 597.3383738994598
+it is in it 39, and in batch 17000/27663.0, the loss is 0.005857543940824885, lr is 0.5, time is 635.2492628097534
+it is in it 39, and in batch 18000/27663.0, the loss is 0.005574169003177395, lr is 0.5, time is 672.1769287586212
+it is in it 39, and in batch 19000/27663.0, the loss is 0.005292025360770743, lr is 0.5, time is 710.7091052532196
+it is in it 39, and in batch 20000/27663.0, the loss is 0.005246995073647197, lr is 0.5, time is 748.4096286296844
+it is in it 39, and in batch 21000/27663.0, the loss is 0.005033430829058829, lr is 0.5, time is 786.0355644226074
+it is in it 39, and in batch 22000/27663.0, the loss is 0.005994824408227804, lr is 0.5, time is 825.2139539718628
+it is in it 39, and in batch 23000/27663.0, the loss is 0.006234317068213831, lr is 0.5, time is 865.9511663913727
+it is in it 39, and in batch 24000/27663.0, the loss is 0.006607501170351219, lr is 0.5, time is 904.0427765846252
+it is in it 39, and in batch 25000/27663.0, the loss is 0.007090023405899702, lr is 0.5, time is 942.0834605693817
+it is in it 39, and in batch 26000/27663.0, the loss is 0.006817349782013342, lr is 0.5, time is 978.7174479961395
+it is in it 39, and in batch 27000/27663.0, the loss is 0.008369192980487303, lr is 0.5, time is 1015.9737515449524
+start to evaluation in it 39
+test time cost is  72.29908037185669
+Corresponding result --> {0: [39.0, 15.0, 57.0], 1: [138.0, 37.0, 83.0], 2: [236.0, 123.0, 124.0], 3: [169.0, 38.0, 130.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7320754624896169 	r= 0.5963114693000874 	f= 0.6572508325317827
+             precision    recall  f1-score   support
+
+          0     0.7222    0.4062    0.5200        96
+          1     0.7886    0.6244    0.6970       221
+          2     0.6574    0.6556    0.6565       360
+          3     0.8164    0.5652    0.6680       299
+          4     0.9401    0.9762    0.9578      4712
+
+avg / total     0.9062    0.9110    0.9060      5688
+
+it is in it 40, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010897159576416016
+it is in it 40, and in batch 1000/27663.0, the loss is 0.002909901377918956, lr is 0.5, time is 38.647544384002686
+it is in it 40, and in batch 2000/27663.0, the loss is 0.007633519970971545, lr is 0.5, time is 75.72946405410767
+it is in it 40, and in batch 3000/27663.0, the loss is 0.005809875457773841, lr is 0.5, time is 112.77786254882812
+it is in it 40, and in batch 4000/27663.0, the loss is 0.0054896578017665995, lr is 0.5, time is 147.16296577453613
+it is in it 40, and in batch 5000/27663.0, the loss is 0.005770489350005976, lr is 0.5, time is 180.48330688476562
+it is in it 40, and in batch 6000/27663.0, the loss is 0.005172405614790927, lr is 0.5, time is 218.54655838012695
+it is in it 40, and in batch 7000/27663.0, the loss is 0.004437361729347677, lr is 0.5, time is 252.5027050971985
+it is in it 40, and in batch 8000/27663.0, the loss is 0.004125402951416351, lr is 0.5, time is 285.58645606040955
+it is in it 40, and in batch 9000/27663.0, the loss is 0.003667195920559608, lr is 0.5, time is 322.0923671722412
+it is in it 40, and in batch 10000/27663.0, the loss is 0.004951910357059997, lr is 0.5, time is 359.6319205760956
+it is in it 40, and in batch 11000/27663.0, the loss is 0.00450852831627345, lr is 0.5, time is 396.65889954566956
+it is in it 40, and in batch 12000/27663.0, the loss is 0.0041328718161426, lr is 0.5, time is 434.77863931655884
+it is in it 40, and in batch 13000/27663.0, the loss is 0.0041437215799918934, lr is 0.5, time is 471.24383425712585
+it is in it 40, and in batch 14000/27663.0, the loss is 0.005129990633211258, lr is 0.5, time is 507.94913482666016
+it is in it 40, and in batch 15000/27663.0, the loss is 0.00601925915713692, lr is 0.5, time is 545.5421698093414
+it is in it 40, and in batch 16000/27663.0, the loss is 0.007584641869459575, lr is 0.5, time is 583.5708582401276
+it is in it 40, and in batch 17000/27663.0, the loss is 0.007553041573798163, lr is 0.5, time is 620.7801094055176
+it is in it 40, and in batch 18000/27663.0, the loss is 0.0076132149678072355, lr is 0.5, time is 656.3568577766418
+it is in it 40, and in batch 19000/27663.0, the loss is 0.007366440407972977, lr is 0.5, time is 693.0203990936279
+it is in it 40, and in batch 20000/27663.0, the loss is 0.007001122035573026, lr is 0.5, time is 729.7308392524719
+it is in it 40, and in batch 21000/27663.0, the loss is 0.0076850514021165476, lr is 0.5, time is 767.508309841156
+it is in it 40, and in batch 22000/27663.0, the loss is 0.007336260508333606, lr is 0.5, time is 802.7768833637238
+it is in it 40, and in batch 23000/27663.0, the loss is 0.007205875234693855, lr is 0.5, time is 839.0912082195282
+it is in it 40, and in batch 24000/27663.0, the loss is 0.0071312654148036805, lr is 0.5, time is 877.1089506149292
+it is in it 40, and in batch 25000/27663.0, the loss is 0.007091936781513115, lr is 0.5, time is 915.9510185718536
+it is in it 40, and in batch 26000/27663.0, the loss is 0.0071323966664546485, lr is 0.5, time is 955.6415681838989
+it is in it 40, and in batch 27000/27663.0, the loss is 0.007364424805849385, lr is 0.5, time is 994.3579370975494
+start to evaluation in it 40
+test time cost is  72.02692174911499
+Corresponding result --> {0: [38.0, 11.0, 58.0], 1: [145.0, 31.0, 76.0], 2: [247.0, 107.0, 113.0], 3: [178.0, 59.0, 121.0]}
+for all label [0, 1, 2, 3] 	 p= 0.745098030084583 	r= 0.6229508132894384 	f= 0.6785664608940366
+             precision    recall  f1-score   support
+
+          0     0.7755    0.3958    0.5241        96
+          1     0.8239    0.6561    0.7305       221
+          2     0.6977    0.6861    0.6919       360
+          3     0.7511    0.5953    0.6642       299
+          4     0.9423    0.9743    0.9581      4712
+
+avg / total     0.9094    0.9140    0.9096      5688
+
+it is in it 41, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.019686460494995117
+it is in it 41, and in batch 1000/27663.0, the loss is 0.016870702539647852, lr is 0.5, time is 38.05827307701111
+it is in it 41, and in batch 2000/27663.0, the loss is 0.013895539031631645, lr is 0.5, time is 75.89763474464417
+it is in it 41, and in batch 3000/27663.0, the loss is 0.009269021583056298, lr is 0.5, time is 111.39068222045898
+it is in it 41, and in batch 4000/27663.0, the loss is 0.010678550417022209, lr is 0.5, time is 149.63076758384705
+it is in it 41, and in batch 5000/27663.0, the loss is 0.008543527500554577, lr is 0.5, time is 188.3904688358307
+it is in it 41, and in batch 6000/27663.0, the loss is 0.00715628879663448, lr is 0.5, time is 226.46215057373047
+it is in it 41, and in batch 7000/27663.0, the loss is 0.006195156629758807, lr is 0.5, time is 263.59989762306213
+it is in it 41, and in batch 8000/27663.0, the loss is 0.006887749394332301, lr is 0.5, time is 301.8033547401428
+it is in it 41, and in batch 9000/27663.0, the loss is 0.010589766589790805, lr is 0.5, time is 340.93805289268494
+it is in it 41, and in batch 10000/27663.0, the loss is 0.00984630121277423, lr is 0.5, time is 377.25127935409546
+it is in it 41, and in batch 11000/27663.0, the loss is 0.009521224652406422, lr is 0.5, time is 412.9413673877716
+it is in it 41, and in batch 12000/27663.0, the loss is 0.008761462922116516, lr is 0.5, time is 450.4562954902649
+it is in it 41, and in batch 13000/27663.0, the loss is 0.009016734583085707, lr is 0.5, time is 488.5406234264374
+it is in it 41, and in batch 14000/27663.0, the loss is 0.00839397500441863, lr is 0.5, time is 526.9508998394012
+it is in it 41, and in batch 15000/27663.0, the loss is 0.00783642494919284, lr is 0.5, time is 563.6245272159576
+it is in it 41, and in batch 16000/27663.0, the loss is 0.007415592204808488, lr is 0.5, time is 600.6318764686584
+it is in it 41, and in batch 17000/27663.0, the loss is 0.007802254774592763, lr is 0.5, time is 637.7029414176941
+it is in it 41, and in batch 18000/27663.0, the loss is 0.008341065605947239, lr is 0.5, time is 676.1397252082825
+it is in it 41, and in batch 19000/27663.0, the loss is 0.008397493492420784, lr is 0.5, time is 712.5991520881653
+it is in it 41, and in batch 20000/27663.0, the loss is 0.00797788203164915, lr is 0.5, time is 750.7594649791718
+it is in it 41, and in batch 21000/27663.0, the loss is 0.007694119868077106, lr is 0.5, time is 787.2442300319672
+it is in it 41, and in batch 22000/27663.0, the loss is 0.007932851782799157, lr is 0.5, time is 826.6396825313568
+it is in it 41, and in batch 23000/27663.0, the loss is 0.007881967177946024, lr is 0.5, time is 865.3098075389862
+it is in it 41, and in batch 24000/27663.0, the loss is 0.008022427633401627, lr is 0.5, time is 901.8903503417969
+it is in it 41, and in batch 25000/27663.0, the loss is 0.008945030916414711, lr is 0.5, time is 938.2256362438202
+it is in it 41, and in batch 26000/27663.0, the loss is 0.009891954624975174, lr is 0.5, time is 974.6057274341583
+it is in it 41, and in batch 27000/27663.0, the loss is 0.01014541158905374, lr is 0.5, time is 1011.7184851169586
+start to evaluation in it 41
+test time cost is  72.2943959236145
+Corresponding result --> {0: [37.0, 25.0, 59.0], 1: [140.0, 26.0, 81.0], 2: [244.0, 122.0, 116.0], 3: [187.0, 56.0, 112.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7264038144993571 	r= 0.6229508132894384 	f= 0.6707065498826058
+             precision    recall  f1-score   support
+
+          0     0.5968    0.3854    0.4684        96
+          1     0.8434    0.6335    0.7235       221
+          2     0.6667    0.6778    0.6722       360
+          3     0.7695    0.6254    0.6900       299
+          4     0.9443    0.9722    0.9581      4712
+
+avg / total     0.9078    0.9123    0.9085      5688
+
+it is in it 42, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.01321864128112793
+it is in it 42, and in batch 1000/27663.0, the loss is 0.00774403742619685, lr is 0.5, time is 36.08427023887634
+it is in it 42, and in batch 2000/27663.0, the loss is 0.0041272107629046805, lr is 0.5, time is 74.58922123908997
+it is in it 42, and in batch 3000/27663.0, the loss is 0.0045842225056654294, lr is 0.5, time is 111.15260624885559
+it is in it 42, and in batch 4000/27663.0, the loss is 0.003460685541200149, lr is 0.5, time is 147.0658664703369
+it is in it 42, and in batch 5000/27663.0, the loss is 0.00515835095920269, lr is 0.5, time is 186.3143870830536
+it is in it 42, and in batch 6000/27663.0, the loss is 0.00473742810036218, lr is 0.5, time is 223.7043821811676
+it is in it 42, and in batch 7000/27663.0, the loss is 0.0063230724032309, lr is 0.5, time is 259.584757566452
+it is in it 42, and in batch 8000/27663.0, the loss is 0.009742609993575022, lr is 0.5, time is 295.8016061782837
+it is in it 42, and in batch 9000/27663.0, the loss is 0.009894354186340406, lr is 0.5, time is 331.9480595588684
+it is in it 42, and in batch 10000/27663.0, the loss is 0.0125850947925227, lr is 0.5, time is 369.311562538147
+it is in it 42, and in batch 11000/27663.0, the loss is 0.011451321724880479, lr is 0.5, time is 406.41528153419495
+it is in it 42, and in batch 12000/27663.0, the loss is 0.010697960406579074, lr is 0.5, time is 443.69631910324097
+it is in it 42, and in batch 13000/27663.0, the loss is 0.009875120690085138, lr is 0.5, time is 479.7759199142456
+it is in it 42, and in batch 14000/27663.0, the loss is 0.009170738205502063, lr is 0.5, time is 515.8315942287445
+it is in it 42, and in batch 15000/27663.0, the loss is 0.008779062302015151, lr is 0.5, time is 553.5688576698303
+it is in it 42, and in batch 16000/27663.0, the loss is 0.008752623451299187, lr is 0.5, time is 590.8860120773315
+it is in it 42, and in batch 17000/27663.0, the loss is 0.009291183779530088, lr is 0.5, time is 627.7350749969482
+it is in it 42, and in batch 18000/27663.0, the loss is 0.01020351308404416, lr is 0.5, time is 666.4676394462585
+it is in it 42, and in batch 19000/27663.0, the loss is 0.009667035523392478, lr is 0.5, time is 704.3588480949402
+it is in it 42, and in batch 20000/27663.0, the loss is 0.009275506397562201, lr is 0.5, time is 740.9778151512146
+it is in it 42, and in batch 21000/27663.0, the loss is 0.011765602514701913, lr is 0.5, time is 778.5120594501495
+it is in it 42, and in batch 22000/27663.0, the loss is 0.011235287967451452, lr is 0.5, time is 816.4742648601532
+it is in it 42, and in batch 23000/27663.0, the loss is 0.011541209766737384, lr is 0.5, time is 855.4325363636017
+it is in it 42, and in batch 24000/27663.0, the loss is 0.011345813872491234, lr is 0.5, time is 893.4464600086212
+it is in it 42, and in batch 25000/27663.0, the loss is 0.012212352768706634, lr is 0.5, time is 931.6274950504303
+it is in it 42, and in batch 26000/27663.0, the loss is 0.01190786155195109, lr is 0.5, time is 970.5684900283813
+it is in it 42, and in batch 27000/27663.0, the loss is 0.012157999441838345, lr is 0.5, time is 1010.224315404892
+start to evaluation in it 42
+test time cost is  72.01208209991455
+Corresponding result --> {0: [18.0, 7.0, 78.0], 1: [141.0, 20.0, 80.0], 2: [255.0, 153.0, 105.0], 3: [170.0, 54.0, 129.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7139364215900194 	r= 0.5983606496069606 	f= 0.6510541174041278
+             precision    recall  f1-score   support
+
+          0     0.7200    0.1875    0.2975        96
+          1     0.8758    0.6380    0.7382       221
+          2     0.6250    0.7083    0.6641       360
+          3     0.7589    0.5686    0.6501       299
+          4     0.9429    0.9745    0.9585      4712
+
+avg / total     0.9068    0.9100    0.9039      5688
+
+it is in it 43, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010384559631347656
+it is in it 43, and in batch 1000/27663.0, the loss is 2.9400988415880996e-06, lr is 0.5, time is 37.82756519317627
+it is in it 43, and in batch 2000/27663.0, the loss is 2.265369695523332e-05, lr is 0.5, time is 72.2228353023529
+it is in it 43, and in batch 3000/27663.0, the loss is 1.6763821239274408e-05, lr is 0.5, time is 108.85577583312988
+it is in it 43, and in batch 4000/27663.0, the loss is 0.00535816420498147, lr is 0.5, time is 149.95959877967834
+it is in it 43, and in batch 5000/27663.0, the loss is 0.004287848637547881, lr is 0.5, time is 187.00795769691467
+it is in it 43, and in batch 6000/27663.0, the loss is 0.003575535262352108, lr is 0.5, time is 224.0740876197815
+it is in it 43, and in batch 7000/27663.0, the loss is 0.006007843061168438, lr is 0.5, time is 260.469450712204
+it is in it 43, and in batch 8000/27663.0, the loss is 0.006368023233851139, lr is 0.5, time is 299.81365847587585
+it is in it 43, and in batch 9000/27663.0, the loss is 0.006035014028457016, lr is 0.5, time is 338.9318516254425
+it is in it 43, and in batch 10000/27663.0, the loss is 0.006410974464992465, lr is 0.5, time is 373.6909637451172
+it is in it 43, and in batch 11000/27663.0, the loss is 0.005828326707015893, lr is 0.5, time is 411.1082682609558
+it is in it 43, and in batch 12000/27663.0, the loss is 0.005540665641703931, lr is 0.5, time is 449.20087480545044
+it is in it 43, and in batch 13000/27663.0, the loss is 0.005163703292307968, lr is 0.5, time is 483.74606227874756
+it is in it 43, and in batch 14000/27663.0, the loss is 0.00579707359094363, lr is 0.5, time is 519.4822669029236
+it is in it 43, and in batch 15000/27663.0, the loss is 0.006173294120276422, lr is 0.5, time is 555.3133027553558
+it is in it 43, and in batch 16000/27663.0, the loss is 0.006027575113141427, lr is 0.5, time is 590.6023786067963
+it is in it 43, and in batch 17000/27663.0, the loss is 0.006012282745395434, lr is 0.5, time is 627.7932503223419
+it is in it 43, and in batch 18000/27663.0, the loss is 0.005741008022984997, lr is 0.5, time is 667.1704657077789
+it is in it 43, and in batch 19000/27663.0, the loss is 0.005438865608218143, lr is 0.5, time is 703.2428779602051
+it is in it 43, and in batch 20000/27663.0, the loss is 0.005193026100037771, lr is 0.5, time is 740.4145493507385
+it is in it 43, and in batch 21000/27663.0, the loss is 0.004959857723246437, lr is 0.5, time is 777.9393239021301
+it is in it 43, and in batch 22000/27663.0, the loss is 0.004967499091394283, lr is 0.5, time is 815.6977589130402
+it is in it 43, and in batch 23000/27663.0, the loss is 0.005479275934084939, lr is 0.5, time is 852.9443864822388
+it is in it 43, and in batch 24000/27663.0, the loss is 0.005251621535448108, lr is 0.5, time is 890.9250633716583
+it is in it 43, and in batch 25000/27663.0, the loss is 0.005785299822748301, lr is 0.5, time is 926.7102670669556
+it is in it 43, and in batch 26000/27663.0, the loss is 0.005874171274808053, lr is 0.5, time is 963.9339129924774
+it is in it 43, and in batch 27000/27663.0, the loss is 0.007001365680552594, lr is 0.5, time is 1002.8846316337585
+start to evaluation in it 43
+test time cost is  72.53678178787231
+Corresponding result --> {0: [21.0, 6.0, 75.0], 1: [148.0, 39.0, 73.0], 2: [258.0, 136.0, 102.0], 3: [177.0, 58.0, 122.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7164887222243331 	r= 0.6188524526756921 	f= 0.6640961739464492
+             precision    recall  f1-score   support
+
+          0     0.7778    0.2188    0.3415        96
+          1     0.7914    0.6697    0.7255       221
+          2     0.6548    0.7167    0.6844       360
+          3     0.7532    0.5920    0.6629       299
+          4     0.9437    0.9703    0.9568      4712
+
+avg / total     0.9066    0.9100    0.9047      5688
+
+it is in it 44, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.012786626815795898
+it is in it 44, and in batch 1000/27663.0, the loss is 6.4937503902347656e-06, lr is 0.5, time is 37.99126124382019
+it is in it 44, and in batch 2000/27663.0, the loss is 0.0016512530020390197, lr is 0.5, time is 74.87723565101624
+it is in it 44, and in batch 3000/27663.0, the loss is 0.0017835050771650336, lr is 0.5, time is 113.2457263469696
+it is in it 44, and in batch 4000/27663.0, the loss is 0.0053415048184975245, lr is 0.5, time is 152.3197615146637
+it is in it 44, and in batch 5000/27663.0, the loss is 0.004274099022358614, lr is 0.5, time is 190.55273938179016
+it is in it 44, and in batch 6000/27663.0, the loss is 0.005754610356281766, lr is 0.5, time is 228.12417221069336
+it is in it 44, and in batch 7000/27663.0, the loss is 0.007828968420248, lr is 0.5, time is 265.56217670440674
+it is in it 44, and in batch 8000/27663.0, the loss is 0.007667618265093572, lr is 0.5, time is 299.1718888282776
+it is in it 44, and in batch 9000/27663.0, the loss is 0.006840124724639971, lr is 0.5, time is 334.90595722198486
+it is in it 44, and in batch 10000/27663.0, the loss is 0.010188953409956856, lr is 0.5, time is 371.63667392730713
+it is in it 44, and in batch 11000/27663.0, the loss is 0.009896501780921638, lr is 0.5, time is 407.3811252117157
+it is in it 44, and in batch 12000/27663.0, the loss is 0.009072047016559249, lr is 0.5, time is 444.4519760608673
+it is in it 44, and in batch 13000/27663.0, the loss is 0.008731036761679765, lr is 0.5, time is 483.9552483558655
+it is in it 44, and in batch 14000/27663.0, the loss is 0.009089078045633808, lr is 0.5, time is 523.314653635025
+it is in it 44, and in batch 15000/27663.0, the loss is 0.009099899296060927, lr is 0.5, time is 562.8627545833588
+it is in it 44, and in batch 16000/27663.0, the loss is 0.00988138870078097, lr is 0.5, time is 600.5008280277252
+it is in it 44, and in batch 17000/27663.0, the loss is 0.010053770618293996, lr is 0.5, time is 637.4089612960815
+it is in it 44, and in batch 18000/27663.0, the loss is 0.009495484736898025, lr is 0.5, time is 675.3716979026794
+it is in it 44, and in batch 19000/27663.0, the loss is 0.009227513677226538, lr is 0.5, time is 711.8748002052307
+it is in it 44, and in batch 20000/27663.0, the loss is 0.010208108616938537, lr is 0.5, time is 749.4153761863708
+it is in it 44, and in batch 21000/27663.0, the loss is 0.009729472383261465, lr is 0.5, time is 784.7981381416321
+it is in it 44, and in batch 22000/27663.0, the loss is 0.009547446804758386, lr is 0.5, time is 823.4420893192291
+it is in it 44, and in batch 23000/27663.0, the loss is 0.009367137570769044, lr is 0.5, time is 860.1981658935547
+it is in it 44, and in batch 24000/27663.0, the loss is 0.008978983674574472, lr is 0.5, time is 895.535501241684
+it is in it 44, and in batch 25000/27663.0, the loss is 0.008762575140915262, lr is 0.5, time is 931.7166638374329
+it is in it 44, and in batch 26000/27663.0, the loss is 0.008991763681720062, lr is 0.5, time is 968.7746729850769
+it is in it 44, and in batch 27000/27663.0, the loss is 0.0089874080382322, lr is 0.5, time is 1005.4927892684937
+start to evaluation in it 44
+test time cost is  71.91989493370056
+Corresponding result --> {0: [12.0, 6.0, 84.0], 1: [144.0, 24.0, 77.0], 2: [259.0, 157.0, 101.0], 3: [208.0, 131.0, 91.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6620616295211305 	r= 0.6383196655909871 	f= 0.6499689125035483
+             precision    recall  f1-score   support
+
+          0     0.6667    0.1250    0.2105        96
+          1     0.8571    0.6516    0.7404       221
+          2     0.6226    0.7194    0.6675       360
+          3     0.6136    0.6957    0.6520       299
+          4     0.9524    0.9595    0.9559      4712
+
+avg / total     0.9052    0.9044    0.9007      5688
+
+it is in it 45, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.011937856674194336
+it is in it 45, and in batch 1000/27663.0, the loss is 0.014083789897846295, lr is 0.5, time is 37.99068546295166
+it is in it 45, and in batch 2000/27663.0, the loss is 0.007865627427985225, lr is 0.5, time is 77.30166745185852
+it is in it 45, and in batch 3000/27663.0, the loss is 0.007875697368862072, lr is 0.5, time is 112.9985077381134
+it is in it 45, and in batch 4000/27663.0, the loss is 0.005907268948448923, lr is 0.5, time is 148.9403727054596
+it is in it 45, and in batch 5000/27663.0, the loss is 0.011913590182354154, lr is 0.5, time is 185.20180892944336
+it is in it 45, and in batch 6000/27663.0, the loss is 0.011139520544386808, lr is 0.5, time is 223.325425863266
+it is in it 45, and in batch 7000/27663.0, the loss is 0.009559734874649603, lr is 0.5, time is 262.7015450000763
+it is in it 45, and in batch 8000/27663.0, the loss is 0.008365332640762434, lr is 0.5, time is 300.1770296096802
+it is in it 45, and in batch 9000/27663.0, the loss is 0.007500150417992836, lr is 0.5, time is 337.83772921562195
+it is in it 45, and in batch 10000/27663.0, the loss is 0.006754668923976743, lr is 0.5, time is 374.1747121810913
+it is in it 45, and in batch 11000/27663.0, the loss is 0.006944221709492142, lr is 0.5, time is 412.02799940109253
+it is in it 45, and in batch 12000/27663.0, the loss is 0.007537874219099906, lr is 0.5, time is 448.47362780570984
+it is in it 45, and in batch 13000/27663.0, the loss is 0.007080463526496685, lr is 0.5, time is 485.12609243392944
+it is in it 45, and in batch 14000/27663.0, the loss is 0.0074826739071250075, lr is 0.5, time is 521.6830635070801
+it is in it 45, and in batch 15000/27663.0, the loss is 0.007103588444242063, lr is 0.5, time is 557.0359036922455
+it is in it 45, and in batch 16000/27663.0, the loss is 0.00798943808477943, lr is 0.5, time is 594.9016168117523
+it is in it 45, and in batch 17000/27663.0, the loss is 0.0075195183032302675, lr is 0.5, time is 632.6812987327576
+it is in it 45, and in batch 18000/27663.0, the loss is 0.009001748984763705, lr is 0.5, time is 669.7994940280914
+it is in it 45, and in batch 19000/27663.0, the loss is 0.009621472466864666, lr is 0.5, time is 706.5737602710724
+it is in it 45, and in batch 20000/27663.0, the loss is 0.010408850456677606, lr is 0.5, time is 743.2170498371124
+it is in it 45, and in batch 21000/27663.0, the loss is 0.010002462371554433, lr is 0.5, time is 779.8021712303162
+it is in it 45, and in batch 22000/27663.0, the loss is 0.01057820449953247, lr is 0.5, time is 813.6389050483704
+it is in it 45, and in batch 23000/27663.0, the loss is 0.010560692343979907, lr is 0.5, time is 846.4956765174866
+it is in it 45, and in batch 24000/27663.0, the loss is 0.010120830120262934, lr is 0.5, time is 879.9718492031097
+it is in it 45, and in batch 25000/27663.0, the loss is 0.00971603507991028, lr is 0.5, time is 914.2011954784393
+it is in it 45, and in batch 26000/27663.0, the loss is 0.009801939007759204, lr is 0.5, time is 948.1914532184601
+it is in it 45, and in batch 27000/27663.0, the loss is 0.009561289337351474, lr is 0.5, time is 982.0528950691223
+start to evaluation in it 45
+test time cost is  70.94512009620667
+Corresponding result --> {0: [31.0, 18.0, 65.0], 1: [152.0, 54.0, 69.0], 2: [243.0, 130.0, 117.0], 3: [145.0, 33.0, 154.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7084367157762195 	r= 0.5850409776122851 	f= 0.6408480125363973
+             precision    recall  f1-score   support
+
+          0     0.6327    0.3229    0.4276        96
+          1     0.7379    0.6878    0.7119       221
+          2     0.6515    0.6750    0.6630       360
+          3     0.8146    0.4849    0.6080       299
+          4     0.9377    0.9716    0.9543      4712
+
+avg / total     0.9002    0.9052    0.8994      5688
+
+it is in it 46, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.01534414291381836
+it is in it 46, and in batch 1000/27663.0, the loss is 0.0010002014282104615, lr is 0.5, time is 37.25463366508484
+it is in it 46, and in batch 2000/27663.0, the loss is 0.0005033436803326852, lr is 0.5, time is 75.92071056365967
+it is in it 46, and in batch 3000/27663.0, the loss is 0.006084551456887417, lr is 0.5, time is 113.29683232307434
+it is in it 46, and in batch 4000/27663.0, the loss is 0.005163341961750773, lr is 0.5, time is 149.67180609703064
+it is in it 46, and in batch 5000/27663.0, the loss is 0.0041388748312349245, lr is 0.5, time is 187.41282200813293
+it is in it 46, and in batch 6000/27663.0, the loss is 0.003449895623882022, lr is 0.5, time is 225.65079522132874
+it is in it 46, and in batch 7000/27663.0, the loss is 0.0034930127430874832, lr is 0.5, time is 263.54695224761963
+it is in it 46, and in batch 8000/27663.0, the loss is 0.004930993256427664, lr is 0.5, time is 300.95218992233276
+it is in it 46, and in batch 9000/27663.0, the loss is 0.005338523245138561, lr is 0.5, time is 337.79251527786255
+it is in it 46, and in batch 10000/27663.0, the loss is 0.005255111085571131, lr is 0.5, time is 375.8368754386902
+it is in it 46, and in batch 11000/27663.0, the loss is 0.006957412773820988, lr is 0.5, time is 414.0706055164337
+it is in it 46, and in batch 12000/27663.0, the loss is 0.006388314355761694, lr is 0.5, time is 449.8244254589081
+it is in it 46, and in batch 13000/27663.0, the loss is 0.006344382024418344, lr is 0.5, time is 485.51619386672974
+it is in it 46, and in batch 14000/27663.0, the loss is 0.006346040841094358, lr is 0.5, time is 522.8324625492096
+it is in it 46, and in batch 15000/27663.0, the loss is 0.005923973608872039, lr is 0.5, time is 559.4289040565491
+it is in it 46, and in batch 16000/27663.0, the loss is 0.006726979151434261, lr is 0.5, time is 596.9358456134796
+it is in it 46, and in batch 17000/27663.0, the loss is 0.008964043253695613, lr is 0.5, time is 634.9073958396912
+it is in it 46, and in batch 18000/27663.0, the loss is 0.008654603480789424, lr is 0.5, time is 671.3998603820801
+it is in it 46, and in batch 19000/27663.0, the loss is 0.008199204319960494, lr is 0.5, time is 706.1048047542572
+it is in it 46, and in batch 20000/27663.0, the loss is 0.008541432841230254, lr is 0.5, time is 740.4994008541107
+it is in it 46, and in batch 21000/27663.0, the loss is 0.008313240002952334, lr is 0.5, time is 775.1509311199188
+it is in it 46, and in batch 22000/27663.0, the loss is 0.007935470540135249, lr is 0.5, time is 809.8018624782562
+it is in it 46, and in batch 23000/27663.0, the loss is 0.007591035437477158, lr is 0.5, time is 845.3556241989136
+it is in it 46, and in batch 24000/27663.0, the loss is 0.007330185005820884, lr is 0.5, time is 883.0376398563385
+it is in it 46, and in batch 25000/27663.0, the loss is 0.007608709933829209, lr is 0.5, time is 917.94184923172
+it is in it 46, and in batch 26000/27663.0, the loss is 0.007891285873817428, lr is 0.5, time is 954.8870003223419
+it is in it 46, and in batch 27000/27663.0, the loss is 0.00786629498770915, lr is 0.5, time is 991.7578463554382
+start to evaluation in it 46
+test time cost is  73.87573266029358
+Corresponding result --> {0: [27.0, 4.0, 69.0], 1: [137.0, 24.0, 84.0], 2: [254.0, 171.0, 106.0], 3: [173.0, 58.0, 126.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6969339540455902 	r= 0.6055327806810166 	f= 0.6480213333450817
+             precision    recall  f1-score   support
+
+          0     0.8710    0.2812    0.4252        96
+          1     0.8509    0.6199    0.7173       221
+          2     0.5976    0.7056    0.6471       360
+          3     0.7489    0.5786    0.6528       299
+          4     0.9417    0.9673    0.9544      4712
+
+avg / total     0.9051    0.9052    0.9009      5688
+
+it is in it 47, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.010562419891357422
+it is in it 47, and in batch 1000/27663.0, the loss is 4.313923381306193e-06, lr is 0.5, time is 36.66159677505493
+it is in it 47, and in batch 2000/27663.0, the loss is 0.00034081584390910016, lr is 0.5, time is 75.04246592521667
+it is in it 47, and in batch 3000/27663.0, the loss is 0.0012908892328045598, lr is 0.5, time is 112.9262444972992
+it is in it 47, and in batch 4000/27663.0, the loss is 0.007654526149651552, lr is 0.5, time is 149.82341504096985
+it is in it 47, and in batch 5000/27663.0, the loss is 0.009787108892918683, lr is 0.5, time is 187.01809763908386
+it is in it 47, and in batch 6000/27663.0, the loss is 0.012074095311710744, lr is 0.5, time is 224.002783536911
+it is in it 47, and in batch 7000/27663.0, the loss is 0.011636895565386586, lr is 0.5, time is 257.6611030101776
+it is in it 47, and in batch 8000/27663.0, the loss is 0.010182465423481, lr is 0.5, time is 294.5823771953583
+it is in it 47, and in batch 9000/27663.0, the loss is 0.00995681630467166, lr is 0.5, time is 331.6098999977112
+it is in it 47, and in batch 10000/27663.0, the loss is 0.00979476217722466, lr is 0.5, time is 369.6026499271393
+it is in it 47, and in batch 11000/27663.0, the loss is 0.00890490328460463, lr is 0.5, time is 407.37774419784546
+it is in it 47, and in batch 12000/27663.0, the loss is 0.009023385230287612, lr is 0.5, time is 444.31780648231506
+it is in it 47, and in batch 13000/27663.0, the loss is 0.009369458962235027, lr is 0.5, time is 479.7730984687805
+it is in it 47, and in batch 14000/27663.0, the loss is 0.00870029892753545, lr is 0.5, time is 516.2170453071594
+it is in it 47, and in batch 15000/27663.0, the loss is 0.00831459767102766, lr is 0.5, time is 552.4515278339386
+it is in it 47, and in batch 16000/27663.0, the loss is 0.007795008322081188, lr is 0.5, time is 587.5172731876373
+it is in it 47, and in batch 17000/27663.0, the loss is 0.007746838336902172, lr is 0.5, time is 624.5309488773346
+it is in it 47, and in batch 18000/27663.0, the loss is 0.007880248226633893, lr is 0.5, time is 660.7424921989441
+it is in it 47, and in batch 19000/27663.0, the loss is 0.007567426027934693, lr is 0.5, time is 695.9619534015656
+it is in it 47, and in batch 20000/27663.0, the loss is 0.0071893274995674045, lr is 0.5, time is 731.8670334815979
+it is in it 47, and in batch 21000/27663.0, the loss is 0.0071899085650869304, lr is 0.5, time is 767.2566516399384
+it is in it 47, and in batch 22000/27663.0, the loss is 0.006870990373628702, lr is 0.5, time is 803.0086295604706
+it is in it 47, and in batch 23000/27663.0, the loss is 0.007656714205254493, lr is 0.5, time is 841.4150576591492
+it is in it 47, and in batch 24000/27663.0, the loss is 0.007447395755431984, lr is 0.5, time is 878.1370370388031
+it is in it 47, and in batch 25000/27663.0, the loss is 0.007150946872281359, lr is 0.5, time is 916.2338488101959
+it is in it 47, and in batch 26000/27663.0, the loss is 0.0075041072322131995, lr is 0.5, time is 953.6562385559082
+it is in it 47, and in batch 27000/27663.0, the loss is 0.008097838394765761, lr is 0.5, time is 996.1701889038086
+start to evaluation in it 47
+test time cost is  76.91352915763855
+Corresponding result --> {0: [27.0, 6.0, 69.0], 1: [155.0, 55.0, 66.0], 2: [238.0, 152.0, 122.0], 3: [154.0, 44.0, 145.0]}
+for all label [0, 1, 2, 3] 	 p= 0.6907340470429116 	r= 0.5881147480725948 	f= 0.6353021641065777
+             precision    recall  f1-score   support
+
+          0     0.8182    0.2812    0.4186        96
+          1     0.7381    0.7014    0.7193       221
+          2     0.6103    0.6611    0.6347       360
+          3     0.7778    0.5151    0.6197       299
+          4     0.9391    0.9680    0.9533      4712
+
+avg / total     0.8999    0.9028    0.8975      5688
+
+it is in it 48, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.11319732666015625
+it is in it 48, and in batch 1000/27663.0, the loss is 0.002378229375604864, lr is 0.5, time is 38.18696618080139
+it is in it 48, and in batch 2000/27663.0, the loss is 0.0011908413469046727, lr is 0.5, time is 75.46765303611755
+it is in it 48, and in batch 3000/27663.0, the loss is 0.002497040323716964, lr is 0.5, time is 111.69428181648254
+it is in it 48, and in batch 4000/27663.0, the loss is 0.003956161418934817, lr is 0.5, time is 148.5271623134613
+it is in it 48, and in batch 5000/27663.0, the loss is 0.004018972359092635, lr is 0.5, time is 184.65019392967224
+it is in it 48, and in batch 6000/27663.0, the loss is 0.005428757275805595, lr is 0.5, time is 221.74236941337585
+it is in it 48, and in batch 7000/27663.0, the loss is 0.006128164857238587, lr is 0.5, time is 260.129430770874
+it is in it 48, and in batch 8000/27663.0, the loss is 0.006076406052881085, lr is 0.5, time is 297.4699058532715
+it is in it 48, and in batch 9000/27663.0, the loss is 0.005441915484325526, lr is 0.5, time is 332.8870360851288
+it is in it 48, and in batch 10000/27663.0, the loss is 0.0063113973636816, lr is 0.5, time is 367.6373519897461
+it is in it 48, and in batch 11000/27663.0, the loss is 0.005988167931888117, lr is 0.5, time is 403.29913806915283
+it is in it 48, and in batch 12000/27663.0, the loss is 0.005601575241298658, lr is 0.5, time is 438.0780611038208
+it is in it 48, and in batch 13000/27663.0, the loss is 0.005170792801986611, lr is 0.5, time is 475.9244074821472
+it is in it 48, and in batch 14000/27663.0, the loss is 0.004842852449495446, lr is 0.5, time is 514.0434648990631
+it is in it 48, and in batch 15000/27663.0, the loss is 0.005435217206426147, lr is 0.5, time is 549.5931227207184
+it is in it 48, and in batch 16000/27663.0, the loss is 0.00624046006222664, lr is 0.5, time is 585.079407453537
+it is in it 48, and in batch 17000/27663.0, the loss is 0.0059014821808433945, lr is 0.5, time is 619.7377486228943
+it is in it 48, and in batch 18000/27663.0, the loss is 0.005887116268537924, lr is 0.5, time is 656.1327772140503
+it is in it 48, and in batch 19000/27663.0, the loss is 0.006473721846060579, lr is 0.5, time is 692.6689839363098
+it is in it 48, and in batch 20000/27663.0, the loss is 0.00745023793503318, lr is 0.5, time is 729.1508915424347
+it is in it 48, and in batch 21000/27663.0, the loss is 0.007604738319665442, lr is 0.5, time is 767.150872707367
+it is in it 48, and in batch 22000/27663.0, the loss is 0.008312254817663206, lr is 0.5, time is 805.023533821106
+it is in it 48, and in batch 23000/27663.0, the loss is 0.007986130836108348, lr is 0.5, time is 842.6386659145355
+it is in it 48, and in batch 24000/27663.0, the loss is 0.007930703801088772, lr is 0.5, time is 880.8922579288483
+it is in it 48, and in batch 25000/27663.0, the loss is 0.007621294955941021, lr is 0.5, time is 917.1320562362671
+it is in it 48, and in batch 26000/27663.0, the loss is 0.008240699217890847, lr is 0.5, time is 953.1704552173615
+it is in it 48, and in batch 27000/27663.0, the loss is 0.008137026388006499, lr is 0.5, time is 991.6457498073578
+start to evaluation in it 48
+test time cost is  72.79993677139282
+Corresponding result --> {0: [27.0, 7.0, 69.0], 1: [134.0, 17.0, 87.0], 2: [245.0, 139.0, 115.0], 3: [179.0, 74.0, 120.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7116788234588951 	r= 0.5993852397603971 	f= 0.6507180550637718
+             precision    recall  f1-score   support
+
+          0     0.7941    0.2812    0.4154        96
+          1     0.8874    0.6063    0.7204       221
+          2     0.6380    0.6806    0.6586       360
+          3     0.7075    0.5987    0.6486       299
+          4     0.9408    0.9716    0.9559      4712
+
+avg / total     0.9048    0.9077    0.9027      5688
+
+it is in it 49, and in batch 0/27663.0, the loss is 0.0, lr is 0.5, time is 0.011389493942260742
+it is in it 49, and in batch 1000/27663.0, the loss is 1.741765619634272e-05, lr is 0.5, time is 37.24083709716797
+it is in it 49, and in batch 2000/27663.0, the loss is 0.002448513292182034, lr is 0.5, time is 74.03242611885071
+it is in it 49, and in batch 3000/27663.0, the loss is 0.003978837295120377, lr is 0.5, time is 111.10706090927124
+it is in it 49, and in batch 4000/27663.0, the loss is 0.006512725094025566, lr is 0.5, time is 146.23181176185608
+it is in it 49, and in batch 5000/27663.0, the loss is 0.01604731734622314, lr is 0.5, time is 182.3118314743042
+it is in it 49, and in batch 6000/27663.0, the loss is 0.0145304936843005, lr is 0.5, time is 220.23935794830322
+it is in it 49, and in batch 7000/27663.0, the loss is 0.013221272944109965, lr is 0.5, time is 257.79296875
+it is in it 49, and in batch 8000/27663.0, the loss is 0.01157401439741602, lr is 0.5, time is 295.07730317115784
+it is in it 49, and in batch 9000/27663.0, the loss is 0.010470754688891446, lr is 0.5, time is 332.8438148498535
+it is in it 49, and in batch 10000/27663.0, the loss is 0.009589265339518295, lr is 0.5, time is 369.77089071273804
+it is in it 49, and in batch 11000/27663.0, the loss is 0.00922237531823057, lr is 0.5, time is 407.03414273262024
+it is in it 49, and in batch 12000/27663.0, the loss is 0.009024012854631499, lr is 0.5, time is 442.8255536556244
+it is in it 49, and in batch 13000/27663.0, the loss is 0.008644668975799562, lr is 0.5, time is 479.18318343162537
+it is in it 49, and in batch 14000/27663.0, the loss is 0.009541510377694143, lr is 0.5, time is 515.6592032909393
+it is in it 49, and in batch 15000/27663.0, the loss is 0.009391018473524292, lr is 0.5, time is 552.8597025871277
+it is in it 49, and in batch 16000/27663.0, the loss is 0.009479925607295417, lr is 0.5, time is 588.6578402519226
+it is in it 49, and in batch 17000/27663.0, the loss is 0.009237489464156635, lr is 0.5, time is 626.1133327484131
+it is in it 49, and in batch 18000/27663.0, the loss is 0.010401267024200696, lr is 0.5, time is 661.4206993579865
+it is in it 49, and in batch 19000/27663.0, the loss is 0.011019615027585925, lr is 0.5, time is 697.558427810669
+it is in it 49, and in batch 20000/27663.0, the loss is 0.011214836616109869, lr is 0.5, time is 733.4299399852753
+it is in it 49, and in batch 21000/27663.0, the loss is 0.01068106070455327, lr is 0.5, time is 771.2766749858856
+it is in it 49, and in batch 22000/27663.0, the loss is 0.011279838658761915, lr is 0.5, time is 808.7944052219391
+it is in it 49, and in batch 23000/27663.0, the loss is 0.011171019360799488, lr is 0.5, time is 847.0903437137604
+it is in it 49, and in batch 24000/27663.0, the loss is 0.011390051947629013, lr is 0.5, time is 884.3551826477051
+it is in it 49, and in batch 25000/27663.0, the loss is 0.010947452040272882, lr is 0.5, time is 921.9127683639526
+it is in it 49, and in batch 26000/27663.0, the loss is 0.010529963292826515, lr is 0.5, time is 958.8404674530029
+it is in it 49, and in batch 27000/27663.0, the loss is 0.010145083961078518, lr is 0.5, time is 994.7942430973053
+start to evaluation in it 49
+test time cost is  74.87115335464478
+Corresponding result --> {0: [38.0, 20.0, 58.0], 1: [141.0, 36.0, 80.0], 2: [223.0, 96.0, 137.0], 3: [172.0, 48.0, 127.0]}
+for all label [0, 1, 2, 3] 	 p= 0.7416020576020407 	r= 0.5881147480725948 	f= 0.6559950591587319
+             precision    recall  f1-score   support
+
+          0     0.6552    0.3958    0.4935        96
+          1     0.7966    0.6380    0.7085       221
+          2     0.6991    0.6194    0.6568       360
+          3     0.7818    0.5753    0.6628       299
+          4     0.9367    0.9769    0.9564      4712
+
+avg / total     0.9033    0.9102    0.9045      5688
+

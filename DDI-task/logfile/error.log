@@ -1,0 +1,4 @@
+slurmstepd-hpc-6-067: error: Unable to return to working directory
+slurmstepd-hpc-6-067: error: Unable to return to working directory
+/lustre2/sli/leihua/software/anaconda3_5/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
