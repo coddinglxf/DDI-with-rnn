@@ -6,5 +6,5 @@ The Code for Drug-Drug Relation Extraction
 - Sklearn
 - Numpy
 
-### Concat
+### Contact
 hualeilxf@163.com
