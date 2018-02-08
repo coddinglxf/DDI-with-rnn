@@ -8,3 +8,5 @@ The Code for Drug-Drug Relation Extraction
 
 ### Contact
 hualeilxf@163.com
+juanliu3039@63.com
+huangzh@aqnu.edu.cn

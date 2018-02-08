@@ -1,2 +1,0 @@
-#!/bin/bash
-srun python main_resnet_one_by_one.py
