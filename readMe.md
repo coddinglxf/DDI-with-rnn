@@ -1,6 +1,6 @@
 The Code for Drug-Drug Relation Extraction
 
-### Requirments
+### Requirments (A good choice is to install Anaconda+Pytorch)
 
 - Pytorch==0.12.0 (might be ok in 0.2.0)
 - Sklearn
